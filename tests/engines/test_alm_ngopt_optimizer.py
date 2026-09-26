@@ -15,6 +15,11 @@ import random
 
 import numpy as np
 import pytest
+
+pytest.importorskip(
+    "constellaration",
+    reason="needs the pinned constellaration/vmecpp stack; run inside the repo's Docker image",
+)
 from constellaration import forward_model, problems
 
 from constellaration_methods.engines.alm_ngopt_optimizer import (

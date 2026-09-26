@@ -6,6 +6,11 @@ VMEC calls anywhere in this file."""
 
 import numpy as np
 import pytest
+
+pytest.importorskip(
+    "constellaration",
+    reason="needs the pinned constellaration/vmecpp stack; run inside the repo's Docker image",
+)
 from constellaration.geometry import surface_rz_fourier
 
 from constellaration_methods.engines.boundary_generator import (

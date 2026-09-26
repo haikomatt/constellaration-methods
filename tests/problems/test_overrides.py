@@ -43,6 +43,10 @@ def _toy_metrics():
 
 def test_problem_with_overrides_empty_dict_matches_stock_class():
     """Empty overrides -> byte-identical residuals to the stock class."""
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     from constellaration import problems
 
     metrics = _toy_metrics()
@@ -54,6 +58,10 @@ def test_problem_with_overrides_empty_dict_matches_stock_class():
 
 
 def test_problem_with_overrides_mirror_upper_changes_only_the_mirror_row():
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     metrics = _toy_metrics()
     stock = problem_with_overrides({})._normalized_constraint_violations(metrics)
     overridden = problem_with_overrides({"mirror_upper": 0.23})._normalized_constraint_violations(
@@ -66,11 +74,19 @@ def test_problem_with_overrides_mirror_upper_changes_only_the_mirror_row():
 
 
 def test_problem_with_overrides_unknown_name_refused():
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     with pytest.raises(ValueError, match="unknown constraint override"):
         problem_with_overrides({"not_a_real_bound": 1.0})
 
 
 def test_problem_with_overrides_unknown_name_lists_valid_names():
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     with pytest.raises(ValueError) as excinfo:
         problem_with_overrides({"nope": 1.0})
     for name in CONSTRAINT_OVERRIDE_NAMES:

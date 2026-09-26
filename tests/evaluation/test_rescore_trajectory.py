@@ -10,6 +10,11 @@ from unittest.mock import patch
 
 import numpy as np
 import pytest
+
+pytest.importorskip(
+    "constellaration",
+    reason="needs the pinned constellaration/vmecpp stack; run inside the repo's Docker image",
+)
 from constellaration import problems
 
 from constellaration_methods.engines.trajectory_logger import TrajectoryLogger, read_trajectory

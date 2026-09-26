@@ -392,6 +392,10 @@ def test_resolve_out_dir_required_without_smoke():
 # hypervolume/nondominated -- run inside the pinned image)
 # --------------------------------------------------------------------------- #
 def test_runner_toy_end_to_end_produces_a_confirmed_front_gain(tmp_path):
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     from types import SimpleNamespace
 
     representation = {

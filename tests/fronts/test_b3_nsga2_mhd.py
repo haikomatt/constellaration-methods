@@ -445,6 +445,10 @@ def test_run_seeded_from_anchors_rejects_pop_size_below_anchor_count_names_both(
 def test_runner_smoke_toy_end_to_end_one_generation_pop_four(tmp_path):
     """--smoke's own shape (pop 4, one generation), driven with the fake_front
     seam so it needs no VMEC -- matches p3_front_builder's own smoke test."""
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     anchor, representation = _toy_anchor_and_representation()
     args = build_arg_parser().parse_args(
         ["--anchors", "a.json", "--representation", "r.json", "--smoke"]
@@ -460,6 +464,10 @@ def test_runner_smoke_toy_end_to_end_one_generation_pop_four(tmp_path):
 
 
 def test_runner_toy_end_to_end_two_generations_hold_or_increase_hypervolume(tmp_path):
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     anchor, representation = _toy_anchor_and_representation()
     args = SimpleNamespace(
         smoke=False,
@@ -488,6 +496,10 @@ def test_runner_writes_report_on_keyboard_interrupt(tmp_path, monkeypatch):
     real pymoo NSGA2 and calls the real `hypervolume()` before the loop, so
     this test needs the pinned image too (pymoo + constellaration), same as
     the toy end-to-end test above."""
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     import constellaration_methods.fronts.b3_nsga2_mhd as b3_nsga2_mhd
 
     representation = {
@@ -555,6 +567,10 @@ def test_build_arg_parser_constraint_override_defaults_to_none():
 
 
 def test_runner_records_empty_constraint_overrides_in_report_by_default(tmp_path):
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     anchor, representation = _toy_anchor_and_representation()
     args = SimpleNamespace(
         smoke=False,
@@ -573,6 +589,10 @@ def test_runner_records_empty_constraint_overrides_in_report_by_default(tmp_path
 
 
 def test_runner_records_given_constraint_overrides_in_report(tmp_path):
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     anchor, representation = _toy_anchor_and_representation()
     args = SimpleNamespace(
         smoke=False,
@@ -745,6 +765,10 @@ def test_run_seeded_dispatches_seed_candidate_to_load_seed_candidate(monkeypatch
 # E18 item 3 -- V-vs-evaluations curve in events.jsonl / REPORT.json
 # --------------------------------------------------------------------------- #
 def test_runner_generation_events_carry_best_v_so_far_and_n_feasible_so_far(tmp_path):
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     anchor, representation = _toy_anchor_and_representation()
     args = SimpleNamespace(
         smoke=False,
@@ -773,6 +797,10 @@ def test_runner_generation_events_carry_best_v_so_far_and_n_feasible_so_far(tmp_
 
 
 def test_runner_report_carries_v_curve_sampled_at_every_configured_count(monkeypatch, tmp_path):
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     import constellaration_methods.fronts.b3_nsga2_mhd as b3_nsga2_mhd
 
     monkeypatch.setattr(b3_nsga2_mhd, "V_CURVE_EVERY", 4)
@@ -804,6 +832,10 @@ def test_runner_report_carries_v_curve_sampled_at_every_configured_count(monkeyp
 # (they call it directly rather than through the CLI/main()).
 # --------------------------------------------------------------------------- #
 def test_toy_end_to_end_single_seed_with_constraint_override_two_generations(monkeypatch, tmp_path):
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     import constellaration_methods.fronts.b3_nsga2_mhd as b3_nsga2_mhd
 
     monkeypatch.setattr(b3_nsga2_mhd, "V_CURVE_EVERY", 4)

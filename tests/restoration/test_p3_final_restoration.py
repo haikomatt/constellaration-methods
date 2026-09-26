@@ -836,6 +836,10 @@ def _ratchet_toy_args(tmp_path, subspace_curvature, direction_file, coupling):
 
 
 def test_toy_ratchet_diagonal_model_stalls_subspace_model_remains_sound(tmp_path):
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     import json
 
     from constellaration_methods.restoration.p3_final_restoration import run

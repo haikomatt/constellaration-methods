@@ -33,6 +33,12 @@ import json
 
 import numpy as np
 import pytest
+
+pytest.importorskip(
+    "constellaration",
+    reason="needs the pinned constellaration/vmecpp stack; run inside the repo's Docker image",
+)
+pytest.importorskip("desc", reason="needs the desc package; run inside the repo's Docker image")
 from constellaration import forward_model
 from desc import optimize as desc_optimize
 

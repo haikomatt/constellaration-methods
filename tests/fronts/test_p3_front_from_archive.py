@@ -83,6 +83,10 @@ def test_nondominated_strict_in_one_no_worse_in_both():
 # hypervolume (needs the pinned image: constellaration.problems._hypervolume)
 # --------------------------------------------------------------------------- #
 def test_hypervolume_single_point_hand_computable():
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     # HV of one feasible point vs reference (1.0, 20.0):
     # box = (ref_x - (-min_len)) * (ref_y - aspect) = (1 + min_len) * (20 - aspect)
     p = {"aspect_ratio": 10.5, "min_len": 11.24}
@@ -91,6 +95,10 @@ def test_hypervolume_single_point_hand_computable():
 
 
 def test_hypervolume_two_point_hand_computable():
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
     # Two points, neither dominating the other. Each contributes a box
     # [-min_len, 1] x [aspect, 20]; the union's volume is box1 + box2 minus
     # their rectangular intersection (inclusion-exclusion) -- computable by
