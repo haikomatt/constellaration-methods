@@ -48,7 +48,7 @@ engines (`engines.near_axis_search`, `engines.nae_generator`) are a **live param
 `constellaration.mhd.near_axis_configuration.generate`'s own near-axis parameter space (per its
 Goodman-et-al. construction) -- they do not read or ship a copy of the downloaded database. The
 code that would read that database directly is E21's generator (`phase1/generator-build`), which
-per the build plan is deferred to a second pass of this repository, landing only after its source
+per the build plan is deferred to a second pass of this repository, added only after its source
 PR merges. When that code is added, this section will carry the database's CC BY 4.0 attribution
 and licence text alongside it.
 

@@ -195,7 +195,7 @@ Order after E3, cheapest-first, every one canonical-only under the shared rules:
   > chain limit = confirmed best within 0.0025 of the start (a rebuild buys
   > nothing) with the floor signature -> stop and close. Before any
   > "verified" claim the best boundaries are re-evaluated in the
-  > leaderboard-pinned image (`private-image:leaderboard-fidelity`,
+  > leaderboard-pinned image (`<leaderboard-fidelity image>`,
   > constellaration 0.2.1 / vmecpp 0.4.2): the P1 validation reproduced the
   > board exactly but did not exercise QI, flux or well. Adjudication note
   > for the write-up: confirmations are identical to 1e-6 because the

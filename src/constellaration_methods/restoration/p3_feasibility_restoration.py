@@ -27,7 +27,7 @@ Every evaluation is logged to JSONL (resumable); the outcome is classified
 by the pre-registered rule at the end. Usage (inside the pinned image):
     podman run --rm --network none -v "$(pwd)":/workspace:Z -w /workspace \\
         -e OMP_NUM_THREADS=1 --pids-limit 8192 --ulimit nproc=16384:16384 \\
-        --entrypoint taskset localhost/private-image:phase1 -c 2-13 \\
+        --entrypoint taskset localhost/constellaration-methods:test -c 2-13 \\
         python3 scripts/p3_feasibility_restoration.py \\
             --checkpoint results/m1-post-ladder-d176/seed_0176/checkpoint.json \\
             --out-dir results/p3-restoration-176 --workers 12 --budget 600

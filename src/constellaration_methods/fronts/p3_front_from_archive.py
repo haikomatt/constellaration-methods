@@ -31,7 +31,7 @@ Procedure:
 Usage (inside the pinned image, network none, cores 2-13):
     podman run --rm --network none -v "$(pwd)":/workspace:Z -w /workspace \\
         -e OMP_NUM_THREADS=1 --pids-limit 8192 --ulimit nproc=16384:16384 \\
-        --entrypoint taskset localhost/private-image:phase1 -c 2-13 \\
+        --entrypoint taskset localhost/constellaration-methods:test -c 2-13 \\
         python3 scripts/p3_front_from_archive.py \\
             results/p3-e13-davidkh-7x7 --out-dir results/p3-e15-front --confirm
 """

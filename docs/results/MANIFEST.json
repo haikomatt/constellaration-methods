@@ -2,121 +2,121 @@
   "p3/D1/REPORT.json": {
     "sha256": "5726612fc92f031396b28ab8646a71e120deee062b366dae06a7784f6f7e174f",
     "bytes": 2446,
-    "source": "private-experiment-repo/results/p3-diversity-d1-locked/REPORT.json (stripped)"
+    "source": "the source campaign repository/results/p3-diversity-d1-locked/REPORT.json (stripped)"
   },
   "p3/D1/cluster_counts.png": {
     "sha256": "e97a03f9213949b64cc1df507a985b10d4a55813fc9a3619ab75a1f9c090a6ff",
     "bytes": 34194,
-    "source": "private-experiment-repo/results/p3-diversity-d1-locked/cluster_counts.png"
+    "source": "the source campaign repository/results/p3-diversity-d1-locked/cluster_counts.png"
   },
   "p3/D1/clusters.csv": {
     "sha256": "6faea3665904cadb8d2bcc2b2202d1f645e4470608c9fe7cae386c249a62e7d2",
     "bytes": 58950,
-    "source": "private-experiment-repo/results/p3-diversity-d1-locked/clusters.csv"
+    "source": "the source campaign repository/results/p3-diversity-d1-locked/clusters.csv"
   },
   "p3/D1/distance_histogram.png": {
     "sha256": "21e845f497c186fa3d55ccbb49be7daf350f0d0706600689dfbeab3f85fedba2",
     "bytes": 34466,
-    "source": "private-experiment-repo/results/p3-diversity-d1-locked/distance_histogram.png"
+    "source": "the source campaign repository/results/p3-diversity-d1-locked/distance_histogram.png"
   },
   "p3/E13/REPORT.json": {
     "sha256": "e217dfbf3b91a33565cc54f55d7ce9e7e00a0f7de85b259331b09172a8ee6392",
     "bytes": 3989,
-    "source": "private-experiment-repo/results/p3-e13-davidkh-7x7/REPORT.json (stripped)"
+    "source": "the source campaign repository/results/p3-e13-davidkh-7x7/REPORT.json (stripped)"
   },
   "p3/E15/REPORT.json": {
     "sha256": "26b92b4b29b2bba7e05286a6af4b8f4cd540b8dd2b5262e8f10e4f0bdf0a880e",
     "bytes": 10835,
-    "source": "private-experiment-repo/results/p3-e15-front/REPORT.json (stripped)"
+    "source": "the source campaign repository/results/p3-e15-front/REPORT.json (stripped)"
   },
   "p3/E16/REPORT.json": {
     "sha256": "33ed7ef241bd33211cd10de8e6af4dd508855c6ec66b57ec188c9a58021f77bd",
     "bytes": 14020,
-    "source": "private-experiment-repo/results/p3-e16-front/REPORT.json (stripped)"
+    "source": "the source campaign repository/results/p3-e16-front/REPORT.json (stripped)"
   },
   "p3/E17/REPORT.json": {
     "sha256": "ba2a5c656ade714ae702712c4d8c7a4111a7c32b8b7051ad40216b7c47963a69",
     "bytes": 29433,
-    "source": "private-experiment-repo/results/p3-e17-front/REPORT.json (stripped)"
+    "source": "the source campaign repository/results/p3-e17-front/REPORT.json (stripped)"
   },
   "p3/E17/curve.json": {
     "sha256": "6e98870d529aa93a4752ea4f19bc52e9e9c2cdcd7c53388a3639a35fb25dc7c4",
     "bytes": 1292,
-    "source": "private-experiment-repo/results/p3-e17-nsga2/curve.json (stripped)"
+    "source": "the source campaign repository/results/p3-e17-nsga2/curve.json (stripped)"
   },
   "p3/E18a/REPORT.json": {
     "sha256": "8a2bc7e1cef8198d876940cb5f0fc8558c7f0654a79c53a61f24de2a6972e442",
     "bytes": 1904,
-    "source": "private-experiment-repo/results/p3-e18a-176-nsga2/REPORT.json (stripped)"
+    "source": "the source campaign repository/results/p3-e18a-176-nsga2/REPORT.json (stripped)"
   },
   "p3/E18a/curve.json": {
     "sha256": "be394e2992ef0a72fc7bd75f5e320cc357d8bda331065ab0a4db999cde39225f",
     "bytes": 1241,
-    "source": "private-experiment-repo/results/p3-e18a-176-nsga2/curve.json (stripped)"
+    "source": "the source campaign repository/results/p3-e18a-176-nsga2/curve.json (stripped)"
   },
   "p3/E18b/REPORT.json": {
     "sha256": "69fd764a79510472a9df7572bb0f4d2ebd27b1bb564371e05e264709128c413b",
     "bytes": 14435,
-    "source": "private-experiment-repo/results/p3-e18b-front/REPORT.json (stripped)"
+    "source": "the source campaign repository/results/p3-e18b-front/REPORT.json (stripped)"
   },
   "p3/E18b/curve.json": {
     "sha256": "5c9a76e7bef571c7fcdd76afd8802b82956eb0861bacfc6ccc3507679f9ccc20",
     "bytes": 1293,
-    "source": "private-experiment-repo/results/p3-e18b-mirror023/curve.json (stripped)"
+    "source": "the source campaign repository/results/p3-e18b-mirror023/curve.json (stripped)"
   },
   "p3/E19a/REPORT.json": {
     "sha256": "a84429ebc3543e987064a72d5a92a6757bbbf363c34d2909735e45047c26c0de",
     "bytes": 3830,
-    "source": "private-experiment-repo/results/p3-e19a-176-subspace/REPORT.json (stripped)"
+    "source": "the source campaign repository/results/p3-e19a-176-subspace/REPORT.json (stripped)"
   },
   "p3/E19b/REPORT.json": {
     "sha256": "4ce39bd3a1c6f3b4128e9d65ce3702ae6bc0f9655d6e3db77c2392093199ca46",
     "bytes": 7648,
-    "source": "private-experiment-repo/results/p3-e19b-176-diagonal/REPORT.json (stripped)"
+    "source": "the source campaign repository/results/p3-e19b-176-diagonal/REPORT.json (stripped)"
   },
   "p3/E20/REPORT.json": {
     "sha256": "0bbe14695c3a926630254d7389f6524d68a144dfb292224e5e84658bb06eca64",
     "bytes": 1101,
-    "source": "private-experiment-repo/results/p3-e20-construction/REPORT.json (stripped)"
+    "source": "the source campaign repository/results/p3-e20-construction/REPORT.json (stripped)"
   },
   "p3/E20b/REPORT-r0.0333.json": {
     "sha256": "cd4c0c54c1026095239b47255b3f16f918c30a244f775b36897c824ea4b70efa",
     "bytes": 31446,
-    "source": "private-experiment-repo/results/p3-e20b-r0333/REPORT.json (stripped; minor_radius=0.0333, aspect~14)"
+    "source": "the source campaign repository/results/p3-e20b-r0333/REPORT.json (stripped; minor_radius=0.0333, aspect~14)"
   },
   "p3/E20b/REPORT-r0.05.json": {
     "sha256": "f80ef54a0006775f4ab214331f60fa6d3cb70e29f28b185a4ac02e89a9224681",
     "bytes": 34926,
-    "source": "private-experiment-repo/results/p3-e20b-r005/REPORT.json (stripped; minor_radius=0.05, aspect~20)"
+    "source": "the source campaign repository/results/p3-e20b-r005/REPORT.json (stripped; minor_radius=0.05, aspect~20)"
   },
   "p3/board/leaderboard_mhd_stable_2026-09-18.json": {
     "sha256": "e3510cfb09d3d27d6d88a7657d19b62bffa45f7626956b0a6f9c7e0205ce5159",
     "bytes": 12811,
-    "source": "private-experiment-repo/results/p3-close-out/leaderboard_mhd_stable_2026-09-18.json (stripped)"
+    "source": "the source campaign repository/results/p3-close-out/leaderboard_mhd_stable_2026-09-18.json (stripped)"
   },
   "submission/PROVENANCE.json": {
     "sha256": "eb8b9d883b9bea6ee75dc38d63def5212ad8232197c017796cdc9c8216becb83",
     "bytes": 765,
-    "source": "private-experiment-repo/results/submission/PROVENANCE.json (P2 provenance)"
+    "source": "the source campaign repository/results/submission/PROVENANCE.json (P2 provenance)"
   },
   "submission/PROVENANCE_own_geometrical.json": {
     "sha256": "04654cda0f1283bd8210d2742da1714ca4c3bb2434735de79c27df9162b80ef6",
     "bytes": 389,
-    "source": "private-experiment-repo/results/submission/PROVENANCE_own_geometrical.json (P1 provenance)"
+    "source": "the source campaign repository/results/submission/PROVENANCE_own_geometrical.json (P1 provenance)"
   },
   "submission/README.md": {
     "sha256": "dbf78877a37c4c8e186d0858c1ca6f49a2ad3d734b252d73ceddde4518341b49",
     "bytes": 2272,
-    "source": "private-experiment-repo/results/submission/README.md"
+    "source": "the source campaign repository/results/submission/README.md"
   },
   "submission/best_feasible_simple_to_build.json": {
     "sha256": "04ba8e0426c803942440919d74c29a054cdf07060aa03869d7eaded34283474d",
     "bytes": 6607,
-    "source": "private-experiment-repo/results/submission/best_feasible_simple_to_build.json (P2 submission, own lineage)"
+    "source": "the source campaign repository/results/submission/best_feasible_simple_to_build.json (P2 submission, own lineage)"
   },
   "submission/best_own_geometrical.json": {
     "sha256": "19d7313257c3d1fba8b8d30e85039edb1ec36567c0aef0cb6a3290d79587877e",
     "bytes": 6965,
-    "source": "private-experiment-repo/results/submission/best_own_geometrical.json (P1 submission, own lineage)"
+    "source": "the source campaign repository/results/submission/best_own_geometrical.json (P1 submission, own lineage)"
   }
 }

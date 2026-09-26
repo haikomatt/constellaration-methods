@@ -85,7 +85,7 @@ def _fake_objective_values(term_key="Omnigenity error: ", f0_mean=1.0e-3, f_mean
     keys. Confirmed directly against
     `desc.objectives._omnigenity.Omnigenity._print_value_fmt` and
     `desc.objectives.objective_funs.ObjectiveFunction.print_value` in
-    `localhost/private-image:phase1`."""
+    `localhost/constellaration-methods:test`."""
     return {
         term_key: [
             {

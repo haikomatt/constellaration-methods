@@ -14,7 +14,7 @@ Two capture paths, matching the plan's two items:
    `"Objective values"` key holds before/after values per objective term,
    keyed by each term's `_print_value_fmt` string (confirmed directly
    against the installed `desc` package in
-   `localhost/private-image:phase1`:
+   `localhost/constellaration-methods:test`:
    `desc.objectives._omnigenity.Omnigenity._print_value_fmt ==
    "Omnigenity error: "`, and for a non-scalar/non-linear objective like
    this one, `ObjectiveFunction.print_value`'s "weighted mean" branch

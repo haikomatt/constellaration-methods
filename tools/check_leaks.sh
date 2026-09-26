@@ -4,7 +4,7 @@
 # this public repository. Run from the repo root.
 set -euo pipefail
 
-PATTERN='Radek|Klarrio|Kinly|bossyk|narwhal|aissured|simmons|/home/matt|@gmail'
+PATTERN='Radek|Klarrio|Kinly|bossyk|narwhal|aissured|simmons|auditk|/home/matt|@gmail'
 
 cd "$(git rev-parse --show-toplevel)"
 

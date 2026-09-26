@@ -9,8 +9,8 @@ pre-registered by H2. This module adds the P3-specific proxy rows and
 scalarisation on top; it does not touch `near_axis_search.py` (that engine's
 own QI-only `analytic_objective`/`is_viable` stay as they are, used elsewhere).
 
-Phase 0 evidence (one podman introspection run, `localhost/private-
-constellaration:phase1`, cores 14-15, 2026-09-25): built one
+Phase 0 evidence (one podman introspection run, `localhost/constellaration-methods:test`,
+cores 14-15, 2026-09-25): built one
 `NearAxisConfiguration` via `near_axis_search.config_arrays` (nfp=3) and
 inspected the `qic.qic.Qic` object `near_axis_configuration_to_pyqic` returns,
 plus `constellaration.geometry.surface_rz_fourier`. Findings that fix the

@@ -67,7 +67,7 @@ probe, no VMEC, never touches cores 2-13):
     podman run --rm \\
         -v "$(pwd)":/workspace:Z -w /workspace \\
         -v "<repo>/results":"<repo>/results":Z \\
-        localhost/private-image:phase1 \\
+        localhost/constellaration-methods:test \\
         taskset -c 14,15 python -m constellaration_methods.analysis.p3_design_diversity_probe ...
 """
 
@@ -143,7 +143,7 @@ def _git_commit(repo_root: Path = REPO) -> str:
 
     Unlike `qi_discovery._current_git_commit`, this ALSO follows a git
     *worktree* checkout: this script's own repo (`REPO`) is normally a
-    linked worktree (e.g. `private-experiment-repo.wt-d1`), so
+    linked worktree (e.g. a linked git worktree), so
     `REPO/.git` is a one-line pointer file (`gitdir: <path>`), not a
     directory -- and that pointed-to per-worktree git dir has its own
     `HEAD` but shares `refs/` with the main checkout via its `commondir`

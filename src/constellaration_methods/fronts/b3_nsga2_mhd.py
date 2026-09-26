@@ -66,13 +66,13 @@ cores 2-13 (the live `p1-overnight` run).
 
 Usage (inside the pinned image, smoke, cores 14-15 ONLY):
     podman run --rm -v "$(pwd)":/workspace:Z -w /workspace \\
-        localhost/private-image:phase1 \\
+        localhost/constellaration-methods:test \\
         nice taskset -c 14,15 python scripts/b3_nsga2_mhd.py --smoke
 
 Real run (cores 2-13, NOT to be fired until that range is free):
     podman run --rm -v "$(pwd)":/workspace:Z -w /workspace \\
         --name b3-nsga2-mhd \\
-        localhost/private-image:phase1 \\
+        localhost/constellaration-methods:test \\
         nice taskset -c 2-13 python scripts/b3_nsga2_mhd.py
 """
 
