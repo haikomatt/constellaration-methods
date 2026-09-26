@@ -27,6 +27,10 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest", "pytest-xdist", "ruff"]
+# construction.nae_db_seed_screen's database rebuild path (ijson streams the
+# database's sweep files); the authors' pyQIC fork it also needs is not on
+# PyPI and is NOT installed by this extra -- see docs/external-data.md.
+generator = ["ijson"]
 
 [project.scripts]
 cm-score-mhd-stable = "constellaration_methods.evaluation.score_mhd_stable:main"
@@ -42,6 +46,7 @@ cm-p3-front-from-archive = "constellaration_methods.fronts.p3_front_from_archive
 cm-p3-curve-from-archive = "constellaration_methods.fronts.p3_curve_from_archive:main"
 cm-p3-construction-search = "constellaration_methods.construction.p3_construction_search:main"
 cm-p3-construction-bank-eval = "constellaration_methods.construction.p3_construction_bank_eval:main"
+cm-nae-db-seed-screen = "constellaration_methods.construction.nae_db_seed_screen:main"
 cm-p3-design-diversity-probe = "constellaration_methods.analysis.p3_design_diversity_probe:main"
 cm-p3-front-gallery = "constellaration_methods.analysis.p3_front_gallery:main"
 cm-render-boundary-3d = "constellaration_methods.analysis.render_boundary_3d:main"
