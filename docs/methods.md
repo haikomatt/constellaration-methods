@@ -30,6 +30,25 @@ diagonal control both predicted no descending step, measurements agreeing to 1e-
 to feasibility from our own seeds is the open problem, and we can say precisely where it is
 (see "What is refuted" below).
 
+**Material, provisional (E21, 2026-09-26): a better cold start from a public database.** The
+own-lineage cold-start seeds above all came from this repository's first-order near-axis
+construction search, which "What is refuted" below shows cannot supply a P3-range twist that is
+also an equilibrium. E21 tries a different generator instead: a public, CC BY 4.0, second-order
+near-axis QI database (Rodriguez and Plunk, arXiv:2601.08400; dataset doi:10.5281/zenodo.18220133 --
+see PROVENANCE.md and docs/external-data.md), filtered for P3-shaped constructions and completed
+with the authors' own MHD magnetic-well transform. The route was justified by a Phase 0 screen: 24
+database seeds at aspect 8-9, evaluated canonically, converged in VMEC at P3-range twist 24 times
+out of 24 (our own first-order sampler never does), with iota satisfied 24/24 and mirror satisfied
+19/24 -- only the well, flux and QI rows failed, and the well is a construction parameter of the
+database with a lever the same Phase 0 screen demonstrated canonically. A registered screen of 960
+selected seeds (`construction.nae_db_seed_screen`, docs/results/p3/E21/) confirmed a best seed at
+worst-of-three V = 0.1443, with iota, mirror and vacuum well satisfied at confirmation and canonical
+aspect ratio 10.41 -- inside the pre-registered material bar (confirmed V <= 0.30 with those three
+rows satisfied at aspect <= 12). QI and flux compression remain unsatisfied at the seed. "Material,
+provisional" here means exactly this: the seed clears the bar on its own confirmed score, before any
+restoration descent has been run from it -- see docs/results/p3/E21/STATUS.md for the registered
+follow-on this label is provisional against.
+
 ### "Methods that can map Pareto fronts cheaply"
 
 **Supported with a stated limit (E15-E17, 2026-09-18/19).** From one strictly feasible point, a

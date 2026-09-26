@@ -26,6 +26,7 @@ day-to-day research log.
 | P3 / E17 (2026-09-19) | HV 124.23, 25 members | davidkh | seeded population front-mapping, 9h wall-clock, every member confirmed twice in fresh processes ([docs/results/p3/E17](docs/results/p3/E17)) | Supported (stated limit) |
 | P3 / E18a (2026-09-23) | V=0.0536 -> no improvement | own (176 lineage) | seeded NSGA-II cold start from the own-lineage restoration chain end, 2,976 canonical evaluations, no offspring beat the seed ([docs/results/p3/E18a](docs/results/p3/E18a)) | Refuted |
 | P3 / E18b (2026-09-24) | HV 123.64 (99.5% of E17), 12 members | davidkh | warm-start re-optimisation under a changed definition (edge mirror bound 0.25 -> 0.23), first feasible point at evaluation 165 ([docs/results/p3/E18b](docs/results/p3/E18b)) | Supported |
+| P3 / E21 (2026-09-26) | seed V 0.144 (confirmed, before descent) | own (public near-axis DB, CC BY 4.0) | a near-axis QI database seed screen (960 seeds, generator route A'), best confirmed seed inside the material region (iota/mirror/well satisfied at aspect 10.41), QI and flux still open ([docs/results/p3/E21](docs/results/p3/E21)) | Material (provisional; restoration pending) |
 
 Full grades (Supported / Refuted / Measured / Open), every number, and the P1/P2 method sections
 are in [docs/methods.md](docs/methods.md). Provenance detail (what "own lineage" and "davidkh
@@ -91,7 +92,9 @@ src/constellaration_methods/
                  qi_audit_instrument, package_submission, verify_p1)
   construction/  near-axis construction search and its cheap proxies
                  (p3_construction_proxies, p3_construction_search,
-                 p3_construction_bank_eval)
+                 p3_construction_bank_eval); the near-axis QI database seed
+                 screen (nae_db_seed_screen, E21 -- external data, see
+                 docs/external-data.md)
   analysis/      diversity metrics, galleries, and rendering
                  (boundary_diversity, boundary_symmetry,
                  p3_design_diversity_probe, p3_front_gallery,
@@ -102,11 +105,15 @@ tools/           strip_boundaries.py / check_no_boundaries.py / check_leaks.sh
 tests/           every test of the included modules, moved and import-rewritten
 docs/
   methods.md            the method write-up, grades kept, every number
-  preregistration/      15 pre-registration snapshots (E12..E20b, D1, atlas-probe)
+  external-data.md       what nae_db_seed_screen (E21) needs that this repository does not
+                         ship -- the near-axis QI database (CC BY 4.0) and the authors'
+                         pyQIC fork -- and exactly how to obtain and lay them out
+  preregistration/      16 pre-registration snapshots (E12..E21, D1, atlas-probe)
   results/               P1/P2 submission packages (own lineage, boundaries included);
                          P3 REPORT.json/curve.json (davidkh lineage, boundary
-                         coordinates stripped); D1 diversity report; a MANIFEST
-                         with sha256 + source path for every file
+                         coordinates stripped); D1 diversity report; E21 (near-axis
+                         database seed screen, provisional, see docs/results/p3/E21/STATUS.md);
+                         a MANIFEST with sha256 + source path for every file
 scale/README.md  the GKE/KubeRay fleet substrate this pipeline could scale onto --
                  what is demonstrated there today, what is not, and the port as
                  the open item
