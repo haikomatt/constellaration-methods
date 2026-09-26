@@ -1,0 +1,388 @@
+{
+  "fetched": "2026-09-18T22:30 BST",
+  "source": "HF datasets proxima-fusion/constellaration-bench-results (mhd_stable/) and -submissions",
+  "note": "score = hypervolume of the submitted list; feasibility = dataset field as given; members = length of boundary_json",
+  "results": [
+    {
+      "result_file": "2025-07-02T07-38-21.817193_mhd_stable_results.json",
+      "user": "scadena-pf",
+      "score": 129.796069251409,
+      "feasibility": 0.02673624814200902,
+      "members": 4,
+      "submission_time": "2025-07-02T07:38:21.817193"
+    },
+    {
+      "result_file": "2025-08-12T07-53-37.758128_mhd_stable_results.json",
+      "user": "NianRan1",
+      "score": 133.50051029413004,
+      "feasibility": 0.0032595099053021183,
+      "members": 16,
+      "submission_time": "2025-08-12T07:53:37.758128"
+    },
+    {
+      "result_file": "2025-08-12T09-00-48.480632_mhd_stable_results.json",
+      "user": "NianRan1",
+      "score": 103.02479639835846,
+      "feasibility": 0.0,
+      "members": 1,
+      "submission_time": "2025-08-12T09:00:48.480632"
+    },
+    {
+      "result_file": "2026-01-08T10-07-00.611582_mhd_stable_results.json",
+      "user": "CreativeEngineer",
+      "score": 135.41759815376096,
+      "feasibility": 0.0038754304966341488,
+      "members": 16,
+      "submission_time": "2026-01-08T10:07:00.611582"
+    },
+    {
+      "result_file": "2026-05-08T23-38-32.495236_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 135.41759815376096,
+      "feasibility": 0.0034593650433630383,
+      "members": 33,
+      "submission_time": "2026-05-08T23:38:32.495236"
+    },
+    {
+      "result_file": "2026-05-09T01-05-55.787450_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 135.78218054245468,
+      "feasibility": 0.003693750227997433,
+      "members": 22,
+      "submission_time": "2026-05-09T01:05:55.787450"
+    },
+    {
+      "result_file": "2026-05-10T04-19-05.893801_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 137.10722331982313,
+      "feasibility": 0.004488931913310547,
+      "members": 31,
+      "submission_time": "2026-05-10T04:19:05.893801"
+    },
+    {
+      "result_file": "2026-05-10T04-39-28.910420_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 137.65491534711956,
+      "feasibility": 0.004745350375890016,
+      "members": 45,
+      "submission_time": "2026-05-10T04:39:28.910420"
+    },
+    {
+      "result_file": "2026-05-10T06-12-25.718612_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 139.29633298485484,
+      "feasibility": 0.0051701124836018705,
+      "members": 55,
+      "submission_time": "2026-05-10T06:12:25.718612"
+    },
+    {
+      "result_file": "2026-05-10T13-03-36.422783_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 140.7906066188283,
+      "feasibility": 0.0055977160990462235,
+      "members": 65,
+      "submission_time": "2026-05-10T13:03:36.422783"
+    },
+    {
+      "result_file": "2026-05-10T15-31-47.305800_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 140.57088098781438,
+      "feasibility": 0.0055516065912488925,
+      "members": 66,
+      "submission_time": "2026-05-10T15:31:47.305800"
+    },
+    {
+      "result_file": "2026-05-10T17-10-31.999747_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 141.13599741246844,
+      "feasibility": 0.005658035135618599,
+      "members": 61,
+      "submission_time": "2026-05-10T17:10:31.999747"
+    },
+    {
+      "result_file": "2026-05-10T17-12-23.941277_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 141.67675454783554,
+      "feasibility": 0.005598697248164353,
+      "members": 55,
+      "submission_time": "2026-05-10T17:12:23.941277"
+    },
+    {
+      "result_file": "2026-05-10T23-00-50.034414_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 141.95775046336314,
+      "feasibility": 0.005727701990218589,
+      "members": 59,
+      "submission_time": "2026-05-10T23:00:50.034414"
+    },
+    {
+      "result_file": "2026-05-10T23-06-57.300335_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 141.95775046336314,
+      "feasibility": 0.005727701990218589,
+      "members": 59,
+      "submission_time": "2026-05-10T23:06:57.300335"
+    },
+    {
+      "result_file": "2026-05-11T01-30-21.019235_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 141.98890617573022,
+      "feasibility": 0.005537006041978372,
+      "members": 60,
+      "submission_time": "2026-05-11T01:30:21.019235"
+    },
+    {
+      "result_file": "2026-05-11T04-48-48.936323_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 142.14201221809395,
+      "feasibility": 0.005379443778511261,
+      "members": 63,
+      "submission_time": "2026-05-11T04:48:48.936323"
+    },
+    {
+      "result_file": "2026-05-11T04-53-48.158066_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 142.16785822076534,
+      "feasibility": 0.006466375241617611,
+      "members": 73,
+      "submission_time": "2026-05-11T04:53:48.158066"
+    },
+    {
+      "result_file": "2026-05-11T09-02-09.273271_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 143.25821159526907,
+      "feasibility": 0.005617069144606456,
+      "members": 67,
+      "submission_time": "2026-05-11T09:02:09.273271"
+    },
+    {
+      "result_file": "2026-05-11T12-45-01.225103_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 144.2606331160246,
+      "feasibility": 0.005320800610478897,
+      "members": 74,
+      "submission_time": "2026-05-11T12:45:01.225103"
+    },
+    {
+      "result_file": "2026-05-11T12-50-26.987972_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 144.2606331160246,
+      "feasibility": 0.005320800610478897,
+      "members": 74,
+      "submission_time": "2026-05-11T12:50:26.987972"
+    },
+    {
+      "result_file": "2026-05-11T18-17-43.528142_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 146.79732048864153,
+      "feasibility": 0.0054082749313260885,
+      "members": 101,
+      "submission_time": "2026-05-11T18:17:43.528142"
+    },
+    {
+      "result_file": "2026-05-11T20-50-53.782967_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 148.04741765466278,
+      "feasibility": 0.005427158408621313,
+      "members": 111,
+      "submission_time": "2026-05-11T20:50:53.782967"
+    },
+    {
+      "result_file": "2026-05-11T22-18-26.741190_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 148.36276586572959,
+      "feasibility": 0.005427409179413841,
+      "members": 116,
+      "submission_time": "2026-05-11T22:18:26.741190"
+    },
+    {
+      "result_file": "2026-05-12T10-12-45.733485_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 148.96727227492013,
+      "feasibility": 0.005427916042898444,
+      "members": 191,
+      "submission_time": "2026-05-12T10:12:45.733485"
+    },
+    {
+      "result_file": "2026-05-13T16-01-56.571077_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 151.227092110504,
+      "feasibility": 0.006284928626228551,
+      "members": 182,
+      "submission_time": "2026-05-13T16:01:56.571077"
+    },
+    {
+      "result_file": "2026-05-13T16-07-50.256662_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 151.227092110504,
+      "feasibility": 0.006284928626228551,
+      "members": 182,
+      "submission_time": "2026-05-13T16:07:50.256662"
+    },
+    {
+      "result_file": "2026-05-14T10-32-33.519657_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 151.4637188307661,
+      "feasibility": 0.006609963314211846,
+      "members": 265,
+      "submission_time": "2026-05-14T10:32:33.519657"
+    },
+    {
+      "result_file": "2026-05-15T16-00-58.081018_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 154.51248580875676,
+      "feasibility": 0.006825675166665895,
+      "members": 306,
+      "submission_time": "2026-05-15T16:00:58.081018"
+    },
+    {
+      "result_file": "2026-05-15T23-45-07.242242_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 155.13968479167957,
+      "feasibility": 0.006736947414390558,
+      "members": 398,
+      "submission_time": "2026-05-15T23:45:07.242242"
+    },
+    {
+      "result_file": "2026-05-16T21-33-28.796292_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 160.25353003769163,
+      "feasibility": 0.007069128222313661,
+      "members": 366,
+      "submission_time": "2026-05-16T21:33:28.796292"
+    },
+    {
+      "result_file": "2026-05-18T11-47-00.760710_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 164.41558925449274,
+      "feasibility": 0.00734550377087365,
+      "members": 531,
+      "submission_time": "2026-05-18T11:47:00.760710"
+    },
+    {
+      "result_file": "2026-05-18T20-46-53.682189_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 165.7509052637022,
+      "feasibility": 0.007454720484844422,
+      "members": 568,
+      "submission_time": "2026-05-18T20:46:53.682189"
+    },
+    {
+      "result_file": "2026-05-19T20-16-44.077116_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 168.23371813906664,
+      "feasibility": 0.00778281771424367,
+      "members": 664,
+      "submission_time": "2026-05-19T20:16:44.077116"
+    },
+    {
+      "result_file": "2026-05-23T10-49-13.204633_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 172.1570710846443,
+      "feasibility": 0.008296849415309216,
+      "members": 774,
+      "submission_time": "2026-05-23T10:49:13.204633"
+    },
+    {
+      "result_file": "2026-05-28T10-38-00.630356_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 176.03273344151629,
+      "feasibility": 0.00865605159026066,
+      "members": 910,
+      "submission_time": "2026-05-28T10:38:00.630356"
+    },
+    {
+      "result_file": "2026-05-29T18-24-02.124054_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 177.289202801792,
+      "feasibility": 0.008652404443249105,
+      "members": 956,
+      "submission_time": "2026-05-29T18:24:02.124054"
+    },
+    {
+      "result_file": "2026-06-10T02-55-34.610458_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 181.02679446330387,
+      "feasibility": 0.008914003016764658,
+      "members": 1363,
+      "submission_time": "2026-06-10T02:55:34.610458"
+    },
+    {
+      "result_file": "2026-07-10T20-51-16.398744_mhd_stable_results.json",
+      "user": "davidkh",
+      "score": 187.91158465005037,
+      "feasibility": 0.008674614264046407,
+      "members": 200,
+      "submission_time": "2026-07-10T20:51:16.398744"
+    },
+    {
+      "result_file": "2026-09-09T19-49-38.585879_mhd_stable_results.json",
+      "user": "canyon-ant",
+      "score": 205.82070079641815,
+      "feasibility": 0.0028918179052127325,
+      "members": 43,
+      "submission_time": "2026-09-09T19:49:38.585879"
+    },
+    {
+      "result_file": "2026-09-15T12-17-54.329945_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 207.52880430360503,
+      "feasibility": 0.0087148031394899,
+      "members": 668,
+      "submission_time": "2026-09-15T12:17:54.329945"
+    }
+  ],
+  "queued_unevaluated": [
+    {
+      "submission_file": "2026-09-15T12-25-42.151219.json",
+      "user": "phanerozoic",
+      "members": 668
+    },
+    {
+      "submission_file": "2026-09-15T16-34-12.017058.json",
+      "user": "phanerozoic",
+      "members": 811
+    },
+    {
+      "submission_file": "2026-09-15T20-45-34.733958.json",
+      "user": "phanerozoic",
+      "members": 907
+    },
+    {
+      "submission_file": "2026-09-17T09-43-44.226910.json",
+      "user": "phanerozoic",
+      "members": 1343
+    },
+    {
+      "submission_file": "2026-09-18T19-29-07.577636.json",
+      "user": "phanerozoic",
+      "members": 1405
+    }
+  ],
+  "top3": [
+    {
+      "result_file": "2026-09-15T12-17-54.329945_mhd_stable_results.json",
+      "user": "phanerozoic",
+      "score": 207.52880430360503,
+      "feasibility": 0.0087148031394899,
+      "members": 668,
+      "submission_time": "2026-09-15T12:17:54.329945"
+    },
+    {
+      "result_file": "2026-09-09T19-49-38.585879_mhd_stable_results.json",
+      "user": "canyon-ant",
+      "score": 205.82070079641815,
+      "feasibility": 0.0028918179052127325,
+      "members": 43,
+      "submission_time": "2026-09-09T19:49:38.585879"
+    },
+    {
+      "result_file": "2026-07-10T20-51-16.398744_mhd_stable_results.json",
+      "user": "davidkh",
+      "score": 187.91158465005037,
+      "feasibility": 0.008674614264046407,
+      "members": 200,
+      "submission_time": "2026-07-10T20:51:16.398744"
+    }
+  ]
+}

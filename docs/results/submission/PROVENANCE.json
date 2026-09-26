@@ -1,0 +1,24 @@
+{
+  "problem": "SimpleToBuildQIStellarator",
+  "submission_file": "results/submission/best_feasible_simple_to_build.json",
+  "source": {
+    "bank": "results/family-study/climb/c8_climb_bank.jsonl",
+    "call_index": 30548,
+    "random_seed": 1,
+    "mode_budget": "8x8",
+    "n_field_periods": 3
+  },
+  "verified_on_saved_file": {
+    "score": 0.5817924125915462,
+    "objective": 11.635848251830925,
+    "feasibility_violation": 0.007202960170318029,
+    "feasible": null,
+    "expected_score": 0.5822,
+    "matches_expected": true
+  },
+  "leaderboard_context": {
+    "current_top_score": 0.6361,
+    "current_bottom_top8_score": 0.5371,
+    "note": "clears the current bottom-of-top-8 bar on the on-disk snapshot; score = objective/20 for feasible designs"
+  }
+}

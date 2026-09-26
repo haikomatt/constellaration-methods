@@ -1,0 +1,94 @@
+{
+  "PROVISIONAL": true,
+  "note": "DRAFT measurement, not locked. No labels were pulled from this run and nothing was optimised; the reading below is provisional because docs/preregistration-snapshots has no D1 lock snapshot.",
+  "parameters": {
+    "atlas": "results/atlas-probe",
+    "board": "results/p3-close-out/board",
+    "ours": "results/p3-e17-nsga2",
+    "ours_representation": "results/p3-e13-davidkh-7x7/start_serialised.json",
+    "objective_tol": 0.05,
+    "grid": 32,
+    "n_random": 10000,
+    "cell": 0.1,
+    "seed": 0,
+    "max_cell_members": 60,
+    "target_mpol": 7,
+    "target_ntor": 7,
+    "benchmark_tol": 0.01,
+    "board_feasibility_rule": "A board-file boundary is feasible iff feasibilities[i] <= BENCHMARK_TOL (0.01), matching the contest's own scoring tolerance -- not only feasibilities[i] == 0.0 (see module docstring)."
+  },
+  "git_commit": "67ac138eb8a644f602197a0ebacf671f85f50ba7",
+  "counts": {
+    "atlas": 28269,
+    "board": 243,
+    "ours": 1932,
+    "total": 30444,
+    "feasible": 30444,
+    "unknown_excluded": 0,
+    "by_source": {
+      "canyon-ant": 43,
+      "davidkh": 200,
+      "ours": 1932,
+      "phanerozoic": 28269
+    },
+    "feasible_by_source": {
+      "canyon-ant": 43,
+      "davidkh": 200,
+      "ours": 1932,
+      "phanerozoic": 28269
+    }
+  },
+  "reference_distribution": {
+    "n_pairs": 10000,
+    "d_rand_median": 0.3876958197030875,
+    "d_10_percentile": 0.07179146397444586
+  },
+  "near_equivalent_pairs": {
+    "n_candidate_pairs": 1081284,
+    "within_lineage": {
+      "n_pairs": 1003439,
+      "fraction_ge_d_rand": 0.0
+    },
+    "cross_lineage": {
+      "n_pairs": 38613,
+      "fraction_ge_d_rand": 0.9792038950612488
+    }
+  },
+  "reading": {
+    "value": "Rigid",
+    "basis": "within-lineage (phanerozoic-only) near-equivalent pairs",
+    "thresholds": {
+      "degenerate_ge": 0.2,
+      "rigid_lt": 0.05,
+      "min_pairs": 100
+    },
+    "PROVISIONAL": true
+  },
+  "clustering": {
+    "within_lineage": {
+      "n_cells": 545,
+      "min": 1,
+      "max": 3,
+      "mean": 1.0440366972477064,
+      "median": 1.0,
+      "histogram": {
+        "1": 522,
+        "2": 22,
+        "3": 1
+      }
+    },
+    "cross_lineage": {
+      "n_cells": 42,
+      "min": 1,
+      "max": 3,
+      "mean": 1.9047619047619047,
+      "median": 2.0,
+      "histogram": {
+        "1": 5,
+        "2": 36,
+        "3": 1
+      }
+    }
+  },
+  "runtime_seconds": 5956.056671772036
+}

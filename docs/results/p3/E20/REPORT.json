@@ -1,0 +1,30 @@
+{
+  "n_configs_evaluated": 5000,
+  "n_configs_requested": 5000,
+  "workers": 12,
+  "elapsed_s": 2194.4732847213745,
+  "configs_per_minute": 136.70706409993505,
+  "n_bank_top_export_failed": 0,
+  "n_bank_top_exported": 200,
+  "best_proxy_v": 0.011663588527285442,
+  "best_proxies": {
+    "iota_over_nfp": 0.7313000958852321,
+    "mirror": 0.14388916761087744,
+    "qi_residual": 0.00011663588527285442,
+    "aspect_ratio": 8.579010067505411,
+    "violations": {
+      "iota": 0.0,
+      "mirror": 0.0,
+      "qi": 0.011663588527285442,
+      "aspect": 0.0,
+      "nfp": 0.0
+    }
+  },
+  "placement_median_d1_to_leader_family": 3.0114133256692375,
+  "placement_median_d1_to_own_family": 3.3914162479087944,
+  "d_rand_reference": 0.388,
+  "survey_seed_reference": 0.62,
+  "well_row": "DROPPED -- not available; see src/p3_construction_proxies.py module docstring (order='r2' not exposed by the reused near-axis engine; the survey's forward_model well estimate is too expensive for the per-candidate proxy oracle).",
+  "space_name": "p3-wide",
+  "git_commit": "c126c3aefa93c727e4db1472bef72fdf3ca3cb67"
+}

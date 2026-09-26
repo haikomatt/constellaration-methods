@@ -1,0 +1,10 @@
+{
+  "problem": "GeometricalProblem",
+  "score": 0.9752223935436287,
+  "objective": 1.2229984581073414,
+  "feasibility": 0.0,
+  "board_top_at_submission": 0.9701409584192382,
+  "beats_board": true,
+  "lineage": "own \u2014 rotating-ellipse analytic seed, random_seed 20260907/20260908, NO leader boundary; 4h+8h+10h ALM/NGOpt descent, resumed via checkpoint",
+  "mode_budget": "8x8 NFP=3"
+}
