@@ -10,6 +10,7 @@ re-check, present in every snapshot) and, from the E21 snapshot onward, `<phase1
 (a second, phase-specific image built for the generator work). Nothing else, including the numbers,
 has been changed.
 
-16 snapshots, spanning E12 through E21 (the near-axis QI database seed screen, generator route A'),
-including the E12b launch note, the atlas-probe and D1 diversity locks, and the E20/E20b construction
-locks along the way.
+19 snapshots, spanning E12 through E23 (the own-lineage front baseline from the first clean-provenance
+P3-feasible design), including the E12b launch note, the atlas-probe and D1 diversity locks, the
+E20/E20b construction locks, the E21 near-axis database seed screen, the E22 restoration lock (the
+own-lineage feasibility link) and its E22bc repeatability-link lock, and the E23 front-builder lock.
