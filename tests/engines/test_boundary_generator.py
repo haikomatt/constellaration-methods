@@ -172,7 +172,7 @@ def test_low_order_dampening_holds_in_expectation_over_n_draws():
     prior = fit_spectral_prior(pool)
     anchor = _synthetic_anchor(seed=1)
 
-    from boundary_grid import pad_to_common_grid
+    from constellaration_methods.engines.boundary_grid import pad_to_common_grid
 
     r0, z0 = pad_to_common_grid(np.asarray(anchor["r_cos"]), np.asarray(anchor["z_sin"]), 8, 8)
 
@@ -277,7 +277,7 @@ def test_perturb_along_covariance_zero_components_returns_anchor_unchanged():
     prior = fit_covariance_prior(pool)
     anchor = _synthetic_anchor(seed=1)
 
-    from boundary_grid import pad_to_common_grid
+    from constellaration_methods.engines.boundary_grid import pad_to_common_grid
 
     r0, z0 = pad_to_common_grid(np.asarray(anchor["r_cos"]), np.asarray(anchor["z_sin"]), 8, 8)
     r, z = perturb_along_covariance(anchor, prior, scale=1.0, n_components=0, seed=1)
@@ -296,7 +296,7 @@ def test_perturb_along_covariance_does_not_damp_the_low_order_block():
     prior = fit_covariance_prior(pool)
     anchor = _synthetic_anchor(seed=1)
 
-    from boundary_grid import pad_to_common_grid
+    from constellaration_methods.engines.boundary_grid import pad_to_common_grid
 
     r0, z0 = pad_to_common_grid(np.asarray(anchor["r_cos"]), np.asarray(anchor["z_sin"]), 8, 8)
     shape = r0.shape
