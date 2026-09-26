@@ -89,6 +89,21 @@
     "bytes": 34926,
     "source": "the source campaign repository/results/p3-e20b-r005/REPORT.json (stripped; minor_radius=0.05, aspect~20)"
   },
+  "p3/E21/STATUS.md": {
+    "sha256": "d179fa71d3ac9b9f3b65dc4353e83375a3ccd81dce25fc532d5b8d85291c69cf",
+    "bytes": 1761,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E21/eval/REPORT.json": {
+    "sha256": "e1396ed6523959614b6d6cc9f62e1222032dffb25242a5ca5cae5dcdfdf5665d",
+    "bytes": 852044,
+    "source": "the source campaign repository/results/p3-e21-nae-db/eval/REPORT.json (stripped)"
+  },
+  "p3/E21/placement/REPORT.json": {
+    "sha256": "9dbd6901ba7e81b1cc27aa0050e9f5029df28c00a47697ac4bc25cb1d69cef60",
+    "bytes": 1401,
+    "source": "the source campaign repository/results/p3-e21-nae-db/placement/REPORT.json (stripped)"
+  },
   "p3/board/leaderboard_mhd_stable_2026-09-18.json": {
     "sha256": "e3510cfb09d3d27d6d88a7657d19b62bffa45f7626956b0a6f9c7e0205ce5159",
     "bytes": 12811,
