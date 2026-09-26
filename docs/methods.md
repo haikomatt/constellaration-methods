@@ -22,32 +22,59 @@ evaluations (~8 h on 12 cores).
 Bars (material: first feasible <= 1,500; substantial: >= 5-member confirmed front) both met. One
 change, one front, one size; the number is a first data point, not a law.
 
-**Refuted for cold start (E18a 2026-09-23, E19a/E19b 2026-09-24/25).** From our own near-axis seed
-at confirmed V 0.0536: a seeded population could not beat the seed in 2,976 evaluations; a
-second-order local model with measured off-diagonal curvature (12 directions, 156 probes) and its
-diagonal control both predicted no descending step, measurements agreeing to 1e-4, confirmed bests
-0.0519 and 0.0516. Registered comparison label: off-diagonal curvature does not matter. Cold start
-to feasibility from our own seeds is the open problem, and we can say precisely where it is
-(see "What is refuted" below).
+**Refuted for sampler seeds and first-order constructions (E18a, E19, E20/E20b).** From our own
+near-axis seed at confirmed V 0.0536: a seeded population could not beat the seed in 2,976
+evaluations; a second-order local model with measured off-diagonal curvature (12 directions, 156
+probes) and its diagonal control both predicted no descending step, measurements agreeing to 1e-4,
+confirmed bests 0.0519 and 0.0516. Registered comparison label: off-diagonal curvature does not
+matter. The construction survey behind those seeds is itself refuted at every aspect tried (E20,
+E20b -- see "What is refuted" below): a first-order near-axis generator cannot supply a P3-range
+twist that is also an equilibrium.
 
-**Material, provisional (E21, 2026-09-26): a better cold start from a public database.** The
-own-lineage cold-start seeds above all came from this repository's first-order near-axis
-construction search, which "What is refuted" below shows cannot supply a P3-range twist that is
-also an equilibrium. E21 tries a different generator instead: a public, CC BY 4.0, second-order
-near-axis QI database (Rodriguez and Plunk, arXiv:2601.08400; dataset doi:10.5281/zenodo.18220133 --
-see PROVENANCE.md and docs/external-data.md), filtered for P3-shaped constructions and completed
-with the authors' own MHD magnetic-well transform. The route was justified by a Phase 0 screen: 24
-database seeds at aspect 8-9, evaluated canonically, converged in VMEC at P3-range twist 24 times
-out of 24 (our own first-order sampler never does), with iota satisfied 24/24 and mirror satisfied
-19/24 -- only the well, flux and QI rows failed, and the well is a construction parameter of the
-database with a lever the same Phase 0 screen demonstrated canonically. A registered screen of 960
-selected seeds (`construction.nae_db_seed_screen`, docs/results/p3/E21/) confirmed a best seed at
-worst-of-three V = 0.1443, with iota, mirror and vacuum well satisfied at confirmation and canonical
-aspect ratio 10.41 -- inside the pre-registered material bar (confirmed V <= 0.30 with those three
-rows satisfied at aspect <= 12). QI and flux compression remain unsatisfied at the seed. "Material,
-provisional" here means exactly this: the seed clears the bar on its own confirmed score, before any
-restoration descent has been run from it -- see docs/results/p3/E21/STATUS.md for the registered
-follow-on this label is provisional against.
+**Supported once from a second-order near-axis database seed (E21 + E22): first own-lineage,
+clean-provenance P3-feasible boundary.** E21 tries a different generator instead: a public, CC BY
+4.0, second-order near-axis QI database (Rodriguez and Plunk, arXiv:2601.08400; dataset
+doi:10.5281/zenodo.18220133 -- see PROVENANCE.md and docs/external-data.md), filtered for P3-shaped
+constructions and completed with the authors' own MHD magnetic-well transform. The route was
+justified by a Phase 0 screen: 24 database seeds at aspect 8-9, evaluated canonically, converged in
+VMEC at P3-range twist 24 times out of 24 (our own first-order sampler never does), with iota
+satisfied 24/24 and mirror satisfied 19/24 -- only the well, flux and QI rows failed, and the well
+is a construction parameter of the database with a lever the same Phase 0 screen demonstrated
+canonically. A registered screen of 960 selected seeds (`construction.nae_db_seed_screen`,
+docs/results/p3/E21/) confirmed a best seed at worst-of-three V = 0.1443, with iota, mirror and
+vacuum well satisfied at confirmation and canonical aspect ratio 10.41 -- inside the pre-registered
+material bar (confirmed V <= 0.30 with those three rows satisfied at aspect <= 12). QI and flux
+compression remained unsatisfied at the seed.
+
+E22 then ran the campaign's proven restoration chain (`p3_final_restoration.py`, the E7/E19b
+protocol, line-searched quadratic minimax, chain rule, worst-of-three) from that confirmed seed:
+worst-of-three V fell from 0.1443 to **0.0, strictly feasible on all five rows** (residuals
+[-0.2566, -0.0071, -0.0266, -0.0082, -0.0844]; raw iota/N 0.314, log10 qi -3.525, edge mirror 0.243,
+flux compression 0.893, vacuum well +0.0084, aspect 10.21, min_len 7.34, solo hypervolume 81.6),
+confirmed on the recorded evaluation and two fresh confirmations (identical to 1e-9). Fidelity
+re-check: the exported boundary re-scores identically in a fresh `phase1` process; in
+`leaderboard-fidelity` (constellaration 0.2.1, the board's version) the original export fails the
+iota row only (negative rotational transform), and the toroidally reflected export (the E13
+procedure) is feasible with metrics identical to 1e-4 in both images. Verified in both evaluator
+versions. Cost: 1,780 optimisation evaluations, 11 verification evaluations, 4.10 h on 12 cores; 3
+accepted steps (0.1443 -> 0.0735 -> 0.0672 -> 0.0655) then a recovery line search from 0.0640 to
+0.0 in one line model. Bars met: material (0.1343) and substantial (0.030) cleared on the way;
+**goal** (benchmark-feasible on all three evaluations) reached; the chain rule stops chaining at
+goal. This is the first own-lineage, clean-provenance P3-feasible design the campaign holds --
+unlike every davidkh-lineage P3 result, it descends from a CC BY 4.0 database with no leaderboard
+boundary anywhere in its lineage, and is submittable at Matt's discretion (see PROVENANCE.md); no
+submission has been made. Repeatability across seeds (E22b, E22c) and a front from this point (E23)
+are pending -- see docs/results/p3/E22/STATUS.md.
+
+**Pipeline cost: what a "new definition to good designs" costs here.** Proxima's question was how
+quickly this method reaches a good design under a changed or fresh definition. The honest answer
+for a cold start, definition to a feasible own-lineage design (E21 + E22): host build 1.4 h (960
+seeds), canonical screen 1.4 h (960 + 24 evaluations), restoration 4.1 h (1,791 evaluations) --
+about 7 h wall and ~2,800 canonical evaluations from the database filter to a verified feasible
+design. Caveat, stated plainly: this is the fixed P3 definition (not a changed one -- E18b above is
+the changed-definition number), one seed (repeatability is the open E22b/E22c registration), and the
+design reached is a low-scoring but feasible one: aspect 10.2 and min_len 7.3 sit near the bottom of
+the board's range, not a competitive front member.
 
 ### "Methods that can map Pareto fronts cheaply"
 
