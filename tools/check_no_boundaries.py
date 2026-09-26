@@ -22,6 +22,25 @@ from typing import Any
 
 from strip_boundaries import BOUNDARY_KEYS
 
+# Explicit allowlist: paths (relative to the check root, forward-slash separated
+# directory prefixes) where boundary-coordinate keys are EXPECTED and permitted.
+# Every entry here is an own-lineage, clean-provenance P3 design (near-axis QI
+# database seed, CC BY 4.0, no leaderboard boundary anywhere in its lineage --
+# see PROVENANCE.md) that is submittable at Matt's discretion, unlike every
+# davidkh-lineage P3 artefact elsewhere under docs/results/p3/, which stays
+# stripped. Do not add a path here for a davidkh-derived result.
+BOUNDARY_ALLOWED_PREFIXES = (
+    "E22/own-lineage/",  # E22: first own-lineage P3-feasible boundary + its reflection
+    "E23.0/own-lineage/",  # E23.0: the E22-archive baseline export (same lineage)
+)
+
+
+def is_allowlisted(path: Path, root: Path) -> bool:
+    """True if `path` (a file under `root`) falls under one of the explicit
+    own-lineage exemption prefixes in BOUNDARY_ALLOWED_PREFIXES."""
+    rel = path.relative_to(root).as_posix()
+    return any(rel.startswith(prefix) for prefix in BOUNDARY_ALLOWED_PREFIXES)
+
 
 def find_boundary_keys(obj: Any, path: str = "$") -> list[str]:
     """Returns the JSON-path-ish locations of every banned key found in
@@ -48,6 +67,8 @@ def check_tree(root: Path) -> dict[str, list[str]]:
     if not root.exists():
         return offenders
     for path in sorted(root.rglob("*.json")):
+        if is_allowlisted(path, root):
+            continue
         data = json.loads(path.read_text())
         hits = find_boundary_keys(data)
         if hits:
