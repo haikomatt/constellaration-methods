@@ -1,0 +1,13 @@
+START 2026-09-26T15:54:28+01:00
+== phase1 ==
+/usr/local/lib/python3.10/site-packages/constellaration/mhd/geometry_utils.py:127: RuntimeWarning: The iteration is not making good progress, as measured by the 
+ improvement from the last ten iterations.
+  phi_perp = float(optimize.fsolve(_dot_tangent, x0=[phi_init])[0])
+{"file": "results/p3-e22-538/feasible_boundary_R0L5_reflected.json", "residuals": {"iota": -0.25657543276887473, "qi": -0.0070529592370613, "mirror": -0.02655796203675098, "flux": -0.008167671790333151, "well": -0.08443530079452446}, "V": -0.0070529592370613, "feasible": true, "solo_score_if_feasible": 81.60147080931999, "raw": {"iota_over_nfp": 0.3141438581922187, "log10_qi": -3.5246853573297146, "edge_mirror": 0.24336050949081225, "flux_compression": 0.8926490953887002, "vacuum_well": 0.008443530079452448, "aspect_ratio": 10.21352310212497, "min_len": 7.338186628431973}, "mpol": 10, "ntor": 10, "nfp": 2, "elapsed_s": 53.2}
+EXIT 0 phase1
+== leaderboard-fidelity ==
+/usr/local/lib/python3.10/site-packages/constellaration/mhd/geometry_utils.py:127: RuntimeWarning: The iteration is not making good progress, as measured by the 
+ improvement from the last ten iterations.
+  phi_perp = float(optimize.fsolve(_dot_tangent, x0=[phi_init])[0])
+{"file": "results/p3-e22-538/feasible_boundary_R0L5_reflected.json", "residuals": {"iota": -0.25657543276887473, "qi": -0.0070529592370613, "mirror": -0.02655796203675098, "flux": -0.008167671790333151, "well": -0.08443530079452446}, "V": -0.0070529592370613, "feasible": true, "solo_score_if_feasible": 81.60147080931999, "raw": {"iota_over_nfp": 0.3141438581922187, "log10_qi": -3.5246853573297146, "edge_mirror": 0.24336050949081225, "flux_compression": 0.8926490953887002, "vacuum_well": 0.008443530079452448, "aspect_ratio": 10.21352310212497, "min_len": 7.338186628431973}, "mpol": 10, "ntor": 10, "nfp": 2, "elapsed_s": 53.5}
+EXIT 0 leaderboard-fidelity
