@@ -1,0 +1,20 @@
+constellaration-methods
+Copyright 2026 Matt Dawson
+
+This product includes software developed as part of an independent research
+campaign on the ConStellaration stellarator-optimisation benchmark
+(https://github.com/proximafusion/constellaration), created by Proxima Fusion
+and Hugging Face. This repository is not affiliated with, endorsed by, or
+produced by Proxima Fusion or Hugging Face.
+
+Where a result in docs/results/ derives from a public leaderboard entrant's
+boundary (the "davidkh" P2 leaderboard design), that lineage is stated
+explicitly in PROVENANCE.md and in the file it applies to; no such boundary
+coordinates are redistributed by this repository (see tools/strip_boundaries.py
+and tools/check_no_boundaries.py).
+
+Where a result derives from the near-axis-expansion QI database published
+alongside the ConStellaration dataset (CC BY 4.0), that attribution is stated
+in PROVENANCE.md.
+
+Licensed under the Apache License, Version 2.0. See LICENSE.

@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "constellaration-methods"
+version = "0.1.0"
+description = "A tested pipeline for the three ConStellaration stellarator-optimisation problems (P1/P2/P3), with pre-registration and canonical confirmation built in."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Matt Dawson" }]
+
+# Pinned to the exact versions the results in docs/results/ were produced
+# with (see VERSIONS.md in the original campaign; constellaration==0.2.6
+# transitively pins vmecpp==0.4.11 and scikit-learn==1.5.2, mirrored in the
+# Dockerfile). scikit-learn is pinned explicitly and defensively so a future
+# constellaration bump cannot silently drag it along.
+dependencies = [
+    "constellaration==0.2.6",
+    "vmecpp==0.4.11",
+    "scikit-learn==1.5.2",
+    "numpy",
+    "scipy",
+    "pymoo",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-xdist", "ruff"]
+
+[project.scripts]
+cm-score-mhd-stable = "constellaration_methods.evaluation.score_mhd_stable:main"
+cm-confirm-candidates = "constellaration_methods.evaluation.confirm_candidates:main"
+cm-package-submission = "constellaration_methods.evaluation.package_submission:main"
+cm-verify-p1 = "constellaration_methods.evaluation.verify_p1:main"
+cm-p3-feasibility-restoration = "constellaration_methods.restoration.p3_feasibility_restoration:main"
+cm-p3-final-restoration = "constellaration_methods.restoration.p3_final_restoration:main"
+cm-p3-promote-candidate = "constellaration_methods.restoration.p3_promote_candidate:main"
+cm-p3-front-builder = "constellaration_methods.fronts.p3_front_builder:main"
+cm-b3-nsga2-mhd = "constellaration_methods.fronts.b3_nsga2_mhd:main"
+cm-p3-front-from-archive = "constellaration_methods.fronts.p3_front_from_archive:main"
+cm-p3-curve-from-archive = "constellaration_methods.fronts.p3_curve_from_archive:main"
+cm-p3-construction-search = "constellaration_methods.construction.p3_construction_search:main"
+cm-p3-construction-bank-eval = "constellaration_methods.construction.p3_construction_bank_eval:main"
+cm-p3-design-diversity-probe = "constellaration_methods.analysis.p3_design_diversity_probe:main"
+cm-p3-front-gallery = "constellaration_methods.analysis.p3_front_gallery:main"
+cm-render-boundary-3d = "constellaration_methods.analysis.render_boundary_3d:main"
+cm-visualize-boundary = "constellaration_methods.analysis.visualize_boundary:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "container: requires the constellaration/vmecpp physics stack; run inside the repo's own Docker image",
+]

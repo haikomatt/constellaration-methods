@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software or its methods, please cite it as below."
+title: "constellaration-methods: pre-registered, canonically-confirmed methods for the ConStellaration stellarator-optimisation benchmark"
+authors:
+  - family-names: Dawson
+    given-names: Matt
+date-released: 2026-09-26
+version: 0.1.0
+license: Apache-2.0
+repository-code: "https://github.com/haikomatt/constellaration-methods"
