@@ -13,12 +13,13 @@ reload-and-re-evaluate verification against the benchmark's own scorer, is in
 `docs/results/submission/PROVENANCE.json` (P2) and
 `docs/results/submission/PROVENANCE_own_geometrical.json` (P1). Both are submittable as own work.
 
-## P3: davidkh lineage, measurement only
+## P3: davidkh lineage, measurement only (except E21, E22, E23.0 -- see below)
 
-Every P3 (`MHDStableQIStellarator`) result in `docs/results/p3/` traces back to `davidkh`'s public
-P2 (`SimpleToBuildQIStellarator`) leaderboard entry as its starting boundary. That entry is public
-(the leaderboard is a public record), but **no reuse terms for derivatives of public leaderboard
-boundaries have been agreed with its author or with Proxima Fusion**. Consequently:
+Every P3 (`MHDStableQIStellarator`) result in `docs/results/p3/` other than E21, E22 and E23.0
+traces back to `davidkh`'s public P2 (`SimpleToBuildQIStellarator`) leaderboard entry as its
+starting boundary. That entry is public (the leaderboard is a public record), but **no reuse terms
+for derivatives of public leaderboard boundaries have been agreed with its author or with Proxima
+Fusion**. Consequently, for every davidkh-lineage result:
 
 - No P3 result in this repository is, or is presented as, a submission. Every P3 artefact here is
   measurement and method: how far a restoration/front-mapping method gets from that public start,
@@ -73,6 +74,22 @@ is different: it reads a public, external near-axis QI construction database dir
   with any seed derived from it.
 - **Results.** `docs/results/p3/E21/` (REPORT.json, placement summary, `STATUS.md`); see the
   README's results table and `docs/methods.md`'s cold-start section for what E21 shows.
+- **E22 and E23.0: own lineage, submittable at Matt's discretion.** `docs/results/p3/E22/` (the
+  restoration link that took E21's confirmed seed from worst-of-three V 0.1443 to 0.0, strictly
+  feasible on all five rows) and `docs/results/p3/E23.0/` (the baseline measurement of E22's
+  archive, confirmed hypervolume 82.13) are both **own lineage**: the design traces to the
+  Rodriguez and Plunk near-axis QI database (CC BY 4.0) via E21's seed and this repository's own
+  restoration/front-confirmation code, with **no leaderboard boundary anywhere in its lineage**.
+  This is unlike every davidkh-lineage P3 result above, which is measurement and method only and
+  not submittable. E22's and E23.0's boundary exports (`docs/results/p3/E22/own-lineage/` and
+  `docs/results/p3/E23.0/own-lineage/`) are shipped un-stripped for exactly this reason -- they are
+  own lineage and clean provenance, so `tools/strip_boundaries.py`'s davidkh-derivative rationale
+  does not apply to them, and `tools/check_no_boundaries.py` exempts those two exact paths by an
+  explicit allowlist (see that script's `BOUNDARY_ALLOWED_PREFIXES`). Attribution and licence terms
+  for the database travel with these designs the same way as for E21's seeds (see above). These
+  designs are **submittable at Matt's discretion**; as of this writing, **no submission has been
+  made**. See `docs/results/p3/E22/STATUS.md`, `docs/results/p3/E23.0/RESULT.md`, the README's
+  results table, and `docs/methods.md`'s cold-start section for what each shows.
 
 ## Pinned versions
 
