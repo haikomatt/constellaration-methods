@@ -1,6 +1,12 @@
 # E21 status
 
-**Label: Material (provisional; restoration pending).**
+**Label: Material.**
+
+Update (2026-09-26): the registered follow-on has run and reached goal -- see
+[docs/results/p3/E22](../E22). Restoration from this seed (`p3_final_restoration.py`, the E7/E19b
+protocol) took worst-of-three V from 0.1443 to 0.0, the first own-lineage, clean-provenance
+P3-feasible boundary. This status entry is kept as the seed's own record; the "provisional" label
+below describes only the state before that follow-on, which is no longer pending.
 
 The confirmed best seed (`eval/REPORT.json`, worst-of-three across three fresh-process
 evaluations) reaches V = 0.1443 with the iota, mirror and vacuum-well residuals satisfied at

@@ -90,8 +90,8 @@
     "source": "the source campaign repository/results/p3-e20b-r005/REPORT.json (stripped; minor_radius=0.05, aspect~20)"
   },
   "p3/E21/STATUS.md": {
-    "sha256": "d179fa71d3ac9b9f3b65dc4353e83375a3ccd81dce25fc532d5b8d85291c69cf",
-    "bytes": 1761,
+    "sha256": "cb80cd8a29701d31b4d42134e3455def0e6d76f3ddb2062d549c6bb6c72a35fc",
+    "bytes": 2175,
     "source": "written for this repository (not a campaign artefact)"
   },
   "p3/E21/eval/REPORT.json": {
@@ -103,6 +103,91 @@
     "sha256": "9dbd6901ba7e81b1cc27aa0050e9f5029df28c00a47697ac4bc25cb1d69cef60",
     "bytes": 1401,
     "source": "the source campaign repository/results/p3-e21-nae-db/placement/REPORT.json (stripped)"
+  },
+  "p3/E22/REPORT.json": {
+    "sha256": "1f7b34b203f2a6e3308ca0fbedef4b86230b500da4a072cb2d22f0c09b7a3e17",
+    "bytes": 6354,
+    "source": "the source campaign repository/results/p3-e22-538/REPORT.json (stripped)"
+  },
+  "p3/E22/events.jsonl": {
+    "sha256": "1343ba6d5dcd87c01bbad2c28eafd41ee78560d94ce72fed15084064da5526e1",
+    "bytes": 7648,
+    "source": "the source campaign repository/results/p3-e22-538/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E22/own-lineage/feasible_boundary_R0L5.json": {
+    "sha256": "f87d0b535d21ed314980a5b222f6712ce3abfd4003dd9f55bea11836cf6c244f",
+    "bytes": 12225,
+    "source": "the source campaign repository/results/p3-e22-538/feasible_boundary_R0L5.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E22/own-lineage/feasible_boundary_R0L5_reflected.json": {
+    "sha256": "a5c6aac3a065c2069bd7ec581db0a01c72ab662cb3cd4b5ceab2d9d7b41d3de2",
+    "bytes": 12232,
+    "source": "the source campaign repository/results/p3-e22-538/feasible_boundary_R0L5_reflected.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E22/recheck.log": {
+    "sha256": "8ccb91c52047186f3493b42a10b7d733a48e063b73d1b44727e96d6a2ab86fa2",
+    "bytes": 1899,
+    "source": "the source campaign repository/results/p3-e22-538/recheck.log (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22/recheck_reflected.log": {
+    "sha256": "0b6f1517279304afe7c0d678a5896908b45d5c1892f0c4302661c58e4ffed22e",
+    "bytes": 1926,
+    "source": "the source campaign repository/results/p3-e22-538/recheck_reflected.log (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22/recheck_phase1.json": {
+    "sha256": "d2e0b15cd4990c5bc691912a94656079a206f15c5a340ebb7623e758f2d51d81",
+    "bytes": 762,
+    "source": "the source campaign repository/results/p3-e22-538/recheck_phase1.json (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22/recheck_reflected_phase1.json": {
+    "sha256": "c161a6be07680063a99281abfd623e3d91f4ee3c820bace2da0389f4773fcfee",
+    "bytes": 766,
+    "source": "the source campaign repository/results/p3-e22-538/recheck_reflected_phase1.json (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22/recheck_leaderboard-fidelity.json": {
+    "sha256": "c99488571e9d201a83176bc2627b3c38feb7fc51b5681cd9c3b8d6c802595afc",
+    "bytes": 743,
+    "source": "the source campaign repository/results/p3-e22-538/recheck_leaderboard-fidelity.json (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22/recheck_reflected_leaderboard-fidelity.json": {
+    "sha256": "29819b96f14a4249df38e9fc487c6e24307f93c0c1b5089c4843773d4a7fa27e",
+    "bytes": 766,
+    "source": "the source campaign repository/results/p3-e22-538/recheck_reflected_leaderboard-fidelity.json (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22/STATUS.md": {
+    "sha256": "e2c9615b27aa63c68d849c78f60d3bfea068a07853f6731ed15e35f0e8b66bb8",
+    "bytes": 4087,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E23.0/REPORT.json": {
+    "sha256": "b95cda52ff9081289bc2cfc2101c5060c6a9dea747131c5417a4e73b5fde90db",
+    "bytes": 2635,
+    "source": "the source campaign repository/results/p3-e23-baseline/REPORT.json (no boundary coordinates)"
+  },
+  "p3/E23.0/RESULT.md": {
+    "sha256": "fbb239486d33d1aeb55272a39cc8c038281ecbfaea399f2d48dcbc2fac4f0e31",
+    "bytes": 1338,
+    "source": "the source campaign repository/results/p3-e23-baseline/RESULT.md (title corrected for this repository; facts unchanged)"
+  },
+  "p3/E23.0/own-lineage/R0_L5_t0.5.boundary.json": {
+    "sha256": "d3e5f23ef692fcdc3d20eaccd5a77aa8fb62ac89933573fcb4263800e5332d45",
+    "bytes": 13707,
+    "source": "the source campaign repository/results/p3-e23-baseline/R0_L5_t0.5.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23.0/own-lineage/R0_L5_t0.5.phireflected.boundary.json": {
+    "sha256": "0bcf64e7adee15e27e0cdaf6d7ce1de2cce14b9071f0826a1bee6900d059f8b9",
+    "bytes": 13714,
+    "source": "the source campaign repository/results/p3-e23-baseline/R0_L5_t0.5.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23.0/own-lineage/R0_L5_t1.0.boundary.json": {
+    "sha256": "a1d05f4292327c58c6358ba77fd06ce213fa5132852d4ae78112a3eb07b57871",
+    "bytes": 13725,
+    "source": "the source campaign repository/results/p3-e23-baseline/R0_L5_t1.0.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23.0/own-lineage/R0_L5_t1.0.phireflected.boundary.json": {
+    "sha256": "cc6cd74356a0193406a93b5ce87ff28486c48276fd1fd83a5f7f1bb618eabb8c",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23-baseline/R0_L5_t1.0.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
   },
   "p3/board/leaderboard_mhd_stable_2026-09-18.json": {
     "sha256": "e3510cfb09d3d27d6d88a7657d19b62bffa45f7626956b0a6f9c7e0205ce5159",

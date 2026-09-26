@@ -1,0 +1,28 @@
+[
+  {
+    "file": "results/p3-e22-538/feasible_boundary_R0L5.json",
+    "residuals": {
+      "iota": 2.2565754437692784,
+      "qi": -0.0070529455980723145,
+      "mirror": -0.026557963799815232,
+      "flux": -0.008167706415830065,
+      "well": -0.08443531268767034
+    },
+    "V": 2.2565754437692784,
+    "feasible": false,
+    "solo_score_if_feasible": 0.0,
+    "raw": {
+      "iota_over_nfp": -0.3141438609423196,
+      "log10_qi": -3.524685309593253,
+      "edge_mirror": 0.2433605090500462,
+      "flux_compression": 0.892649064225753,
+      "vacuum_well": 0.008443531268767034,
+      "aspect_ratio": 10.213523102124968,
+      "min_len": 7.338187219123411
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 53.5
+  }
+]
