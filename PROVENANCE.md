@@ -74,7 +74,7 @@ is different: it reads a public, external near-axis QI construction database dir
   with any seed derived from it.
 - **Results.** `docs/results/p3/E21/` (REPORT.json, placement summary, `STATUS.md`); see the
   README's results table and `docs/methods.md`'s cold-start section for what E21 shows.
-- **E22, E22b, E22c and E23.0: own lineage, submittable at Matt's discretion.**
+- **E22, E22b, E22c, E23.0 and E23: own lineage, submittable at Matt's discretion.**
   `docs/results/p3/E22/` (the restoration link that took E21's confirmed seed from worst-of-three
   V 0.1443 to 0.0, strictly feasible on all five rows), `docs/results/p3/E22b/` and
   `docs/results/p3/E22c/` (the same restoration chain repeated, unchanged, from two further
@@ -83,10 +83,15 @@ is different: it reads a public, external near-axis QI construction database dir
   `docs/results/p3/E23.0/` (the baseline measurement of E22's archive, confirmed hypervolume 82.13)
   are all **own lineage**: each design traces to the Rodriguez and Plunk near-axis QI database
   (CC BY 4.0) via a database seed and this repository's own restoration/front-confirmation code,
-  with **no leaderboard boundary anywhere in its lineage**. This is unlike every davidkh-lineage P3
-  result above, which is measurement and method only and not submittable. E22's, E22b's, E22c's and
-  E23.0's boundary exports (`docs/results/p3/E22/own-lineage/`, `docs/results/p3/E22b/own-lineage/`,
-  `docs/results/p3/E22c/own-lineage/` and `docs/results/p3/E23.0/own-lineage/`) are shipped
+  with **no leaderboard boundary anywhere in its lineage**. `docs/results/p3/E23/` (the seeded
+  population front grown from E22's confirmed point: 53 confirmed members, hypervolume 89.71,
+  adjudicated 2026-09-27) designs the same own lineage as E22 -- every member is a variation on
+  E22's own-lineage boundary produced by this repository's own front-mapping code, with no
+  leaderboard boundary anywhere in any member's lineage. This is unlike every davidkh-lineage P3
+  result above, which is measurement and method only and not submittable. E22's, E22b's, E22c's,
+  E23.0's and E23's boundary exports (`docs/results/p3/E22/own-lineage/`,
+  `docs/results/p3/E22b/own-lineage/`, `docs/results/p3/E22c/own-lineage/`,
+  `docs/results/p3/E23.0/own-lineage/` and `docs/results/p3/E23/own-lineage/`) are shipped
   un-stripped for exactly this reason -- they are own lineage and clean provenance, so
   `tools/strip_boundaries.py`'s davidkh-derivative rationale does not apply to them, and
   `tools/check_no_boundaries.py` exempts those exact paths by an explicit allowlist (see that
@@ -94,8 +99,9 @@ is different: it reads a public, external near-axis QI construction database dir
   these designs the same way as for E21's seeds (see above). These designs are **submittable at
   Matt's discretion**; as of this writing, **no submission has been made**. See
   `docs/results/p3/E22/STATUS.md`, `docs/results/p3/E22b/STATUS.md`,
-  `docs/results/p3/E22c/STATUS.md`, `docs/results/p3/E23.0/RESULT.md`, the README's results table,
-  and `docs/methods.md`'s cold-start section for what each shows.
+  `docs/results/p3/E22c/STATUS.md`, `docs/results/p3/E23.0/RESULT.md`,
+  `docs/results/p3/E23/STATUS.md`, the README's results table, and `docs/methods.md`'s cold-start
+  and cheap-front-mapping sections for what each shows.
 
 ## Pinned versions
 
