@@ -31,8 +31,9 @@ matter. The construction survey behind those seeds is itself refuted at every as
 E20b -- see "What is refuted" below): a first-order near-axis generator cannot supply a P3-range
 twist that is also an equilibrium.
 
-**Supported once from a second-order near-axis database seed (E21 + E22): first own-lineage,
-clean-provenance P3-feasible boundary.** E21 tries a different generator instead: a public, CC BY
+**Supported, repeated (3 of 3), from a second-order near-axis database seed (E21 + E22/E22b/E22c):
+first own-lineage, clean-provenance P3-feasible boundary, then repeated on two further seeds.**
+E21 tries a different generator instead: a public, CC BY
 4.0, second-order near-axis QI database (Rodriguez and Plunk, arXiv:2601.08400; dataset
 doi:10.5281/zenodo.18220133 -- see PROVENANCE.md and docs/external-data.md), filtered for P3-shaped
 constructions and completed with the authors' own MHD magnetic-well transform. The route was
@@ -63,17 +64,37 @@ accepted steps (0.1443 -> 0.0735 -> 0.0672 -> 0.0655) then a recovery line searc
 goal. This is the first own-lineage, clean-provenance P3-feasible design the campaign holds --
 unlike every davidkh-lineage P3 result, it descends from a CC BY 4.0 database with no leaderboard
 boundary anywhere in its lineage, and is submittable at Matt's discretion (see PROVENANCE.md); no
-submission has been made. Repeatability across seeds (E22b, E22c) and a front from this point (E23)
-are pending -- see docs/results/p3/E22/STATUS.md.
+submission has been made.
+
+**Repeatability (E22b, E22c; adjudicated 2026-09-27): 3 of 3.** Two further database seeds ran the
+identical lock and command. E22b (seed `db00588`, start worst-of-three V 0.174): best point
+`R0:L15:t0.5`, worst-of-three **V 0.0085, feasible** (mirror residual 0.0085 and flux 0.0009 inside
+the 0.01 tolerance, iota/QI/well strict); raw aspect 10.19, min_len 7.44, solo hypervolume 82.8;
+1,833 optimisation + 11 verification evaluations, 6.44 h. E22c (seed `db00397`, start
+worst-of-three V 0.191, a QI- and flux-binding start): best point `R0:L16:t0.5`, worst-of-three
+**V 0.0049, feasible** (QI residual 0.0049 inside tolerance, iota/mirror/flux/well strict); raw
+aspect 10.30, min_len 7.57, solo hypervolume 83.1; 1,852 optimisation + 11 verification evaluations,
+4.08 h. Both fidelity-rechecked the same way as E22: feasible fresh in `phase1`; in
+`leaderboard-fidelity` the un-reflected export fails the iota sign only and the reflected export is
+feasible with metrics identical to 1e-4 in both images. The pre-registered repeatability label --
+"the pipeline reaches feasibility from a cold start" -- is met 3 of 3 across three distinct
+database seeds, each QI- or flux-binding at the seed, each in one link (4.1 / 6.4 / 4.1 h; 1,780 /
+1,833 / 1,852 optimisation evaluations), with the finish coming from the recovery's first line
+search in all three. All three designs are two-period, aspect 10.2-10.3, gradient scale length
+7.3-7.6, and sit within 0.03 of every bound except iota and well: the same constraint corner the
+leaderboard designs occupy, reached from a different family. A front from this point (E23) is
+running; see docs/results/p3/E22b/STATUS.md and docs/results/p3/E22c/STATUS.md.
 
 **Pipeline cost: what a "new definition to good designs" costs here.** Proxima's question was how
 quickly this method reaches a good design under a changed or fresh definition. The honest answer
-for a cold start, definition to a feasible own-lineage design (E21 + E22): host build 1.4 h (960
-seeds), canonical screen 1.4 h (960 + 24 evaluations), restoration 4.1 h (1,791 evaluations) --
-about 7 h wall and ~2,800 canonical evaluations from the database filter to a verified feasible
-design. Caveat, stated plainly: this is the fixed P3 definition (not a changed one -- E18b above is
-the changed-definition number), one seed (repeatability is the open E22b/E22c registration), and the
-design reached is a low-scoring but feasible one: aspect 10.2 and min_len 7.3 sit near the bottom of
+for a cold start, definition to a feasible own-lineage design (E21 + E22/E22b/E22c): host build
+1.4 h (960 seeds), canonical screen 1.4 h (960 + 24 evaluations) -- a shared 2.8 h generator step --
+then restoration 4.1 / 6.4 / 4.1 h (1,791 / 1,844 / 1,863 evaluations, optimisation plus
+verification) for E22/E22b/E22c respectively: about 6.9-9.2 h wall and ~2,775-2,850 canonical
+evaluations from the database filter to a verified feasible design, repeated 3 of 3 across
+independent database seeds. Caveat, stated plainly: this is the fixed P3 definition
+(not a changed one -- E18b above is the changed-definition number), and the design reached each
+time is a low-scoring but feasible one: aspect 10.2-10.3 and min_len 7.3-7.6 sit near the bottom of
 the board's range, not a competitive front member.
 
 ### "Methods that can map Pareto fronts cheaply"
