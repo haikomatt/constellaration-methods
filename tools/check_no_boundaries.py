@@ -32,6 +32,8 @@ from strip_boundaries import BOUNDARY_KEYS
 BOUNDARY_ALLOWED_PREFIXES = (
     "E22/own-lineage/",  # E22: first own-lineage P3-feasible boundary + its reflection
     "E23.0/own-lineage/",  # E23.0: the E22-archive baseline export (same lineage)
+    "E22b/own-lineage/",  # E22b: repeatability link 1/2, own-lineage boundary + reflection
+    "E22c/own-lineage/",  # E22c: repeatability link 2/2, own-lineage boundary + reflection
 )
 
 
