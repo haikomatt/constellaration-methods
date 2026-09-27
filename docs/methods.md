@@ -83,7 +83,8 @@ database seeds, each QI- or flux-binding at the seed, each in one link (4.1 / 6.
 search in all three. All three designs are two-period, aspect 10.2-10.3, gradient scale length
 7.3-7.6, and sit within 0.03 of every bound except iota and well: the same constraint corner the
 leaderboard designs occupy, reached from a different family. A front from this point (E23) is
-running; see docs/results/p3/E22b/STATUS.md and docs/results/p3/E22c/STATUS.md.
+material, confirmed hypervolume 89.71 with 53 members -- see the cheap-front-mapping section below
+and docs/results/p3/E22b/STATUS.md, docs/results/p3/E22c/STATUS.md and docs/results/p3/E23/STATUS.md.
 
 **Pipeline cost: what a "new definition to good designs" costs here.** Proxima's question was how
 quickly this method reaches a good design under a changed or fresh definition. The honest answer
@@ -106,6 +107,21 @@ limit: hypervolume on this board is bought by aspect-ratio spread (leaders span 
 spans 0.56), and one member accounts for 96% of our hypervolume. Neither method widened aspect; the
 registered breadth label was missed. Cheap front mapping near a known design: yes. Cheap front
 mapping across the design space: not shown.
+
+**Material, own lineage, the same limit (E23, 2026-09-27).** The identical seeded-population
+protocol from E22's own-lineage feasible point (2,976 evaluations, 62 generations, 7.2 h) produced
+2,458 tolerance-feasible archive rows, 53 nondominated, all 53 retained after two fresh
+confirmations each: confirmed hypervolume 89.71, up from the 81.60 seed (+9.9%). 46 of 53 are
+strictly nominal on every row; aspect spans 9.89-10.34 (span 0.451, breadth label not met); min_len
+spans 7.51-7.88; best singleton `G60:24` solo hypervolume 86.53. Label: **material** (>= 5
+confirmed members met; the substantial bar 111.30 and goal 124.23 unmet). For the record: the
+first davidkh-lineage front (E15) had 9 members at hypervolume 111.30 from a single strictly
+feasible point with better objectives (min_len roughly 9-10 at aspect roughly 10.6); this
+own-lineage front has six times the members at 80% of the hypervolume, the difference being
+per-member objective quality, not feasibility or breadth. Same limit as E15-E17: cheap front
+mapping near a known design, not across the design space -- neither davidkh-lineage nor
+own-lineage front-mapping has widened aspect. Chain rule: material -> a second front link (E23b) is
+running from E23's confirmed front, identical settings. See docs/results/p3/E23/STATUS.md.
 
 ### "How diverse can near-optimal solutions be?"
 
