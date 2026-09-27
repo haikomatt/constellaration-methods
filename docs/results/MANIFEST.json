@@ -328,5 +328,555 @@
     "sha256": "19d7313257c3d1fba8b8d30e85039edb1ec36567c0aef0cb6a3290d79587877e",
     "bytes": 6965,
     "source": "the source campaign repository/results/submission/best_own_geometrical.json (P1 submission, own lineage)"
+  },
+  "p3/E23/own-lineage/G52_35.boundary.json": {
+    "sha256": "70783d1ebcc3a310061352a7b917e7b8dfb134679103801b39711a38069b8c98",
+    "bytes": 13707,
+    "source": "the source campaign repository/results/p3-e23-front/G52_35.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G52_35.phireflected.boundary.json": {
+    "sha256": "dc70742e17af10a65bb82d2a97aa8891e154d9c89c3f93787f90300aeee7a299",
+    "bytes": 13714,
+    "source": "the source campaign repository/results/p3-e23-front/G52_35.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G53_27.boundary.json": {
+    "sha256": "65380c9bbe9b4901378d49f6b0c5d936c63dc78577f729b5c8fc116a7cc2c626",
+    "bytes": 13722,
+    "source": "the source campaign repository/results/p3-e23-front/G53_27.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G53_27.phireflected.boundary.json": {
+    "sha256": "9f669496d9d3e1bdbb7a39e568317853292c1abafa2097d611bb2ab2de3918b9",
+    "bytes": 13729,
+    "source": "the source campaign repository/results/p3-e23-front/G53_27.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G55_19.boundary.json": {
+    "sha256": "587817f3b1d9d5c3690be97dc5290b376af848278ccd6541efceb7def7db2655",
+    "bytes": 13720,
+    "source": "the source campaign repository/results/p3-e23-front/G55_19.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G55_19.phireflected.boundary.json": {
+    "sha256": "9a18464eeb3cd9a9ffdecfbcca3ed0bd11c66d8d85efe01628a1f5ada16a1b0a",
+    "bytes": 13727,
+    "source": "the source campaign repository/results/p3-e23-front/G55_19.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G56_6.boundary.json": {
+    "sha256": "20586dcd332ca36ee3fbcbba74d969dbc9f27673d187b4447ea5ecb0e967e614",
+    "bytes": 13721,
+    "source": "the source campaign repository/results/p3-e23-front/G56_6.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G56_6.phireflected.boundary.json": {
+    "sha256": "438da27cb8c12be65e4e4a6e4fd4c4d7998928eec222c7d420b169c88d07fe8b",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23-front/G56_6.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_10.boundary.json": {
+    "sha256": "451f1bc6337d7fd4b37043518d6e9c856b044484b9e8fbb1df9520749187f4bb",
+    "bytes": 13760,
+    "source": "the source campaign repository/results/p3-e23-front/G57_10.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_10.phireflected.boundary.json": {
+    "sha256": "c01f692f6ffc830e8e99885e1fc96480f63cf2a04c94ae207a8ea588712160c1",
+    "bytes": 13767,
+    "source": "the source campaign repository/results/p3-e23-front/G57_10.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_27.boundary.json": {
+    "sha256": "1c95d2f3d80f2554efaf794fec0d21984caaa0b2c299c8c03f0c84487e8903ef",
+    "bytes": 13715,
+    "source": "the source campaign repository/results/p3-e23-front/G57_27.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_27.phireflected.boundary.json": {
+    "sha256": "a4757693cb9d86795025134bcf7bb83aaad33a567a6f0a3f8fdb31397da50fbb",
+    "bytes": 13722,
+    "source": "the source campaign repository/results/p3-e23-front/G57_27.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_31.boundary.json": {
+    "sha256": "0c875bf3ac3a5de212c19577ea64cf96ccb76cd3b17717d154138cd4c9415996",
+    "bytes": 13711,
+    "source": "the source campaign repository/results/p3-e23-front/G57_31.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_31.phireflected.boundary.json": {
+    "sha256": "f6e2b6921a78b470f1f6bc2003148bf8ccb58729ef6c32fe1163acc6b5fe9566",
+    "bytes": 13718,
+    "source": "the source campaign repository/results/p3-e23-front/G57_31.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_40.boundary.json": {
+    "sha256": "f233820d42a1d559d538a5a8853a75adbdf157b258a2f0610d31d5e173b30787",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23-front/G57_40.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_40.phireflected.boundary.json": {
+    "sha256": "34fd451c41d97cead0f1ca5b564261cea3877b70ee6fbef215026b70872e40cb",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23-front/G57_40.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_45.boundary.json": {
+    "sha256": "c6c87dc42aa8da6be3ece1954c906c7430df5248c828c28df5e6575b4433f578",
+    "bytes": 13732,
+    "source": "the source campaign repository/results/p3-e23-front/G57_45.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_45.phireflected.boundary.json": {
+    "sha256": "5100f955a11dc90c3f125387f7c8cc6cca19f015dd2a8f228cea5b44956cdce9",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23-front/G57_45.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_9.boundary.json": {
+    "sha256": "11037d0910e251a7aad6bcd3cb04cfad391e30c86bb90d33bead92b7b45b07e1",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23-front/G57_9.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G57_9.phireflected.boundary.json": {
+    "sha256": "d9e835994527e679a4b01dae7833a20ba929646712d3859a8da7e2a7a11ceb7f",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23-front/G57_9.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_18.boundary.json": {
+    "sha256": "94ae2f8c3a75276a29b128dbbe1c11804655f8990ccbec1bd4a8f6c39084233d",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23-front/G58_18.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_18.phireflected.boundary.json": {
+    "sha256": "438d8f97fe1ada993224feb64ce42fdd402a02791573a0efb034aae604c8eb4f",
+    "bytes": 13745,
+    "source": "the source campaign repository/results/p3-e23-front/G58_18.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_20.boundary.json": {
+    "sha256": "73cbbdffb31ecbc237159ff163550b95d875a4a877ebb0859f121ea6f8a5510c",
+    "bytes": 13717,
+    "source": "the source campaign repository/results/p3-e23-front/G58_20.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_20.phireflected.boundary.json": {
+    "sha256": "46a70e97ff8e391d1d6df75d0dfd506a83c6567dbd7df3ee978bf7e89bef6095",
+    "bytes": 13724,
+    "source": "the source campaign repository/results/p3-e23-front/G58_20.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_27.boundary.json": {
+    "sha256": "c4924dde0255844d0aaf1053679a4133c92c03509c20678c4b079b039c0f055b",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23-front/G58_27.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_27.phireflected.boundary.json": {
+    "sha256": "014e71599412dadc3b1415eea38003de6709a2b9f4f481b4df564a72355cdbd8",
+    "bytes": 13744,
+    "source": "the source campaign repository/results/p3-e23-front/G58_27.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_35.boundary.json": {
+    "sha256": "326555e66139336c14373846c02427259bcd5303c82918aec3a05299aa3f4f8c",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23-front/G58_35.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_35.phireflected.boundary.json": {
+    "sha256": "d77b3eab789151f22c6f5ad6c1ffdf77be40f06a59ec82e109facb0b26d425f7",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23-front/G58_35.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_40.boundary.json": {
+    "sha256": "997800be487f9caa87c728f38dc29de60e61be65cdf56262ab385d4b4be55852",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23-front/G58_40.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_40.phireflected.boundary.json": {
+    "sha256": "2758adb6b8ddeaa249d79c590c1313b5bced2c9e4c761ffc13bb14247d7fd8cf",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23-front/G58_40.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_44.boundary.json": {
+    "sha256": "3df0258753058119a193a5c7ea58753f3fb90d561fe9cff8334768c5e2094d8f",
+    "bytes": 13748,
+    "source": "the source campaign repository/results/p3-e23-front/G58_44.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_44.phireflected.boundary.json": {
+    "sha256": "9bccca8d7e934e367c5219503762c6e5d439ffde35340ecd1b5499ce5e7e8c15",
+    "bytes": 13755,
+    "source": "the source campaign repository/results/p3-e23-front/G58_44.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_47.boundary.json": {
+    "sha256": "7446bb73b93a6bb2c77a89103e63658c6e344da9b797587852530acfd14d64d8",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23-front/G58_47.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_47.phireflected.boundary.json": {
+    "sha256": "5156f1f9ab2cf8b9e8708c4bb508887194cae92a7330b046157f2310d8bbf9de",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23-front/G58_47.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_4.boundary.json": {
+    "sha256": "c27b420a2b4e21020b8cdecaf9d6c1e94b851987fc5ebb6f5c2aa1a0e49a3d9a",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23-front/G58_4.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G58_4.phireflected.boundary.json": {
+    "sha256": "466b1e6e0726822330cbdb860d37818c0d2d9d1055d807e8b343d4d9b11fc975",
+    "bytes": 13740,
+    "source": "the source campaign repository/results/p3-e23-front/G58_4.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_26.boundary.json": {
+    "sha256": "5fb7dee0c18109572ad9aef26d3f1559da3cc4c7c3f5bc3a041859593bdfa11c",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23-front/G59_26.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_26.phireflected.boundary.json": {
+    "sha256": "7879fd23e124d936af711ef49dd180312db7980c965aea6dfd698e83627c6085",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23-front/G59_26.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_30.boundary.json": {
+    "sha256": "8b2e240c3c43963e66eed40b7e6980aa991b003aa8dd29188cff8c08668b9ddb",
+    "bytes": 13723,
+    "source": "the source campaign repository/results/p3-e23-front/G59_30.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_30.phireflected.boundary.json": {
+    "sha256": "e1c8f2f24e1c197ba3978859345c38faf8f6e2569f58bb4a74ec93cfd8df6f3b",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23-front/G59_30.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_39.boundary.json": {
+    "sha256": "24e141267a7998bad4b9d60f9e522b44d49fd111a923a06452909470362cefcb",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23-front/G59_39.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_39.phireflected.boundary.json": {
+    "sha256": "edb106a99c3153987c99705d91d4e6732ee1424168ce508996cf617fa9f83401",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23-front/G59_39.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_43.boundary.json": {
+    "sha256": "c6f789d4a80625cd0ca2eabe0b7b558438905f4affd5e1a65efc9c0e4fe55090",
+    "bytes": 13758,
+    "source": "the source campaign repository/results/p3-e23-front/G59_43.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_43.phireflected.boundary.json": {
+    "sha256": "2b896bc3b6bd9e848b07ba15fe237e9cd452c080beaacecc946920dbaa9794aa",
+    "bytes": 13765,
+    "source": "the source campaign repository/results/p3-e23-front/G59_43.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_44.boundary.json": {
+    "sha256": "b06beb43a57e7be688993394ac80b3f11813c6f7b3447f004a998f7254970a3e",
+    "bytes": 13713,
+    "source": "the source campaign repository/results/p3-e23-front/G59_44.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_44.phireflected.boundary.json": {
+    "sha256": "c57d4bd287659a5df7e68c0c1fe8d622fec52339f977c19e4dbbd6a04348a533",
+    "bytes": 13720,
+    "source": "the source campaign repository/results/p3-e23-front/G59_44.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_45.boundary.json": {
+    "sha256": "156cb9c114f170b79d7adbbee6e275de9c6889e72b8356044ad649eac17ec478",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23-front/G59_45.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G59_45.phireflected.boundary.json": {
+    "sha256": "989ac68206dbabf00ef67acf2e5e82743534e8e916841d77942842273fedbed9",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23-front/G59_45.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_10.boundary.json": {
+    "sha256": "a662b67b77a86323fc675e4f608b18d5463d451c43d1eb7e88915e8a8c02e051",
+    "bytes": 13721,
+    "source": "the source campaign repository/results/p3-e23-front/G60_10.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_10.phireflected.boundary.json": {
+    "sha256": "307c2e9d3e3a51e196b58899aeececd761744117ccac2b8c9d0bea4f1e40ac5a",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23-front/G60_10.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_24.boundary.json": {
+    "sha256": "0f17109d7f813c0d246e2effd06aab69c3852091f6fe37ba814713dfeb530194",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23-front/G60_24.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_24.phireflected.boundary.json": {
+    "sha256": "cadb242e26505c8bd487daf9af4bf969a779d6393dbef6f6842b3347c60d17a2",
+    "bytes": 13742,
+    "source": "the source campaign repository/results/p3-e23-front/G60_24.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_25.boundary.json": {
+    "sha256": "11336790cde84d87b6528143d22360561e8cae61ce06c21c465ab422944e24a8",
+    "bytes": 13742,
+    "source": "the source campaign repository/results/p3-e23-front/G60_25.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_25.phireflected.boundary.json": {
+    "sha256": "ee1ff258fd43ab20c27507f39c02a37c9eac0d2dbf472d65307c78bce6167883",
+    "bytes": 13749,
+    "source": "the source campaign repository/results/p3-e23-front/G60_25.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_30.boundary.json": {
+    "sha256": "980aaf2baa2a6b5f1a43200846c80718bb48a1c32218c9079daf1f4f356a1345",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23-front/G60_30.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_30.phireflected.boundary.json": {
+    "sha256": "136bd4a7edcbc716fb05105d971921a935488599cfbb864639cb297a1ef0ad0c",
+    "bytes": 13740,
+    "source": "the source campaign repository/results/p3-e23-front/G60_30.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_32.boundary.json": {
+    "sha256": "18543434807454a74f7af22616cd70cd2188eba4b0189b66521e066ab416261d",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23-front/G60_32.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_32.phireflected.boundary.json": {
+    "sha256": "5736ef1a03f7869510ff36e523d8a1206126448c2b35198c8e5a46c64c7d0a7e",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23-front/G60_32.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_33.boundary.json": {
+    "sha256": "62fc2636d79b98e6fa4126b2fae4f90f66a5a5d5e8720a2dca65e869d6cacb01",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23-front/G60_33.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_33.phireflected.boundary.json": {
+    "sha256": "0ea4dffd60b9ba97c3b238d2243ab8e1b4b061ba4e30a103af300f40443eddaf",
+    "bytes": 13742,
+    "source": "the source campaign repository/results/p3-e23-front/G60_33.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_38.boundary.json": {
+    "sha256": "502abaf4a6cca8ec421c6778017919af17396ddbbf89796cb6d8b7852a4af469",
+    "bytes": 13711,
+    "source": "the source campaign repository/results/p3-e23-front/G60_38.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_38.phireflected.boundary.json": {
+    "sha256": "a59e2b60fe2566e34428eebd2eca3ce5937fd0baaec0346393e372dc1ec5cf63",
+    "bytes": 13718,
+    "source": "the source campaign repository/results/p3-e23-front/G60_38.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_39.boundary.json": {
+    "sha256": "f6eb984c656b89e2d0d2d7b90d0dc582308a71e7ee16fde73466189c3e3eb6b0",
+    "bytes": 13719,
+    "source": "the source campaign repository/results/p3-e23-front/G60_39.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_39.phireflected.boundary.json": {
+    "sha256": "c9671ad52eb6f2eaa18984b0f750f0baeaa37af5a0ceb6671d5eea27f7ea875d",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23-front/G60_39.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_46.boundary.json": {
+    "sha256": "b755bd7b07d3093cf5d9f2b64e2f67c16ce3f3b0324f29518e37ec67479075f6",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23-front/G60_46.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_46.phireflected.boundary.json": {
+    "sha256": "0b35520bdf419cb814feefda573ad5eb20887372799fde2dcbead6280500132f",
+    "bytes": 13750,
+    "source": "the source campaign repository/results/p3-e23-front/G60_46.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_5.boundary.json": {
+    "sha256": "c736d9f0dc7518845bfa86e8a296d30271f00690e7d3afc028155846aa3eb6df",
+    "bytes": 13712,
+    "source": "the source campaign repository/results/p3-e23-front/G60_5.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G60_5.phireflected.boundary.json": {
+    "sha256": "455e1e4ec25feed3679f6c8e16d3adec62e58ee6b1eeeee478cacc2c28244840",
+    "bytes": 13719,
+    "source": "the source campaign repository/results/p3-e23-front/G60_5.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_10.boundary.json": {
+    "sha256": "f4a54b9f32cab487c537ab09ce5d23405adc861826619c4bfaeafc7cf61c4e74",
+    "bytes": 13712,
+    "source": "the source campaign repository/results/p3-e23-front/G61_10.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_10.phireflected.boundary.json": {
+    "sha256": "0b2e3841e6fac38aba2f727f7b59a349b1ac113b1545777046110739fe032fd4",
+    "bytes": 13719,
+    "source": "the source campaign repository/results/p3-e23-front/G61_10.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_18.boundary.json": {
+    "sha256": "54f25df623e9be3961a1c1bc513ac920c7f2e107ff949eb7d4db23ff6cf08fba",
+    "bytes": 13725,
+    "source": "the source campaign repository/results/p3-e23-front/G61_18.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_18.phireflected.boundary.json": {
+    "sha256": "dff17c23cd45c5f7e8b92649573dca835f39ffbceb956935a885df67a06d23bc",
+    "bytes": 13732,
+    "source": "the source campaign repository/results/p3-e23-front/G61_18.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_19.boundary.json": {
+    "sha256": "ff8e65516769a1ed55d58e1c0058b591fc60e5e319b0848bd8d1c3ea3187dc8d",
+    "bytes": 13734,
+    "source": "the source campaign repository/results/p3-e23-front/G61_19.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_19.phireflected.boundary.json": {
+    "sha256": "9450e82900b24404e3169ca51fa9433dc884ce48343c4f27b3d29aedc01bb712",
+    "bytes": 13741,
+    "source": "the source campaign repository/results/p3-e23-front/G61_19.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_21.boundary.json": {
+    "sha256": "2fbe9aed7dda04961568596fb468218811916bfab6511bdc028092e10afd2e75",
+    "bytes": 13720,
+    "source": "the source campaign repository/results/p3-e23-front/G61_21.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_21.phireflected.boundary.json": {
+    "sha256": "fcff28c3ef1e9b631e497b94e1b1a076de5b3615b13b87a421935ea052d6f782",
+    "bytes": 13727,
+    "source": "the source campaign repository/results/p3-e23-front/G61_21.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_23.boundary.json": {
+    "sha256": "cefba0705a08c8347834fc317f50c1551f916384d451654e758915ba6dda7c72",
+    "bytes": 13705,
+    "source": "the source campaign repository/results/p3-e23-front/G61_23.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_23.phireflected.boundary.json": {
+    "sha256": "b1f923acf4cc409e938c51cfb0970ce7be37e787db7c5d5a2a928bdf0e8aed58",
+    "bytes": 13712,
+    "source": "the source campaign repository/results/p3-e23-front/G61_23.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_26.boundary.json": {
+    "sha256": "cb857241c569203d0679fbe22bc654218552d956f88bad7fe72a7c1c1ea0632a",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23-front/G61_26.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_26.phireflected.boundary.json": {
+    "sha256": "be9a9e050db470b9d00c6332b652305243ed8a906baa5d775ddb0415470932e7",
+    "bytes": 13744,
+    "source": "the source campaign repository/results/p3-e23-front/G61_26.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_27.boundary.json": {
+    "sha256": "da764f8196ada129344f6e6d39b8d0d0a43b34dec50d32da0ca2d43d469d0d84",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23-front/G61_27.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_27.phireflected.boundary.json": {
+    "sha256": "91c3c2ff57305bdecfcb90e34c74255b1ec1a3f7bc0abbd263046d1f28888f51",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23-front/G61_27.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_28.boundary.json": {
+    "sha256": "2d243ae420b332ed355da18b7967f6ae1ccd1914efe9a452b02f82f3bbf9e313",
+    "bytes": 13707,
+    "source": "the source campaign repository/results/p3-e23-front/G61_28.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_28.phireflected.boundary.json": {
+    "sha256": "1138361e3a5a102243f0cec4d5194b53804acc3ea126c31ce4d937de8badf6f3",
+    "bytes": 13714,
+    "source": "the source campaign repository/results/p3-e23-front/G61_28.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_29.boundary.json": {
+    "sha256": "bbfb1ba713536dce5948859271ddf6e8d8785e464f727b198d2e4b0146d7762a",
+    "bytes": 13727,
+    "source": "the source campaign repository/results/p3-e23-front/G61_29.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_29.phireflected.boundary.json": {
+    "sha256": "2ab1c14c1f585676d961d2c6e6ef130c33f6d59ca6d5cf4e82d3cf6995fc9015",
+    "bytes": 13734,
+    "source": "the source campaign repository/results/p3-e23-front/G61_29.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_31.boundary.json": {
+    "sha256": "ad7824c8658e96368126ea2bcaafdf9d4625431efda1f23c3ad68bdfbc76ec92",
+    "bytes": 13734,
+    "source": "the source campaign repository/results/p3-e23-front/G61_31.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_31.phireflected.boundary.json": {
+    "sha256": "d1a378d5cc32ec124d8ae9e575ebe0435f68a45e5954f3a339d5907ae768f2d2",
+    "bytes": 13741,
+    "source": "the source campaign repository/results/p3-e23-front/G61_31.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_32.boundary.json": {
+    "sha256": "9ec4e00eac9165f612d75c789ba726ca0843adaa9a998af7860cd9c4283cc5f6",
+    "bytes": 13715,
+    "source": "the source campaign repository/results/p3-e23-front/G61_32.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_32.phireflected.boundary.json": {
+    "sha256": "1b16720449e0173762b5e93c439e2741f3f1007161f073c753223f49d55700eb",
+    "bytes": 13722,
+    "source": "the source campaign repository/results/p3-e23-front/G61_32.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_35.boundary.json": {
+    "sha256": "d87c2c014fe1a0baa186308494073271fa9e27127a8a4cc3cf6708b6bf4c1e71",
+    "bytes": 13712,
+    "source": "the source campaign repository/results/p3-e23-front/G61_35.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_35.phireflected.boundary.json": {
+    "sha256": "2fb3f36e71111856b66fbe670e50c1775e2ca170accdab34e698f383aaccd295",
+    "bytes": 13719,
+    "source": "the source campaign repository/results/p3-e23-front/G61_35.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_3.boundary.json": {
+    "sha256": "8bacd461246f6d411550accef014f76eef8c7ac1ccc2bed7eb4638a1dda4a77e",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23-front/G61_3.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_3.phireflected.boundary.json": {
+    "sha256": "b866d199db65a473d6182580db442f73cbd4061ead9951348ea67adda37cad4c",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23-front/G61_3.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_42.boundary.json": {
+    "sha256": "7f233a5ee7f2539132fe4af0b25b47e6420e61027765db32f8d44356fa2bcf77",
+    "bytes": 13705,
+    "source": "the source campaign repository/results/p3-e23-front/G61_42.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_42.phireflected.boundary.json": {
+    "sha256": "9307e22c1e3e4c90b618750d207b11a85cac4be666a0b5a76d6e6e0ce0cd5d0e",
+    "bytes": 13712,
+    "source": "the source campaign repository/results/p3-e23-front/G61_42.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_44.boundary.json": {
+    "sha256": "3db2c7de4398ef487e852da15cefb3e03dbec7eece73611b0e24afd97b62d8a1",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23-front/G61_44.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_44.phireflected.boundary.json": {
+    "sha256": "ea3148e127357b58044f20c9caa0489d7c34328514d93605ccc8d050f214c7a5",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23-front/G61_44.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_46.boundary.json": {
+    "sha256": "48d9e0e45af85f01bba6f4fbd30d39b2898495e7b4b56fdff5e43e58e0d2b768",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23-front/G61_46.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_46.phireflected.boundary.json": {
+    "sha256": "a88bfa44a8e1e5d29842bc516f6e6e7160e8e7810bba16265fd85b303da49ffe",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23-front/G61_46.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_47.boundary.json": {
+    "sha256": "d85313ed82d9a8f8f90f357d97e5d1c22f40f25d235eb3e592be9b5c2dfbfab0",
+    "bytes": 13721,
+    "source": "the source campaign repository/results/p3-e23-front/G61_47.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_47.phireflected.boundary.json": {
+    "sha256": "601e1397982f151b354f61e55ee2e856cb944f98afc103f1c7f5cbb85e009b6d",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23-front/G61_47.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_6.boundary.json": {
+    "sha256": "214048001506eabcd0f19df7438bfdfa753014cfc0a0171eb625c71b18e2b169",
+    "bytes": 13694,
+    "source": "the source campaign repository/results/p3-e23-front/G61_6.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_6.phireflected.boundary.json": {
+    "sha256": "7755416b1ca4b58c95b3ef688754eea8cb739d2fc692ef831ec6163d8e45a1e1",
+    "bytes": 13701,
+    "source": "the source campaign repository/results/p3-e23-front/G61_6.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_7.boundary.json": {
+    "sha256": "4197f1c90400b2966193a533ab879ebf05f057a2a2b64c6a5e0f038639375591",
+    "bytes": 13732,
+    "source": "the source campaign repository/results/p3-e23-front/G61_7.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/own-lineage/G61_7.phireflected.boundary.json": {
+    "sha256": "3fdb3764ad195d3e11a1737315f1290dff27ca7c6cc6a49dab9a50a9837ad709",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23-front/G61_7.phireflected.boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E23/REPORT.json": {
+    "sha256": "9aa6f6911a693e5df11f28c1922f7a316df5fcacd41f9874d4426e58132fd2ac",
+    "bytes": 61776,
+    "source": "the source campaign repository/results/p3-e23-front/REPORT.json (stripped)"
+  },
+  "p3/E23/search-REPORT.json": {
+    "sha256": "595be54117d38abc5a6f323333e2ef02513d058d06dd98ea3ce7c747d6ecc14a",
+    "bytes": 1974,
+    "source": "the source campaign repository/results/p3-e23-nsga2/REPORT.json (stripped)"
+  },
+  "p3/E23/STATUS.md": {
+    "sha256": "7a484f626aff738888aa2626666f827b995c549ee8bca75c55ba89cc20475409",
+    "bytes": 4539,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E23/verification.jsonl": {
+    "sha256": "05a3c8b3e2f052e4c9c3ea0356a0a177d26050b0054b04075aadf6333d0ea476",
+    "bytes": 46861,
+    "source": "the source campaign repository/results/p3-e23-front/verification.jsonl (boundary coordinates stripped)"
   }
 }
