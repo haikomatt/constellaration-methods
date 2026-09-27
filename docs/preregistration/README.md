@@ -10,7 +10,9 @@ re-check, present in every snapshot) and, from the E21 snapshot onward, `<phase1
 (a second, phase-specific image built for the generator work). Nothing else, including the numbers,
 has been changed.
 
-19 snapshots, spanning E12 through E23 (the own-lineage front baseline from the first clean-provenance
-P3-feasible design), including the E12b launch note, the atlas-probe and D1 diversity locks, the
-E20/E20b construction locks, the E21 near-axis database seed screen, the E22 restoration lock (the
-own-lineage feasibility link) and its E22bc repeatability-link lock, and the E23 front-builder lock.
+21 snapshots, spanning E12 through E23b (the second own-lineage front link, chained from E23's
+confirmed front, running), including the E12b launch note, the atlas-probe and D1 diversity locks,
+the E20/E20b construction locks, the E21 near-axis database seed screen, the E22 restoration lock
+(the own-lineage feasibility link) and its E22bc repeatability-link lock, the E23 front-builder lock,
+and the E23b lock plus its pop-size amendment (the first container exited at argument parsing before
+any evaluation ran).
