@@ -159,6 +159,116 @@
     "bytes": 4087,
     "source": "written for this repository (not a campaign artefact)"
   },
+  "p3/E22b/REPORT.json": {
+    "sha256": "d3c0dfd2200dfc2c9f5ab1d2a791f0df6f6364a036e0602a69962d5e52eec81b",
+    "bytes": 7772,
+    "source": "the source campaign repository/results/p3-e22b-db00588_n2_s231/REPORT.json (stripped)"
+  },
+  "p3/E22b/events.jsonl": {
+    "sha256": "a54900829b3f81d0c4a36281cc1d257bbaccaac9e2e6be98548d20106c86129a",
+    "bytes": 17346,
+    "source": "the source campaign repository/results/p3-e22b-db00588_n2_s231/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E22b/own-lineage/feasible_boundary_R0L15.json": {
+    "sha256": "254f5794dae9175a6104e1bd47f87844e09fe893a374ceb839f637cd97c0bcc2",
+    "bytes": 12240,
+    "source": "the source campaign repository/results/p3-e22b-db00588_n2_s231/feasible_boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E22b/own-lineage/feasible_boundary_R0L15_reflected.json": {
+    "sha256": "ab1892e6077df8c830a6d1fe39a3ed06421638881d7d92acbf42e089d7a4f721",
+    "bytes": 12249,
+    "source": "the source campaign repository/results/p3-e22b-db00588_n2_s231/feasible_boundary_reflected.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E22b/recheck.log": {
+    "sha256": "1d0b3198404fd75f4fd1b68e549add7ce944604ad87b40a5afa9dbcd302871ae",
+    "bytes": 1325,
+    "source": "the source campaign repository/results/p3-e22b-recheck.log, un-reflected entries for db00588 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22b/recheck_reflected.log": {
+    "sha256": "0b1904b7eae99c362ca6c4e19a0d6da752b9b1940f75a23ef1fab54def45e4f3",
+    "bytes": 1356,
+    "source": "the source campaign repository/results/p3-e22b-recheck.log, reflected entries for db00588 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22b/recheck_phase1.json": {
+    "sha256": "5e62470639a47729ad4f591a5975b7bec261b2ec946fbb2bb9c55b003f94610d",
+    "bytes": 767,
+    "source": "the source campaign repository/results/p3-e22b-recheck_phase1.json, un-reflected entry for db00588 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22b/recheck_reflected_phase1.json": {
+    "sha256": "1f4d9b1fba6883838404b9f1ee446015424fec4336caec22100c23144ed0293d",
+    "bytes": 774,
+    "source": "the source campaign repository/results/p3-e22b-recheck_phase1.json, reflected entry for db00588 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22b/recheck_leaderboard-fidelity.json": {
+    "sha256": "7257058b0a249f70b0da737f1fe76070679ca3c266f5d1612e749aa59ec3c43b",
+    "bytes": 750,
+    "source": "the source campaign repository/results/p3-e22b-recheck_leaderboard-fidelity.json, un-reflected entry for db00588 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22b/recheck_reflected_leaderboard-fidelity.json": {
+    "sha256": "a78c2159b6e37cf2cf4ca3368aecbca7373508b1978d391d530efc450eaaa979",
+    "bytes": 774,
+    "source": "the source campaign repository/results/p3-e22b-recheck_leaderboard-fidelity.json, reflected entry for db00588 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22b/STATUS.md": {
+    "sha256": "cd3b1aacb33691895d1b96be90a95f5c2f514548b2cd47b970f73b98974002fe",
+    "bytes": 3356,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E22c/REPORT.json": {
+    "sha256": "a2e0d9d50d85f6ba32734a33e6a09ba4ff2acd3ca4e8079f2c185a9e77ecd4a3",
+    "bytes": 8489,
+    "source": "the source campaign repository/results/p3-e22b-db00397_n2_s231/REPORT.json (stripped)"
+  },
+  "p3/E22c/events.jsonl": {
+    "sha256": "a2824c52d8aea4cd5d16a48c07a9bc08934c0b9e0aa63cc944cf5cff18a09962",
+    "bytes": 16586,
+    "source": "the source campaign repository/results/p3-e22b-db00397_n2_s231/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E22c/own-lineage/feasible_boundary_R0L16.json": {
+    "sha256": "27ff405120bd8fee6ad6abefa5750de986e9042119154f160887075784670c69",
+    "bytes": 12215,
+    "source": "the source campaign repository/results/p3-e22b-db00397_n2_s231/feasible_boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E22c/own-lineage/feasible_boundary_R0L16_reflected.json": {
+    "sha256": "aa6556af4d3ec1aa51420a77b893358fd2027d8c357b240a84024707bec9506a",
+    "bytes": 12226,
+    "source": "the source campaign repository/results/p3-e22b-db00397_n2_s231/feasible_boundary_reflected.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E22c/recheck.log": {
+    "sha256": "98ee613cae9b7ab895f1e019f60cb28377acb236da7a028661dc4788228e427d",
+    "bytes": 1317,
+    "source": "the source campaign repository/results/p3-e22b-recheck.log, un-reflected entries for db00397 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22c/recheck_reflected.log": {
+    "sha256": "d65eb0ce9c6864fe57aa24538bd2c76d9d49e982521ec6020a50d0df19c7dfe2",
+    "bytes": 1906,
+    "source": "the source campaign repository/results/p3-e22b-recheck.log, reflected entries for db00397 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22c/recheck_phase1.json": {
+    "sha256": "8a5425463ab7062d7a1b3024c2c903f3b71c2ea6b9fd90faff7d8e36ae1c7c15",
+    "bytes": 763,
+    "source": "the source campaign repository/results/p3-e22b-recheck_phase1.json, un-reflected entry for db00397 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22c/recheck_reflected_phase1.json": {
+    "sha256": "216cf994b5a843bc24989b8c6095fd73c90e568508c88a10e770fc377cf979e1",
+    "bytes": 776,
+    "source": "the source campaign repository/results/p3-e22b-recheck_phase1.json, reflected entry for db00397 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22c/recheck_leaderboard-fidelity.json": {
+    "sha256": "a1d99999dda346e0afbc701926916fb676663eb166383056063693105303410e",
+    "bytes": 746,
+    "source": "the source campaign repository/results/p3-e22b-recheck_leaderboard-fidelity.json, un-reflected entry for db00397 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22c/recheck_reflected_leaderboard-fidelity.json": {
+    "sha256": "b6906356cfc3904136daac3c58e9117385e663c7ea25177b20a224d159cc2458",
+    "bytes": 776,
+    "source": "the source campaign repository/results/p3-e22b-recheck_leaderboard-fidelity.json, reflected entry for db00397 (fidelity re-check evidence; no boundary coordinates)"
+  },
+  "p3/E22c/STATUS.md": {
+    "sha256": "051b47dddfef0e3ae073e34349c8c153e3db70e054ad7c2f16b142bf6b9cefdb",
+    "bytes": 3545,
+    "source": "written for this repository (not a campaign artefact)"
+  },
   "p3/E23.0/REPORT.json": {
     "sha256": "b95cda52ff9081289bc2cfc2101c5060c6a9dea747131c5417a4e73b5fde90db",
     "bytes": 2635,
