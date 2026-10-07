@@ -2088,5 +2088,60 @@
     "sha256": "128c68ea408b0231d39014c60a148a7f95117e2df14043311a2180e24dac39c5",
     "bytes": 13754,
     "source": "the source campaign repository/results/p3-e23c-front/G52_48.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E24-a85/REPORT.json": {
+    "sha256": "b8fcda4de9a53d9e8dbf047d21eaeabee7d559027a100c640744ccd4bff54a83",
+    "bytes": 805910,
+    "source": "the source campaign repository/results/p3-e24-a85/eval/REPORT.json (stripped)"
+  },
+  "p3/E24-a85/STATUS.md": {
+    "sha256": "8eb898d5363981b06ea541049b3f84c23cade7cad8b3004a53160e0132387e56",
+    "bytes": 1997,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E24-b14/REPORT.json": {
+    "sha256": "f575eae3b69caf5597953e8653d8534b6a002f5b95ad973c519348d6ccba3a45",
+    "bytes": 852206,
+    "source": "the source campaign repository/results/p3-e24-b14/eval/REPORT.json (stripped)"
+  },
+  "p3/E24-b14/STATUS.md": {
+    "sha256": "f9846ce50209592b91feb6decad995073af7ca7090ed013b65bd776fc560ccf1",
+    "bytes": 2031,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E24r-a85/REPORT.json": {
+    "sha256": "90b91053eff18adbb1a688f560a21ebc02e5a15b078eb9899c56fde5043ae027",
+    "bytes": 9742,
+    "source": "the source campaign repository/results/p3-e24r-a85/REPORT.json (stripped)"
+  },
+  "p3/E24r-a85/best_recheck.json": {
+    "sha256": "582be2a0c3a4d5d7bbada2c91bbb5f680965c432b432e06eb8f1dd7a4247c413",
+    "bytes": 729,
+    "source": "the source campaign repository/results/p3-e24r-a85/best_recheck.json"
+  },
+  "p3/E24r-a85/STATUS.md": {
+    "sha256": "c00f8bd8dda2a8ce14978b0b308d0664150de36eb52ca1a1d17c32b2786282fd",
+    "bytes": 1897,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E24r-b14/REPORT.json": {
+    "sha256": "2abdbff577640836ecb9ae00815264bdc5796f1cfda98307f36e495f787fd47e",
+    "bytes": 6996,
+    "source": "the source campaign repository/results/p3-e24r-b14/REPORT.json (stripped)"
+  },
+  "p3/E24r-b14/best_recheck.json": {
+    "sha256": "4d67d383401855ff5c47717cff626159150d7e6ed7333b040dc57506290691c5",
+    "bytes": 734,
+    "source": "the source campaign repository/results/p3-e24r-b14/best_recheck.json"
+  },
+  "p3/E24r-b14/STATUS.md": {
+    "sha256": "b675a390717186f11dbcc4a31c9b02ccfe7886c7b3b81d24eddae77170d847a3",
+    "bytes": 2084,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E25/STATUS.md": {
+    "sha256": "e6b2e819e3b76c3fec43824682c34529816eea8ac50ed00f9a27f26c092dc06e",
+    "bytes": 1376,
+    "source": "written for this repository (not a campaign artefact)"
   }
 }

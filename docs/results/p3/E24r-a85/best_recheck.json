@@ -1,0 +1,28 @@
+[
+  {
+    "file": "results/p3-e24r-a85/best_boundary.json",
+    "residuals": {
+      "iota": -0.2752977214914618,
+      "qi": 0.05160165555908617,
+      "mirror": 0.05572206067347274,
+      "flux": 0.07514704089294345,
+      "well": -0.1627215563682709
+    },
+    "V": 0.07514704089294345,
+    "feasible": false,
+    "solo_score_if_feasible": 0.0,
+    "raw": {
+      "iota_over_nfp": -0.31882443037286545,
+      "log10_qi": -3.3193942055431984,
+      "edge_mirror": 0.2639305151683682,
+      "flux_compression": 0.9676323368036491,
+      "vacuum_well": 0.01627215563682709,
+      "aspect_ratio": 7.38002057673617,
+      "min_len": 5.090688714755984
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 53.2
+  }
+]
