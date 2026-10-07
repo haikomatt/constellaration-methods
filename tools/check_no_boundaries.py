@@ -35,6 +35,8 @@ BOUNDARY_ALLOWED_PREFIXES = (
     "E22b/own-lineage/",  # E22b: repeatability link 1/2, own-lineage boundary + reflection
     "E22c/own-lineage/",  # E22c: repeatability link 2/2, own-lineage boundary + reflection
     "E23/own-lineage/",  # E23: the 53-member own-lineage front, confirmed hypervolume 89.71
+    "E23b/own-lineage/",  # E23b: second front link, 52-member own-lineage front, HV 92.61
+    "E23c/own-lineage/",  # E23c: third front link, 65-member front, HV 94.28 (chain stop)
 )
 
 

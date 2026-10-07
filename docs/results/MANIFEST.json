@@ -878,5 +878,1215 @@
     "sha256": "05a3c8b3e2f052e4c9c3ea0356a0a177d26050b0054b04075aadf6333d0ea476",
     "bytes": 46861,
     "source": "the source campaign repository/results/p3-e23-front/verification.jsonl (boundary coordinates stripped)"
+  },
+  "p3/E23b/REPORT.json": {
+    "sha256": "b2bd70da25c1fd1ad2d7eb20ac07890763c5964b9033b9ae44c8b69481744576",
+    "bytes": 60677,
+    "source": "the source campaign repository/results/p3-e23b-front/REPORT.json (stripped)"
+  },
+  "p3/E23b/search-REPORT.json": {
+    "sha256": "5946a58da168f5d1e24b566accfebcdd000e9585d8025a4f5d7a8bebf0f6383f",
+    "bytes": 1952,
+    "source": "the source campaign repository/results/p3-e23b-nsga2/REPORT.json (stripped)"
+  },
+  "p3/E23b/verification.jsonl": {
+    "sha256": "0171230d466f751b0f4c81688e3f7b52f7371ebee7ea3f0bd986ec9cbd1ea46a",
+    "bytes": 45952,
+    "source": "the source campaign repository/results/p3-e23b-front/verification.jsonl (stripped)"
+  },
+  "p3/E23b/STATUS.md": {
+    "sha256": "a2e7d46ebf70cb2fdedeee1cfc247f76ad526ed8b97def10f77f4b964c7762ae",
+    "bytes": 3418,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E23c/REPORT.json": {
+    "sha256": "4a9a072db531543dac0cc46655d52fe0a8d3da93497acba5556dc39ae858b29b",
+    "bytes": 75895,
+    "source": "the source campaign repository/results/p3-e23c-front/REPORT.json (stripped)"
+  },
+  "p3/E23c/search-REPORT.json": {
+    "sha256": "ca2d0d29fa3b87a7227f2594ffcc83d93d901fbda966c583db2fd685d2ac92d0",
+    "bytes": 1946,
+    "source": "the source campaign repository/results/p3-e23c-nsga2/REPORT.json (stripped)"
+  },
+  "p3/E23c/verification.jsonl": {
+    "sha256": "a9fd0440c736eee722d47b32ca961fc1cdb969963430ef8060d0c78aea3e101c",
+    "bytes": 57539,
+    "source": "the source campaign repository/results/p3-e23c-front/verification.jsonl (stripped)"
+  },
+  "p3/E23c/STATUS.md": {
+    "sha256": "829be40b56f35d71a9401b75f67958c22d85e2b30b650f5f7804545942b76d30",
+    "bytes": 3953,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E23b/own-lineage/G36_15.boundary.json": {
+    "sha256": "294033797d50a2dd222c624d69a8f5d19d5693b374bdd66c2d2bfc4f843db397",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23b-front/G36_15.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G36_15.phireflected.boundary.json": {
+    "sha256": "1ecc7b79a12c0aabab1ca18d0ecf0f5050090545d5bc8ab2ce7c4411c4d36c89",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23b-front/G36_15.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G37_32.boundary.json": {
+    "sha256": "1e60e3f43c487c281b8fd8716373c1e929ef97bcd4e433a9335009d6762cfafb",
+    "bytes": 13741,
+    "source": "the source campaign repository/results/p3-e23b-front/G37_32.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G37_32.phireflected.boundary.json": {
+    "sha256": "d7e5b19feaec01badd170db95e0f17c047f33d03e166f44acd65f4e0b2b0a7f9",
+    "bytes": 13748,
+    "source": "the source campaign repository/results/p3-e23b-front/G37_32.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G40_13.boundary.json": {
+    "sha256": "5c2db52140ca24f64ec46de31d13ef921c24e2f5d438c8fca7a6ed5b64785fb1",
+    "bytes": 13723,
+    "source": "the source campaign repository/results/p3-e23b-front/G40_13.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G40_13.phireflected.boundary.json": {
+    "sha256": "676a84aaef273ae99e81a53bff6c97b9b9cf7c18387fc7e2a11037d5b313ec8a",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23b-front/G40_13.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G41_31.boundary.json": {
+    "sha256": "652bf6f1cded7b58f0fc4bbda414a84ca1e2aaf0c5a924b5d252bf0c9a49c7df",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23b-front/G41_31.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G41_31.phireflected.boundary.json": {
+    "sha256": "98a43783c96e94fcc65f2a359b2e92890fef83c8a6c7b8a320e699540014feda",
+    "bytes": 13744,
+    "source": "the source campaign repository/results/p3-e23b-front/G41_31.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G41_38.boundary.json": {
+    "sha256": "b74338ac8ff617e8e88728077a7235353b676c94c75afbdcec3de59ea1ddf039",
+    "bytes": 13714,
+    "source": "the source campaign repository/results/p3-e23b-front/G41_38.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G41_38.phireflected.boundary.json": {
+    "sha256": "1f13b7168b7d928f3711a95181297ca336c7c720214125c59a5eaa3fe344343a",
+    "bytes": 13721,
+    "source": "the source campaign repository/results/p3-e23b-front/G41_38.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G42_32.boundary.json": {
+    "sha256": "6819a27bf444b35ccd42fd7c83d733ca3061f3412950a8bdf4d8cff8553c4967",
+    "bytes": 13702,
+    "source": "the source campaign repository/results/p3-e23b-front/G42_32.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G42_32.phireflected.boundary.json": {
+    "sha256": "de92c6b7c6464d0aca64e9fb9f5092886b21ed156caae8888cc56a1d8f5a4d74",
+    "bytes": 13709,
+    "source": "the source campaign repository/results/p3-e23b-front/G42_32.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G44_1.boundary.json": {
+    "sha256": "d3bdc9b7d9bf5bc654c43fb9e76570e5dade25daaa3efb09cc431cac1fb1ebe3",
+    "bytes": 13723,
+    "source": "the source campaign repository/results/p3-e23b-front/G44_1.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G44_1.phireflected.boundary.json": {
+    "sha256": "07a3b012305ceb3e0da44b42ae49c3ffa96b3603894dc457a52d524292cca035",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23b-front/G44_1.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G44_10.boundary.json": {
+    "sha256": "d55f83b83d397cec195a052fd7c9f9b23ba0e31c6638ecbbdb9c5dac5f96bb76",
+    "bytes": 13732,
+    "source": "the source campaign repository/results/p3-e23b-front/G44_10.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G44_10.phireflected.boundary.json": {
+    "sha256": "87632227a15096821bb7b40adc40e4ca55afcba536d16ad645a9231dc6e739f4",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23b-front/G44_10.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G44_25.boundary.json": {
+    "sha256": "ae7de86bf4fe018d97aa1cb88377a015a3bd859a3426172b3e62faa5a379f4da",
+    "bytes": 13718,
+    "source": "the source campaign repository/results/p3-e23b-front/G44_25.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G44_25.phireflected.boundary.json": {
+    "sha256": "b091fdeef63ca1563b5ae13bdec0961bc2e8ce3039696ebaa19429be10e1766f",
+    "bytes": 13725,
+    "source": "the source campaign repository/results/p3-e23b-front/G44_25.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G44_47.boundary.json": {
+    "sha256": "bd5ab4c4235efef7f73b036281797514496d3caa2cd026d563608e65ee076b2d",
+    "bytes": 13740,
+    "source": "the source campaign repository/results/p3-e23b-front/G44_47.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G44_47.phireflected.boundary.json": {
+    "sha256": "572e0bcdcc6e8b7672d6e13689450807df443227a24d796e9637b5e4b7f00445",
+    "bytes": 13747,
+    "source": "the source campaign repository/results/p3-e23b-front/G44_47.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G45_13.boundary.json": {
+    "sha256": "40b75c5564f6ca41ab625dc5ab7eaeaa0201b0148ac39db7509951761d05ca37",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23b-front/G45_13.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G45_13.phireflected.boundary.json": {
+    "sha256": "f66675b0b899064c60cb4f63ba9fb88b5659b6baa76106350dd830c024e84ee1",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23b-front/G45_13.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G45_49.boundary.json": {
+    "sha256": "894d0fb0fe2c95dbf042846c7e450414e388b6d90768cd3881a099b968cbb30f",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23b-front/G45_49.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G45_49.phireflected.boundary.json": {
+    "sha256": "dae97f29e38f187a36caaa9ef1a46340edd78684f2e2cb878c9effd735456d44",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23b-front/G45_49.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G45_5.boundary.json": {
+    "sha256": "897bcf15f407645e79d26f8d90fb46a7961176a0a47f183ff046db88c2dbbd49",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23b-front/G45_5.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G45_5.phireflected.boundary.json": {
+    "sha256": "a9fa923d08347470c654983745e5d4312f757d8787cb905125f8e4ead38ab089",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23b-front/G45_5.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G46_10.boundary.json": {
+    "sha256": "c984f15a519e6b73a0fb37c2e03e7f0c702e6d52aad7a1490c7951d6b3a785a9",
+    "bytes": 13734,
+    "source": "the source campaign repository/results/p3-e23b-front/G46_10.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G46_10.phireflected.boundary.json": {
+    "sha256": "0fe7582b7f536593d4fcb6ab6c9c517aceb53ac324e803fe7aa98b7fae7bc1d7",
+    "bytes": 13741,
+    "source": "the source campaign repository/results/p3-e23b-front/G46_10.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G46_18.boundary.json": {
+    "sha256": "e5a574b9710617dd8279e6551834eaca5b21614370926c3e9736d38269e151f5",
+    "bytes": 13720,
+    "source": "the source campaign repository/results/p3-e23b-front/G46_18.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G46_18.phireflected.boundary.json": {
+    "sha256": "eae70595742b7b985f6c74f6e6f6f0c2545e37e6bde4dc33ba7fd7e1136c061f",
+    "bytes": 13727,
+    "source": "the source campaign repository/results/p3-e23b-front/G46_18.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G46_51.boundary.json": {
+    "sha256": "34f57994e209671095cc152d242e1769b4d26f683ba222bb69ba3b16d31a5a45",
+    "bytes": 13741,
+    "source": "the source campaign repository/results/p3-e23b-front/G46_51.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G46_51.phireflected.boundary.json": {
+    "sha256": "5e2664c40151b29ddf993ad08670de0054b51cd368b57a374613f25e0ccb7bd9",
+    "bytes": 13748,
+    "source": "the source campaign repository/results/p3-e23b-front/G46_51.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G47_18.boundary.json": {
+    "sha256": "dd3b3bdad5f378d0c317c73583e373792df05439c22ff091fb65298e7b118830",
+    "bytes": 13715,
+    "source": "the source campaign repository/results/p3-e23b-front/G47_18.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G47_18.phireflected.boundary.json": {
+    "sha256": "4717079dbf89458b7fd5eb1a6eb3e50d7dc056494124501a3742ff3702323043",
+    "bytes": 13722,
+    "source": "the source campaign repository/results/p3-e23b-front/G47_18.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G47_22.boundary.json": {
+    "sha256": "9afa8d8db5361663a788a990734cdc4786e4146274a5c9f5ee6764af40d5e712",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23b-front/G47_22.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G47_22.phireflected.boundary.json": {
+    "sha256": "2f7f3928037b4bacb2752183449f3ab5db72c19954ea417109426644088dce14",
+    "bytes": 13750,
+    "source": "the source campaign repository/results/p3-e23b-front/G47_22.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G47_28.boundary.json": {
+    "sha256": "77a0f9c4494df5f67d29c6c88bf24a1f8b7b08d963497569b4d93c9230185d98",
+    "bytes": 13719,
+    "source": "the source campaign repository/results/p3-e23b-front/G47_28.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G47_28.phireflected.boundary.json": {
+    "sha256": "3a3e2df9121f3debc43c6e29cdedb1f4ef08742af812dfa9652987ab1b198822",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23b-front/G47_28.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G47_40.boundary.json": {
+    "sha256": "797d73f8a68e02b3131d8861409a3d0ff13f4e027dca4cb319b47663040bdbb2",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23b-front/G47_40.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G47_40.phireflected.boundary.json": {
+    "sha256": "1830ab269c19be315f34bde4016500e5cf5a98315a4539afa525d198c1a74247",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23b-front/G47_40.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G47_47.boundary.json": {
+    "sha256": "5baab9f2873424851e9c8a3ab8674766f1ab022acb19930a97a033a109b7c033",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23b-front/G47_47.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G47_47.phireflected.boundary.json": {
+    "sha256": "69c2b7a7e65f7807327a6dedb2ae3846db0ebc08feb2de63e5403ff1d62a19d1",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23b-front/G47_47.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G48_19.boundary.json": {
+    "sha256": "22c27313e528580d67e9033a3740a382ecb4e6b2cfa57dc11b50fcb5224e62cf",
+    "bytes": 13717,
+    "source": "the source campaign repository/results/p3-e23b-front/G48_19.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G48_19.phireflected.boundary.json": {
+    "sha256": "fffe0619b81431f8a8a1eb33f0b695b16d8c822dbb144bb5d65102231f205465",
+    "bytes": 13724,
+    "source": "the source campaign repository/results/p3-e23b-front/G48_19.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G48_26.boundary.json": {
+    "sha256": "a736d0533cc1688deb17f69908b3673bfecbbac9283d902eb29c6dde1cd98c71",
+    "bytes": 13736,
+    "source": "the source campaign repository/results/p3-e23b-front/G48_26.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G48_26.phireflected.boundary.json": {
+    "sha256": "8a47b430f41110a3ea2b5f3ba0d011e4ee37e907fbf31f19d76c331efc6eb3af",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23b-front/G48_26.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G48_40.boundary.json": {
+    "sha256": "04155cb79fc6fe47f2c0e566a9dc45a3dc969bef42fbcc3ca02a066c02713d6f",
+    "bytes": 13741,
+    "source": "the source campaign repository/results/p3-e23b-front/G48_40.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G48_40.phireflected.boundary.json": {
+    "sha256": "5823cb684867910f8e8a9b0574d9e0821c320103518b6db649694981beb41c43",
+    "bytes": 13748,
+    "source": "the source campaign repository/results/p3-e23b-front/G48_40.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G49_18.boundary.json": {
+    "sha256": "1d93bdf731002c02f50dc08327e47990bcb2a9add1c357ceb1b3fb33b0bf2214",
+    "bytes": 13717,
+    "source": "the source campaign repository/results/p3-e23b-front/G49_18.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G49_18.phireflected.boundary.json": {
+    "sha256": "57e132bdf7d7579e012874a33ac34df5301e72c6298748380b63e758f9cb9b80",
+    "bytes": 13724,
+    "source": "the source campaign repository/results/p3-e23b-front/G49_18.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G49_26.boundary.json": {
+    "sha256": "d7b16fa61b5518d147b42783903f82d3b23768e6d2a73e574f54dab37df02d78",
+    "bytes": 13710,
+    "source": "the source campaign repository/results/p3-e23b-front/G49_26.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G49_26.phireflected.boundary.json": {
+    "sha256": "0a3bd238a7ca1edf51f6895221f685265f37cbe54ca8664c8b2e7b8b8ee537cf",
+    "bytes": 13717,
+    "source": "the source campaign repository/results/p3-e23b-front/G49_26.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G49_28.boundary.json": {
+    "sha256": "b151caa06d50ed3cd7562f4cf2b3b20229da8dfbab70a5615987715ef16b76e7",
+    "bytes": 13732,
+    "source": "the source campaign repository/results/p3-e23b-front/G49_28.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G49_28.phireflected.boundary.json": {
+    "sha256": "4f642689e21f4827baf7971837a8ec9f0a3f9b9759283fd94ab5696c85147f26",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23b-front/G49_28.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G49_29.boundary.json": {
+    "sha256": "db7a30c2196dabecafb704526919144b2287de4bbcbe4bd2b5d361c5701b8933",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23b-front/G49_29.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G49_29.phireflected.boundary.json": {
+    "sha256": "3c011d8b79605a53d2f10bf027f4d611033d9736d885d43371006c8b753c298f",
+    "bytes": 13742,
+    "source": "the source campaign repository/results/p3-e23b-front/G49_29.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G49_35.boundary.json": {
+    "sha256": "b092d302cfda6c472f4e985d9c6026d62309297c5ef76fa56ed4e6d6b24af4f2",
+    "bytes": 13727,
+    "source": "the source campaign repository/results/p3-e23b-front/G49_35.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G49_35.phireflected.boundary.json": {
+    "sha256": "89d18d9867bc3977d964a4294142642995d171db9d9b61d8b05ad99a2f622b43",
+    "bytes": 13734,
+    "source": "the source campaign repository/results/p3-e23b-front/G49_35.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G50_3.boundary.json": {
+    "sha256": "c8ae944e622d50d624cb6529ef29df53521a42ae23d947499d1b0db5275efad4",
+    "bytes": 13720,
+    "source": "the source campaign repository/results/p3-e23b-front/G50_3.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G50_3.phireflected.boundary.json": {
+    "sha256": "93d262501166fe1e8368c701e93d077a5cbf8a7497c3948c5d2a0dc15bcfb91b",
+    "bytes": 13727,
+    "source": "the source campaign repository/results/p3-e23b-front/G50_3.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G50_45.boundary.json": {
+    "sha256": "a90c28879732122405dc719b41cd4c13581b1b0cf4790dfb31e9d79b875c48c6",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23b-front/G50_45.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G50_45.phireflected.boundary.json": {
+    "sha256": "9d150263aa645f4d307fefe5513a0c7d8c35c3ecfb94e80f53f73b6658921833",
+    "bytes": 13746,
+    "source": "the source campaign repository/results/p3-e23b-front/G50_45.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G50_5.boundary.json": {
+    "sha256": "a49658c478236117d4ad5c373fdebc45583b8b58bd6955c3b924bbac150305f1",
+    "bytes": 13712,
+    "source": "the source campaign repository/results/p3-e23b-front/G50_5.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G50_5.phireflected.boundary.json": {
+    "sha256": "025278dec579232f9b7fd84f188085ee0d3db817d76ea507244157a6842f250e",
+    "bytes": 13719,
+    "source": "the source campaign repository/results/p3-e23b-front/G50_5.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_1.boundary.json": {
+    "sha256": "cd54b143d80f6aeb4df1877c3ba628b11cf3952b1ff3ad4ed8caa0cfc3fea9a7",
+    "bytes": 13710,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_1.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_1.phireflected.boundary.json": {
+    "sha256": "c22473270f5b09c83d65777538b5df642b87aec760d956db19b459f46a0d1f3e",
+    "bytes": 13717,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_1.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_19.boundary.json": {
+    "sha256": "94465e7fbc837eebcb916effa5f2bdd71aa69dfb2d35c13640415439463dd00c",
+    "bytes": 13709,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_19.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_19.phireflected.boundary.json": {
+    "sha256": "5ed57439b61842310156bfec30e0c8b70f277b4e1224de89a104f9b7110c575c",
+    "bytes": 13716,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_19.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_2.boundary.json": {
+    "sha256": "bd1c4cee34b27d2b3a063d1e4a4b810d11ad374499944961f745c16472f9f128",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_2.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_2.phireflected.boundary.json": {
+    "sha256": "ca9583257fb9a98b170d2533922b2fc2392813d3f32e60485556508ff1a79e03",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_2.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_20.boundary.json": {
+    "sha256": "331b6a1da8c74914a210994acd9834d0f541db49abd03ca69340ffea92ff7bad",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_20.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_20.phireflected.boundary.json": {
+    "sha256": "1307f4dea148bb4583a2ea75b22cf01f499ac922f6f649bf8cb30c3ca05cda04",
+    "bytes": 13740,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_20.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_21.boundary.json": {
+    "sha256": "29f11d0429742eed13a426444c5d5f89a84836988041634e55d7b8cd57f57fae",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_21.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_21.phireflected.boundary.json": {
+    "sha256": "2fa30c19dc458a9b8840956a8f8db005aa2da4d85c238536f5a465ff19ba32bc",
+    "bytes": 13744,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_21.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_35.boundary.json": {
+    "sha256": "3b768d13af345c3bda10273288771b333baeb3676adf747d5af7b8e144fa6e89",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_35.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_35.phireflected.boundary.json": {
+    "sha256": "2d3f8ac7456810351469e8d4536856871d5ec58098d13c36df4f4c3680998c3e",
+    "bytes": 13744,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_35.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_53.boundary.json": {
+    "sha256": "c364a99816f018b31e52fd053c4e50c88ffed4d65dddf07953fae479005965dc",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_53.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_53.phireflected.boundary.json": {
+    "sha256": "e090318cf3ebb4ebf2459b136e5e27c4307d5ead4d6b73a9d585445051873924",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_53.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_9.boundary.json": {
+    "sha256": "4fa58b86f755f60e33dbc8759ff30f87a45ab2b7c6f86efba59e7853cf653026",
+    "bytes": 13736,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_9.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G51_9.phireflected.boundary.json": {
+    "sha256": "3c75a27deb5aa941e7b1cd0789d73ecebb6388cc3198369ac19cee9e97f66f16",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23b-front/G51_9.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_0.boundary.json": {
+    "sha256": "8535f7aedb44b3cff82caa447b2adbeed180ae85faaf3228d7e2785257b13b4a",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_0.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_0.phireflected.boundary.json": {
+    "sha256": "d562f1c50bd09e2a014a5c84db9ede9cd1170f2573a88629936cdcef4f63a360",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_0.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_19.boundary.json": {
+    "sha256": "65a81fe5618c6ec09b9e250f470436757f1da4603218a3355eda1ec14b486333",
+    "bytes": 13736,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_19.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_19.phireflected.boundary.json": {
+    "sha256": "457a1e62d78246c8d12542a7ffd6eaa349ffc1c0723c13b0155415ae24bd8452",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_19.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_23.boundary.json": {
+    "sha256": "4ae9ed608b5062fc76ca32b30747fd9d50f6ddc3943360f48c218bcdfe948ab3",
+    "bytes": 13721,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_23.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_23.phireflected.boundary.json": {
+    "sha256": "fc64aad94bc79c1a4cdd17e61058220220a218b9fa62207eb39297b6d6cb6dd4",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_23.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_31.boundary.json": {
+    "sha256": "4fcc723093b9283288bf479fd0274b85edcd9f393754d6e4ae8946b4e7e6fef5",
+    "bytes": 13734,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_31.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_31.phireflected.boundary.json": {
+    "sha256": "f4e1e564c7a54527e70f63e9483401bea98376c0b856b36b3df6c0450138f2e1",
+    "bytes": 13741,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_31.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_35.boundary.json": {
+    "sha256": "53d5da36ee0300a87aa7f8450ffb74d344d5139c1266a5c5e3b21bc8e84e60ff",
+    "bytes": 13724,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_35.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_35.phireflected.boundary.json": {
+    "sha256": "eb26bacd9d62497fbc35a42ddeaa8d24f2878bc08d14d4ad30408f279cdaf537",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_35.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_40.boundary.json": {
+    "sha256": "797da75fe4de4b53efa57514aa84e652dc83a7e0f2be46c3b94d1ec05dcd3e9c",
+    "bytes": 13713,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_40.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_40.phireflected.boundary.json": {
+    "sha256": "67695efa67f74d2f76140b522abe5f70f761fb95af5c199808b4ddd4b743baa0",
+    "bytes": 13720,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_40.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_44.boundary.json": {
+    "sha256": "4ef6c043a73f8c8de3bcd4e6b68bdc81b261ad9d11824a0e08aa09fad378391e",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_44.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_44.phireflected.boundary.json": {
+    "sha256": "be6db68304fd5aea216aa2009739123027e816f395e13828174de55cb1d17356",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_44.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_48.boundary.json": {
+    "sha256": "2924e1ca20782c3c75a57fa5cbf0202a464a525f84e85f8b19d843b22b030e75",
+    "bytes": 13723,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_48.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_48.phireflected.boundary.json": {
+    "sha256": "73325606a4641df0777f2dace8e4b55a37e53ae200528975eb6abb9611dbdc01",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_48.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_49.boundary.json": {
+    "sha256": "92fdcc461167c5aae1a43ac68822cdf1aa90ca47d8e27be7a4abf9040061e1c9",
+    "bytes": 13757,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_49.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_49.phireflected.boundary.json": {
+    "sha256": "09f7935f77bb6ca704eb03c9d63e8edd1c71e1cad5ddaa8cb6fd0e822e87c69c",
+    "bytes": 13764,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_49.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_55.boundary.json": {
+    "sha256": "95fc964b04dc2b9f85eb2e3b00483fdea5117598529540633c09f76f751506b3",
+    "bytes": 13734,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_55.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_55.phireflected.boundary.json": {
+    "sha256": "4cbc5412e198355622d0ba8c95036e69d615aba21018c9252b8152f5c76ef44f",
+    "bytes": 13741,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_55.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_6.boundary.json": {
+    "sha256": "5d8c87f9aa619214c01492f2d167f0bc2e51f6a7df88a2942fc4ff32747a77ce",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_6.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_6.phireflected.boundary.json": {
+    "sha256": "4aa6749b1012dc5cc51dc1f6adde7a082ed4592e1c96d44ecacc23e5970f21ef",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_6.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_9.boundary.json": {
+    "sha256": "c2919d9ca92a5cc584d37135a75e46f32fcd74382330ba67ccf00807a0249011",
+    "bytes": 13725,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_9.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23b/own-lineage/G52_9.phireflected.boundary.json": {
+    "sha256": "771e4fb335987acf79d92d1b2b3a1f398de7a1f5a80105f1dd573315843a20c0",
+    "bytes": 13732,
+    "source": "the source campaign repository/results/p3-e23b-front/G52_9.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G21_48.boundary.json": {
+    "sha256": "b55cde14e382e5e5b4b915e69ebd6e4892ab2b772f1d380c38d2a9eab73c3dae",
+    "bytes": 13721,
+    "source": "the source campaign repository/results/p3-e23c-front/G21_48.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G21_48.phireflected.boundary.json": {
+    "sha256": "70d874ddf7f09bee95f91fd3c361c305cff0302803c941ee319fefaf88922f04",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23c-front/G21_48.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G32_41.boundary.json": {
+    "sha256": "e4bf0c11b3d9d14e4c13a54236e2fe2a982573b1bba658473bd83d18a8fdfa28",
+    "bytes": 13703,
+    "source": "the source campaign repository/results/p3-e23c-front/G32_41.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G32_41.phireflected.boundary.json": {
+    "sha256": "990eb12f0523a73e2e08f538d353d5f902f202ffdcc32b54c4fadc0a39c62d3d",
+    "bytes": 13710,
+    "source": "the source campaign repository/results/p3-e23c-front/G32_41.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G40_23.boundary.json": {
+    "sha256": "24bf4a2e73c9e8ae9d6fae8deff4eca45f7d328b177bde3a95f055668da8bd91",
+    "bytes": 13724,
+    "source": "the source campaign repository/results/p3-e23c-front/G40_23.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G40_23.phireflected.boundary.json": {
+    "sha256": "5875b47d81dbcd130924a48adee146730bd687c13127092e4a5382ad046efadf",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23c-front/G40_23.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G41_44.boundary.json": {
+    "sha256": "a457b99231c852e34fdde01caeef0b33dfe3e8d7a86df498e1cba4ac25a9f8ed",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23c-front/G41_44.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G41_44.phireflected.boundary.json": {
+    "sha256": "242fb24d4ca99fdf128ccc2d5a08b23bdb999ff56a20ec458b9ac0d761d5f349",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23c-front/G41_44.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G42_25.boundary.json": {
+    "sha256": "fe2148ae4be4d33e92c341b92e914fb55c99ee85533541e9b3c4e50ed9ffe16e",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23c-front/G42_25.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G42_25.phireflected.boundary.json": {
+    "sha256": "dd7fa17d2e1c80e7151c4f9e753c9ef49ae6e080a425c1d21b21ddb10cbfa1dd",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23c-front/G42_25.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G42_43.boundary.json": {
+    "sha256": "f4a78516b5ae3614cf226943f4f982997badfcce7a206a0dfcca9ae062719fdc",
+    "bytes": 13720,
+    "source": "the source campaign repository/results/p3-e23c-front/G42_43.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G42_43.phireflected.boundary.json": {
+    "sha256": "a9b2bb68d6d5ef09e03778aea28bac7d977d2449f0ac43a36ad7aeac8ded2434",
+    "bytes": 13727,
+    "source": "the source campaign repository/results/p3-e23c-front/G42_43.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G43_14.boundary.json": {
+    "sha256": "06e002ee5ea7d612e5554c4eb5d3f9f4c4ddeeaa2570047d793ce926388ec8c1",
+    "bytes": 13747,
+    "source": "the source campaign repository/results/p3-e23c-front/G43_14.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G43_14.phireflected.boundary.json": {
+    "sha256": "6c41e862aa15e92fcc76f85ee208f2d57130de7a4724d1ec499d49d4ec83afc3",
+    "bytes": 13754,
+    "source": "the source campaign repository/results/p3-e23c-front/G43_14.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G44_20.boundary.json": {
+    "sha256": "340c4243a2f49afaae8773283810c68b8f4d24815e24f3a9a979d45d81685c32",
+    "bytes": 13718,
+    "source": "the source campaign repository/results/p3-e23c-front/G44_20.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G44_20.phireflected.boundary.json": {
+    "sha256": "585b0d6f362fdbcb5e6244ebd23f3a8540f188796c644970a340b21837695ea7",
+    "bytes": 13725,
+    "source": "the source campaign repository/results/p3-e23c-front/G44_20.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G45_25.boundary.json": {
+    "sha256": "da264bedeeec9e0347b6ddc45d1389e142a63c1bfa81ccc132e926ecbfc85a19",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23c-front/G45_25.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G45_25.phireflected.boundary.json": {
+    "sha256": "c2df3b2fa2b3d4b896ccc3d363466fde9011d5d89123a3941e24fc9484235291",
+    "bytes": 13740,
+    "source": "the source campaign repository/results/p3-e23c-front/G45_25.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G46_33.boundary.json": {
+    "sha256": "029fe965fa9f43870a92f0e72d74a50421d8acd2aa012872d96debf715db874c",
+    "bytes": 13741,
+    "source": "the source campaign repository/results/p3-e23c-front/G46_33.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G46_33.phireflected.boundary.json": {
+    "sha256": "5b901200fd9a647b7c1665e8477cbec55ab5e8044e1d038065b71c3e12dcc719",
+    "bytes": 13748,
+    "source": "the source campaign repository/results/p3-e23c-front/G46_33.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G46_41.boundary.json": {
+    "sha256": "5335dcc870ea6635f2a35fdeaba88e7e60cca37fb1cd42a3bb8dfae39e1ff9b4",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23c-front/G46_41.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G46_41.phireflected.boundary.json": {
+    "sha256": "000d8352d28733e8822edf6c25e8d449005776f545698f9320400ece9d68b9cc",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23c-front/G46_41.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G46_42.boundary.json": {
+    "sha256": "3d0aee820ce2db276dfd81dbfb7ebfa1742c5cb1545d05f92165071e4a90a5b5",
+    "bytes": 13729,
+    "source": "the source campaign repository/results/p3-e23c-front/G46_42.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G46_42.phireflected.boundary.json": {
+    "sha256": "50b7e078f0155341cb766035e9248605fa66bbb6fb020e8d3848aa608333ddb9",
+    "bytes": 13736,
+    "source": "the source campaign repository/results/p3-e23c-front/G46_42.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G46_43.boundary.json": {
+    "sha256": "b68dda63a5254f14d9b29ec6f79c86487023177e97068430f2799c6e755541d0",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23c-front/G46_43.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G46_43.phireflected.boundary.json": {
+    "sha256": "829c67d7e70cdc9d43d3fc6a2b69e0696c8d4aa025b7d8f09bcc767a8393ad7f",
+    "bytes": 13750,
+    "source": "the source campaign repository/results/p3-e23c-front/G46_43.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G47_37.boundary.json": {
+    "sha256": "ec90bb21f6127379cd4605e844a3905688093b4db9988003ebdf8a407d00bff6",
+    "bytes": 13732,
+    "source": "the source campaign repository/results/p3-e23c-front/G47_37.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G47_37.phireflected.boundary.json": {
+    "sha256": "ac357403d04b8b5ba56e078f34db0ef93cd82030cdea2f95d3cd0aefc74502d7",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23c-front/G47_37.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G47_43.boundary.json": {
+    "sha256": "88e6e8eba438f0d62db41493f19c50e9e210af4706286b3e250b750bd959b466",
+    "bytes": 13724,
+    "source": "the source campaign repository/results/p3-e23c-front/G47_43.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G47_43.phireflected.boundary.json": {
+    "sha256": "a8bd18ceb0dbfd15aea423064806006b2a456e83d1607ccd93dd9144a6414e77",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23c-front/G47_43.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G47_5.boundary.json": {
+    "sha256": "727fc796c3d1bb78bc63b40c8407e8ed3cb9b6f11a7f526e0e3272f5dcf5ed16",
+    "bytes": 13732,
+    "source": "the source campaign repository/results/p3-e23c-front/G47_5.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G47_5.phireflected.boundary.json": {
+    "sha256": "65ed163e32a53e8d164b9400d8ec8c5439512ae0923c0a8ca51d3f5887814b1e",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23c-front/G47_5.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G48_0.boundary.json": {
+    "sha256": "9b5a80d436aaad22933eab1ef706e7893a9d9425470a0a0f0637d664d6484d65",
+    "bytes": 13724,
+    "source": "the source campaign repository/results/p3-e23c-front/G48_0.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G48_0.phireflected.boundary.json": {
+    "sha256": "8acfdc4c19adbdfcfc73df3329c9ddb8e323eddcf7c0bb6f7d7bc3e425163f9e",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23c-front/G48_0.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G48_3.boundary.json": {
+    "sha256": "d099e25358af5293fa9486f699ddec34d7ccdb1e3bfbb04b2b6f9c0e5034999d",
+    "bytes": 13741,
+    "source": "the source campaign repository/results/p3-e23c-front/G48_3.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G48_3.phireflected.boundary.json": {
+    "sha256": "e189be9453eb5628f4658d88b2b8bd21534076c9138fdeba6631d2ce29fa1622",
+    "bytes": 13748,
+    "source": "the source campaign repository/results/p3-e23c-front/G48_3.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G48_31.boundary.json": {
+    "sha256": "8e00e06c25c0f766f66c2a9d3b3398297f238c52928e41992986b5853c664845",
+    "bytes": 13750,
+    "source": "the source campaign repository/results/p3-e23c-front/G48_31.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G48_31.phireflected.boundary.json": {
+    "sha256": "e127090af87af0347cfbabd804b6dd4d917a505c7ee2a6dc277ea96ba2d54393",
+    "bytes": 13757,
+    "source": "the source campaign repository/results/p3-e23c-front/G48_31.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G48_53.boundary.json": {
+    "sha256": "da1a5bc93893977a60e69bc576cdff7e168e3424b4ec7dee611161e5b02c3c3a",
+    "bytes": 13727,
+    "source": "the source campaign repository/results/p3-e23c-front/G48_53.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G48_53.phireflected.boundary.json": {
+    "sha256": "5c0ae35349e9c3d1fc54a6cfb1e1d5d27b96f520e83985a8b21d3a8899d50a2c",
+    "bytes": 13734,
+    "source": "the source campaign repository/results/p3-e23c-front/G48_53.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_10.boundary.json": {
+    "sha256": "39a0dd0018fd122cb804ae87fada52cb3218f11f31d0e88099b6733e31e10944",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_10.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_10.phireflected.boundary.json": {
+    "sha256": "26fbec50a6611425c9802dc3c7802c7f34df23536ad2f556e0c8483fcc7f7acb",
+    "bytes": 13750,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_10.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_13.boundary.json": {
+    "sha256": "99dce2a7341836491219ff50ecc5e3364cc606482d20347f79fc018d22193b36",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_13.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_13.phireflected.boundary.json": {
+    "sha256": "6941e22bdb77984f7f860821394b6c63a11867a69bb83d3680ab9450d132edaa",
+    "bytes": 13745,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_13.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_15.boundary.json": {
+    "sha256": "86de720363e6f979e1383e0bf448aeac486660df8128f32ac45dba8030b6f4aa",
+    "bytes": 13745,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_15.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_15.phireflected.boundary.json": {
+    "sha256": "947357b8bda4923f9d5c5be8178a9e9e66e370afd04087352185aab86f70cd20",
+    "bytes": 13752,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_15.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_20.boundary.json": {
+    "sha256": "ac0f4fa9f5e486865cc828024144a8c8a253d6029a33d436ab3bc06d4e6e68ba",
+    "bytes": 13736,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_20.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_20.phireflected.boundary.json": {
+    "sha256": "d8bb022b52e4d599ac429a9fb740e15dc87055882f06ba75cc377dd78a2677ee",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_20.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_22.boundary.json": {
+    "sha256": "e7d28f0abf864f821c8aca52e23026ed3bc7b2abe497cc3a1a4289396f91b4f6",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_22.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_22.phireflected.boundary.json": {
+    "sha256": "2d1549a377b9f5c1b40ae9233ccd54722477e6301c8b559c7a6ac346259103cc",
+    "bytes": 13744,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_22.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_29.boundary.json": {
+    "sha256": "9cf2910d866c943aef85724cce641caa57ce64506925d5bd8fd758c6f5972ec5",
+    "bytes": 13717,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_29.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_29.phireflected.boundary.json": {
+    "sha256": "b4f8183f05c2bb67ab8afc86c1856b1cc83820ccb339c9904c176b8dbb4fecf7",
+    "bytes": 13724,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_29.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_46.boundary.json": {
+    "sha256": "682ee701ba6597a99c51355cc1a783ebbfe7b1f2cd61f27d698306141aef28ed",
+    "bytes": 13732,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_46.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_46.phireflected.boundary.json": {
+    "sha256": "fa876c8d9e0dea4836bdcac3c73dcc233e332d29fa03e643f1e76793ed6684b0",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_46.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_48.boundary.json": {
+    "sha256": "f7cc547d554fd7d045229a031418afce905b316a80a36e3c32d5017a95f5e43b",
+    "bytes": 13750,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_48.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G49_48.phireflected.boundary.json": {
+    "sha256": "fe4c11250b0170564eb08b8b55eb62aff1bdd6c54fc31a5fc0fc5f784ebfe625",
+    "bytes": 13757,
+    "source": "the source campaign repository/results/p3-e23c-front/G49_48.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_1.boundary.json": {
+    "sha256": "19db769719cefab3186f92ef9275b4473df8603206a8ac0a4cb80f397d506410",
+    "bytes": 13723,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_1.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_1.phireflected.boundary.json": {
+    "sha256": "1615eb9acb988ddbb6594dd56381460d4a16eec7e3d6306d04d90840e4f2400f",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_1.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_15.boundary.json": {
+    "sha256": "e193b49fc7a0ed8a178f310a21fb1982f68cec137c0217d964cb1867e09ffce2",
+    "bytes": 13748,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_15.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_15.phireflected.boundary.json": {
+    "sha256": "6aa3a9a62cfe251f4b2fc714831f94b80972b58771999d75ad39bfc88ba2ede2",
+    "bytes": 13755,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_15.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_19.boundary.json": {
+    "sha256": "a12fc0d535e284dd48f563622ea1e2da6639a4c9a68822ac1425ce9a986f91e5",
+    "bytes": 13740,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_19.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_19.phireflected.boundary.json": {
+    "sha256": "1a6e5b1b39d0271c08719b4d6b40f17307700a6f94ca21ab29f16ec9677636d8",
+    "bytes": 13747,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_19.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_2.boundary.json": {
+    "sha256": "627ea6406d143f989e3fdc94026c88bbddf00141c2841b8759c1a46c811b76cb",
+    "bytes": 13736,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_2.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_2.phireflected.boundary.json": {
+    "sha256": "9ecfa354e6ba4c825ee786e592e604fad96985d46648693b796868abaa4d1b96",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_2.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_24.boundary.json": {
+    "sha256": "888a2d8f212a95738b09c4abc616d733dd45987cb59a50e11ae07663feb95698",
+    "bytes": 13712,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_24.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_24.phireflected.boundary.json": {
+    "sha256": "35034d9cafc990f67958348a06602cda9e7b3977435dc39df8493cf1619e5853",
+    "bytes": 13719,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_24.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_25.boundary.json": {
+    "sha256": "2224735693a13d99a7133e7eeaf0406e6732dce2b7e0719c4ed8b31a5704e410",
+    "bytes": 13755,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_25.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_25.phireflected.boundary.json": {
+    "sha256": "8da9bcff7261abd7cec3e9cb5ae578b90bf1dc11ddc05e0687d5114a1009ac1e",
+    "bytes": 13762,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_25.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_38.boundary.json": {
+    "sha256": "4aacdeceaa9e2602be1c4d2f0c98b1c05f1b7d26a824ac3905f9eca1f23e1aed",
+    "bytes": 13722,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_38.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_38.phireflected.boundary.json": {
+    "sha256": "0fc2b97cf501a4f53fb58bfa2f840d56974e15a302f70088a4fcb71271abdc00",
+    "bytes": 13729,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_38.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_4.boundary.json": {
+    "sha256": "e8093a826ce9bd9eb6030c9597c6acc06ee75c17cc1d5c92b086d88caca33859",
+    "bytes": 13732,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_4.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_4.phireflected.boundary.json": {
+    "sha256": "a63dd688fd3fc0b3d8952de5686932b69474dc4ea074dcca63d2d5fdac5775b5",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_4.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_43.boundary.json": {
+    "sha256": "b28ea7446b10a063d6b9686472fdc75c4e1dc4ba0b938b32ccdaecc72aaa5cf7",
+    "bytes": 13723,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_43.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_43.phireflected.boundary.json": {
+    "sha256": "ae6312feab426508cd4348fe56e3d5649c64d683e8bf54bef940ac0c51c02f08",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_43.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_47.boundary.json": {
+    "sha256": "7d19c4b5a10ec15282903471f1b6e7ecf55772131ea56455639e04fad386362a",
+    "bytes": 13736,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_47.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G50_47.phireflected.boundary.json": {
+    "sha256": "dc102226f58674ba5313b0d952e21b632360cc2470075e44f8484a1d78d16c9f",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23c-front/G50_47.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_1.boundary.json": {
+    "sha256": "903fda007323877e5b1c5c5f47e9c02b685160ee4dfa30ca46adbf60c6fbe298",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_1.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_1.phireflected.boundary.json": {
+    "sha256": "2711a0b8df926556f7f42b4aa946b09ac8b84aaac8d78c06454b0e3ea07593cf",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_1.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_12.boundary.json": {
+    "sha256": "93fa54a3303f3cc970ab45e9bcf7445c8ba283c48c0e99f8c65363d0affec122",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_12.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_12.phireflected.boundary.json": {
+    "sha256": "6434aa508e127d45cfda1ff3964f9ed802496a1ae7032544818f1393c0c237bb",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_12.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_21.boundary.json": {
+    "sha256": "52b91e68669d16026666ad3cf8d0f6bb48595e4018296c06eab8236b162386e1",
+    "bytes": 13723,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_21.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_21.phireflected.boundary.json": {
+    "sha256": "b8eabce1c4ee9fac02c1fe17e5a4792af5361c5be3652126757f806cc816c252",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_21.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_28.boundary.json": {
+    "sha256": "4b596a302bfc20a7d9edc693086b39a221bed95d7516e3deebbaaa3b358e4b2e",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_28.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_28.phireflected.boundary.json": {
+    "sha256": "f420892364ea201c6bd2a2113c9113e267b24a69eb995c0ce78163fe190e7cd4",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_28.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_33.boundary.json": {
+    "sha256": "b20e84c57461b06f64e0a9cdcd86891947b87acbe296e0b1cc2956d94e3eb39d",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_33.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_33.phireflected.boundary.json": {
+    "sha256": "d7a28d31fee731038bafcbb4692d504ae48a46c6b53a922513a053bc57fe73f0",
+    "bytes": 13750,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_33.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_34.boundary.json": {
+    "sha256": "fe57b3b704bdca7a464d06bc610cb7cbce35f054cb53a8d5e523b9c8e56c4544",
+    "bytes": 13740,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_34.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_34.phireflected.boundary.json": {
+    "sha256": "6f59e4d2414271a4df920afb2027022727f74a0da8e86ce125093144e23b6354",
+    "bytes": 13747,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_34.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_35.boundary.json": {
+    "sha256": "a053466498817a1fa376dad1857cccfb1bfd9217fb896672148acaaf3ea78146",
+    "bytes": 13727,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_35.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_35.phireflected.boundary.json": {
+    "sha256": "ff4fb762dfa7424edcd3d56ea39225f9749fce47ee7df87d20c7a4e05b9e7c78",
+    "bytes": 13734,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_35.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_36.boundary.json": {
+    "sha256": "4bec6cd09a6c2810b1296a630ee68290798657f2105524c7015055cd673e29f8",
+    "bytes": 13738,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_36.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_36.phireflected.boundary.json": {
+    "sha256": "08b358985fa48266cd11338779b5f54094ee216e42eb8d54a00e638404ad260a",
+    "bytes": 13745,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_36.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_44.boundary.json": {
+    "sha256": "c6e2034f347ef13f5f942f21e1b75257494db0cd7b435246060aac2ed5ceb107",
+    "bytes": 13723,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_44.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_44.phireflected.boundary.json": {
+    "sha256": "10344bad6b00ae4a8c5b1e84096d4e8c315e120bc2b833b259ce639cfc4d045a",
+    "bytes": 13730,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_44.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_48.boundary.json": {
+    "sha256": "58ae8b2325f6095af59302becc3223ba5ecff21bf1c3a743cd8de55b017545f3",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_48.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_48.phireflected.boundary.json": {
+    "sha256": "a8d891fca247723fb8c1797fd7bc60ccef1a87d68b05579b579373717b647a4e",
+    "bytes": 13746,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_48.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_55.boundary.json": {
+    "sha256": "9e63a974e7bd0b9ad3170dd3b7571ac6ca1a7dc2acae04d3c2c870523cab066e",
+    "bytes": 13750,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_55.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_55.phireflected.boundary.json": {
+    "sha256": "dd005193a7cdf5dbc0210222f0d9c98cf08167557cfec697eac3d294badf409d",
+    "bytes": 13757,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_55.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_9.boundary.json": {
+    "sha256": "7f21a6dfcbf394fe8feb77862429e59dd064252aa39f5fff17508a1e33bb161b",
+    "bytes": 13740,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_9.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G51_9.phireflected.boundary.json": {
+    "sha256": "b5eae0bc30cc303d5dfcd355f796164eadb5cab4a8bd56fa41b7bc6116f2cf23",
+    "bytes": 13747,
+    "source": "the source campaign repository/results/p3-e23c-front/G51_9.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_1.boundary.json": {
+    "sha256": "fb4a41eb4b0054cfa410758a6b83c49542f8bc0857c04e7d875bdbc0adb16682",
+    "bytes": 13724,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_1.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_1.phireflected.boundary.json": {
+    "sha256": "0c38a5be1daf1702b0ae8b804285545099c1ebdeb4bd238ae20556d6fc425d77",
+    "bytes": 13731,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_1.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_12.boundary.json": {
+    "sha256": "6da1d1d0314c7ef880163a1d6edd9808e539f9868c2b783683a3190ef09646a4",
+    "bytes": 13749,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_12.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_12.phireflected.boundary.json": {
+    "sha256": "f7ed2b2950aa410ac1467b1a08e691cbf469eda9f3e32441aa30517db68b5413",
+    "bytes": 13756,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_12.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_13.boundary.json": {
+    "sha256": "c1a46940b6443cb62ee0c454ed64e3a67bf72f36961be0c17910ed3518d710d7",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_13.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_13.phireflected.boundary.json": {
+    "sha256": "a66b567ef452fd7b738d0e9c6c4ca1bdc14e9418ed51f95d19773ff774eb6942",
+    "bytes": 13733,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_13.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_14.boundary.json": {
+    "sha256": "3e0de1ff0d51fdb1bd603f32404df9b63a66f34dd9524fc729199b301e4e6769",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_14.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_14.phireflected.boundary.json": {
+    "sha256": "49895a264f9bdd80b6eeb9c931ce99984a0d6c99d0a8d760c7a41117fd46cc1c",
+    "bytes": 13746,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_14.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_17.boundary.json": {
+    "sha256": "a9069b39d062fc459e8725c4db0ab8410fc130003b3e04bf21c91129721e0fb4",
+    "bytes": 13739,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_17.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_17.phireflected.boundary.json": {
+    "sha256": "e7a710a9359eedce05be9cbcc934d6e102572bf67d2a8309bfa570534e8afc13",
+    "bytes": 13746,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_17.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_2.boundary.json": {
+    "sha256": "fd3281901df41b293cf32726c1be60194008535417fd7aabbd1ca00263652ddb",
+    "bytes": 13736,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_2.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_2.phireflected.boundary.json": {
+    "sha256": "89a2ef062cc6e14b099445b8fd22046ad32ab82b7e0ad3cadf1c54a1e687978e",
+    "bytes": 13743,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_2.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_26.boundary.json": {
+    "sha256": "1dbd4068c7a2e5923cc032e7c1cf70358bb773d53609e58ed89d422f7ecd7935",
+    "bytes": 13718,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_26.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_26.phireflected.boundary.json": {
+    "sha256": "87ca38ca1ead746edce67dc950c1883ebce3195b5d012d12b90c92f606df0c4c",
+    "bytes": 13725,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_26.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_3.boundary.json": {
+    "sha256": "acf93e3c8df8c3c63a99af23c1a216269db0c36232bb51d6260dac4af1bda1fc",
+    "bytes": 13710,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_3.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_3.phireflected.boundary.json": {
+    "sha256": "0410db3fa6efa73f195c2d2978b6999584eaa278fd5d1927da421fdde891f9cc",
+    "bytes": 13717,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_3.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_34.boundary.json": {
+    "sha256": "02e78530f9a96bc4afd5ebc1bee7fccdb373af1be7ce2c508766325dcebb2612",
+    "bytes": 13729,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_34.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_34.phireflected.boundary.json": {
+    "sha256": "db8f7379682751b4d608685954437fc9f0cd1f0e5e305cb44497dd426af6efce",
+    "bytes": 13736,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_34.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_35.boundary.json": {
+    "sha256": "9a789daacf004a24d73087dc4038e3db64745a7ee0968442e0fd355d02d54bce",
+    "bytes": 13719,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_35.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_35.phireflected.boundary.json": {
+    "sha256": "a8e555639e8683456bb0a03ae4b631ea75bdb2f1953bd13f6e70914f389d537a",
+    "bytes": 13726,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_35.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_36.boundary.json": {
+    "sha256": "980fa8876f3f665e5eba42a7face7561c3de0f4fee6395082ac3b45564c37e2d",
+    "bytes": 13721,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_36.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_36.phireflected.boundary.json": {
+    "sha256": "9ae6561693579ac25ce9729b767deb596f8b327d939d7fc796f3024ea1b33fd1",
+    "bytes": 13728,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_36.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_4.boundary.json": {
+    "sha256": "ec7b72114e94ecf1ab151a60ef981d49249f9ab084fc3ef218a809da90bb09c5",
+    "bytes": 13737,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_4.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_4.phireflected.boundary.json": {
+    "sha256": "826f078db2bed74ee641a47aa7dc8333d86d04373c87ceeacc81706c0cbc5da0",
+    "bytes": 13744,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_4.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_40.boundary.json": {
+    "sha256": "d09859994b8cc65206dab17d5e047dce4a8e2edb83f31f7e169932c3a63c7289",
+    "bytes": 13735,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_40.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_40.phireflected.boundary.json": {
+    "sha256": "89ae1a4b2742e755b14b2e6dc61fcffdf822ea7576eaba3b5e022f29748fd3f9",
+    "bytes": 13742,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_40.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_44.boundary.json": {
+    "sha256": "1ce03ec3b74e6b9c5b57d40ee0ac7e653a5f053915ad9929cccab3bfb597e0bf",
+    "bytes": 13727,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_44.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_44.phireflected.boundary.json": {
+    "sha256": "0f4379d2e86fd36812e73933d9a8ec7294c9671da8d98725d6be368c0e9c8ecc",
+    "bytes": 13734,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_44.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_48.boundary.json": {
+    "sha256": "0d2ff7b914d0c94df9482ac4f1f6555cd4dee0e4e89fe6186f365817875c2e75",
+    "bytes": 13747,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_48.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E23c/own-lineage/G52_48.phireflected.boundary.json": {
+    "sha256": "128c68ea408b0231d39014c60a148a7f95117e2df14043311a2180e24dac39c5",
+    "bytes": 13754,
+    "source": "the source campaign repository/results/p3-e23c-front/G52_48.phireflected.boundary.json (own lineage, unstripped)"
   }
 }
