@@ -111,3 +111,70 @@ def test_parse_constraint_overrides_rejects_malformed_pair():
 def test_parse_constraint_overrides_rejects_unknown_name():
     with pytest.raises(ValueError, match="unknown constraint override"):
         parse_constraint_overrides(["not_a_real_bound=1.0"])
+
+
+# --------------------------------------------------------------------------- #
+# normalised_constraint_violations: the benchmark's normalisation from RAW
+# measurements, used by the fake_front test seam in place of the class.
+# Fidelity guards (pinned image) pin it and the stock thresholds to the class.
+# --------------------------------------------------------------------------- #
+def test_stock_constraint_thresholds_match_the_pinned_class():
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
+    from constellaration import problems
+
+    from constellaration_methods.problems.overrides import STOCK_CONSTRAINT_THRESHOLDS
+
+    stock = problems.MHDStableQIStellarator()
+    assert set(STOCK_CONSTRAINT_THRESHOLDS) == set(CONSTRAINT_OVERRIDE_NAMES)
+    for name, attr in CONSTRAINT_OVERRIDE_NAMES.items():
+        assert STOCK_CONSTRAINT_THRESHOLDS[name] == getattr(stock, attr)
+
+
+@pytest.mark.parametrize(
+    "overrides",
+    [
+        {},
+        {"mirror_upper": 0.23},
+        {"iota_lower": 0.3, "well_lower": 0.05},
+        {"log10_qi_upper": -4.0, "flux_upper": 0.8, "well_lower": 0.2},
+    ],
+)
+def test_normalised_constraint_violations_bit_identical_to_the_pinned_class(overrides):
+    """The pure helper reproduces `_normalized_constraint_violations` of
+    `problem_with_overrides(...)` exactly (same expressions, same order), for
+    stock and overridden thresholds alike."""
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
+    import numpy as np
+
+    from constellaration_methods.problems.overrides import normalised_constraint_violations
+
+    metrics = _toy_metrics()
+    raw = {
+        "iota_over_nfp": metrics.edge_rotational_transform_over_n_field_periods,
+        "log10_qi": float(np.log10(metrics.qi)),
+        "edge_mirror": metrics.edge_magnetic_mirror_ratio,
+        "flux_compression": metrics.flux_compression_in_regions_of_bad_curvature,
+        "vacuum_well": metrics.vacuum_well,
+    }
+    expected = problem_with_overrides(overrides)._normalized_constraint_violations(metrics)
+    assert normalised_constraint_violations(raw, overrides) == list(expected)
+
+
+def test_normalised_constraint_violations_unknown_name_refused():
+    from constellaration_methods.problems.overrides import normalised_constraint_violations
+
+    raw = {
+        "iota_over_nfp": 0.3,
+        "log10_qi": -4.0,
+        "edge_mirror": 0.22,
+        "flux_compression": 0.5,
+        "vacuum_well": 0.01,
+    }
+    with pytest.raises(ValueError, match="unknown constraint override"):
+        normalised_constraint_violations(raw, {"nope": 1.0})
