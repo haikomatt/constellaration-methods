@@ -47,6 +47,7 @@ from pathlib import Path
 import numpy as np
 
 from constellaration_methods.problems.overrides import (
+    normalised_constraint_violations,
     problem_with_overrides,
 )
 
@@ -956,7 +957,7 @@ def _fake_quadratic_residuals(
     return [float(v) for v in r]
 
 
-def _fake_front_residuals_and_raw(x) -> tuple:
+def _fake_front_residuals_and_raw(x, constraint_overrides=None) -> tuple:
     """Test seam (payload 'fake_front', E16): a smooth toy for the front
     builder's toy end-to-end test. Three residuals (iota, QI, mirror) are
     constants deep inside tolerance; well is likewise deeply satisfied and
@@ -969,19 +970,33 @@ def _fake_front_residuals_and_raw(x) -> tuple:
     also loading the flux residual -- exactly the "objectives improve along a
     direction that also increases one residual toward the bound" shape the
     E16 pre-registration asks the toy to exercise. Feasible, comfortably
-    interior start at x = 0."""
+    interior start at x = 0.
+
+    The residuals are not written down directly: the toy carries fake RAW
+    measurements (the same keys `_eval_worker` records for a real
+    evaluation) and normalises them with `normalised_constraint_violations`,
+    so `constraint_overrides` (E18 item 1) changes the toy's residuals by
+    exactly the benchmark's own formula -- a `mirror_upper=0.23` run is a
+    different evaluation, not just a different REPORT.json. The raw values
+    are chosen so the STOCK thresholds reproduce the original constants
+    (-0.05 everywhere, flux -0.05 + x0) to floating-point precision:
+    iota 0.25 * 1.05, log10 QI -3.5 * 1.05, mirror 0.25 * 0.95, flux
+    0.9 * (0.95 + x0), well 0.005 (normalised by the class's 0.1 floor)."""
     x = np.asarray(x, float)
     x0 = x[0] if len(x) > 0 else 0.0
     x1 = x[1] if len(x) > 1 else 0.0
     x2 = x[2] if len(x) > 2 else 0.0
-    r = [-0.05, -0.05, -0.05, -0.05 + 1.0 * x0, -0.05]
     raw = {
+        "iota_over_nfp": 0.25 * 1.05,
+        "log10_qi": -3.5 * 1.05,
+        "edge_mirror": 0.25 * 0.95,
+        "flux_compression": 0.9 * (0.95 + x0),
+        "vacuum_well": 0.005,
         "aspect_ratio": 10.0 - 1.0 * x0 - 0.5 * x1,
         "min_len": 10.0 + 0.5 * x0 + 1.0 * x2,
-        "vacuum_well": 0.05,
-        "flux_compression": 0.9,
     }
-    return [float(v) for v in r], raw
+    r = normalised_constraint_violations(raw, constraint_overrides)
+    return r, {k: float(v) for k, v in raw.items()}
 
 
 def _eval_worker(payload: dict) -> dict:
@@ -999,7 +1014,7 @@ def _eval_worker(payload: dict) -> dict:
         out["elapsed_s"] = 0.0
         return out
     if payload.get("fake_front"):
-        r, raw = _fake_front_residuals_and_raw(payload["x"])
+        r, raw = _fake_front_residuals_and_raw(payload["x"], payload.get("constraint_overrides"))
         out["r"] = r
         out["raw"] = raw
         out["feasible"] = bool(max(r) <= TOL)
