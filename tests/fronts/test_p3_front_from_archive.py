@@ -16,6 +16,7 @@ from constellaration_methods.fronts.p3_front_from_archive import (
     strict_nominal,
     tolerance_feasible_rows,
     v_curve_from_rows,
+    worse_confirmation,
 )
 
 
@@ -378,3 +379,87 @@ def test_run_rejects_unknown_constraint_override_name(tmp_path):
     )
     with pytest.raises(ValueError, match="unknown constraint override"):
         run(args)
+
+
+# --------------------------------------------------------------------------- #
+# confirmed-field convention: worst-case, one evaluation for every field
+# --------------------------------------------------------------------------- #
+def test_worse_confirmation_picks_the_larger_max_residual_with_its_raw():
+    c_mild = [-0.05, -0.05, -0.05, -0.05, 0.001]
+    c_worse = [-0.05, -0.05, -0.05, -0.05, 0.002]
+    raw_mild = {"aspect_ratio": 9.0, "min_len": 9.0}
+    raw_worse = {"aspect_ratio": 9.1, "min_len": 8.9}
+    assert worse_confirmation([c_mild, c_worse], [raw_mild, raw_worse]) == (
+        c_worse,
+        raw_worse,
+    )
+    assert worse_confirmation([c_worse, c_mild], [raw_worse, raw_mild]) == (
+        c_worse,
+        raw_worse,
+    )
+
+
+def test_worse_confirmation_tie_keeps_the_first():
+    c = [-0.05, -0.05, -0.05, -0.05, 0.001]
+    raw1 = {"aspect_ratio": 9.0, "min_len": 9.0}
+    raw2 = {"aspect_ratio": 9.1, "min_len": 8.9}
+    assert worse_confirmation([c, list(c)], [raw1, raw2]) == (c, raw1)
+
+
+def _write_single_member_archive(archive_dir, r, raw):
+    archive_dir.mkdir()
+    (archive_dir / "archive.jsonl").write_text(
+        json.dumps({"tag": "t0", "x": [0.0], "r": r, "raw": raw}) + "\n"
+    )
+    (archive_dir / "start_serialised.json").write_text(
+        json.dumps({"boundary_dict": {}, "mpol": 1, "ntor": 1, "nfp": 1})
+    )
+
+
+@pytest.mark.parametrize("worse_slot", [0, 1])
+def test_run_confirmed_fields_all_come_from_the_worse_confirmation(
+    tmp_path, monkeypatch, worse_slot
+):
+    """Regression (review of E15/E16/E17 exports): confirmed_V and
+    strict_nominal used the worse confirmation while confirmed_aspect_ratio
+    and confirmed_min_len averaged the two, so the hypervolume was computed
+    from metrics no single evaluation produced. The two confirmations here
+    differ in aspect/min_len by 3e-4 (>> 1e-5), so a mean is observable."""
+    from constellaration_methods.fronts.p3_front_from_archive import build_parser, run
+    from constellaration_methods.restoration import p3_final_restoration, p3_promote_candidate
+
+    archived_r = [-0.05, -0.05, -0.05, -0.05, 0.0010]
+    archived_raw = {"aspect_ratio": 9.0, "min_len": 9.0}
+    _write_single_member_archive(tmp_path / "archive", archived_r, archived_raw)
+
+    mild = ([-0.05, -0.05, -0.05, -0.05, 0.00102], {"aspect_ratio": 9.0, "min_len": 9.0})
+    worse = (
+        [-0.05, -0.05, -0.05, -0.05, 0.00108],
+        {"aspect_ratio": 9.0003, "min_len": 8.9997},
+    )
+    pair = [mild, worse] if worse_slot == 1 else [worse, mild]
+
+    def fake_fresh_evaluate(rep, xs, tags, workers, log_path, budget):
+        assert len(xs) == 2 and len(tags) == 2
+        return [c for c, _ in pair], [{"raw": raw} for _, raw in pair]
+
+    monkeypatch.setattr(p3_final_restoration, "_fresh_evaluate", fake_fresh_evaluate)
+    monkeypatch.setattr(p3_promote_candidate, "boundary_dict_of_candidate", lambda c: {})
+    monkeypatch.setattr(p3_promote_candidate, "reflect_toroidally", lambda bd: {})
+
+    args = build_parser().parse_args(
+        [str(tmp_path / "archive"), "--out-dir", str(tmp_path / "out"), "--confirm"]
+    )
+    report = run(args)
+
+    (m,) = report["members"]
+    assert m["retained"] is True
+    assert m["confirmed_r"] == worse[0]
+    assert m["confirmed_V"] == 0.00108
+    assert m["strict_nominal"] is False
+    # the observable part: no averaging, the worse evaluation's own metrics
+    assert m["confirmed_aspect_ratio"] == 9.0003
+    assert m["confirmed_min_len"] == 8.9997
+    expected_hv = hypervolume([{"aspect_ratio": 9.0003, "min_len": 8.9997}], ref=(1.0, 20.0))
+    assert m["solo_hypervolume"] == expected_hv
+    assert report["confirmed_hypervolume"] == expected_hv
