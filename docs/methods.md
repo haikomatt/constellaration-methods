@@ -22,6 +22,21 @@ evaluations (~8 h on 12 cores).
 Bars (material: first feasible <= 1,500; substantial: >= 5-member confirmed front) both met. One
 change, one front, one size; the number is a first data point, not a law.
 
+**Supported, own lineage (E26, 2026-10-03): the same definition change, repeated on the own
+lineage.** The E18b analogue, run on E23c's confirmed 65-member own-lineage front (hypervolume
+94.28) instead of the davidkh-lineage front: the identical mirror 0.25 -> 0.23 change, warm-started
+with the same seeded-population builder under the new definition, 2,992 evaluations, 44
+generations, 1 non-convergent. First tolerance-feasible point under the new definition at
+**evaluation 24** (an anchor's own re-evaluation already inside the band); confirmed front **46
+members, hypervolume 91.65**, 13 of 46 strictly nominal, aspect 10.11-10.53, min_len 7.99-8.27.
+**Survival 0.972** of the old front's 94.28 -- compare E18b's 0.995 on the davidkh lineage. Label:
+**substantial** (E18b's bars: material -- first feasible <= 1,500 -- met at evaluation 24;
+substantial -- confirmed front >= 5 members -- met with 46). One change, one front, repeated once
+on a second lineage; the same caveat as E18b applies: one change, one front, one size, not a law.
+Reading: warm re-optimisation under a changed definition costs almost nothing on the own lineage
+either, though the own-lineage front is slightly less robust to the mirror tightening than the
+derived one (more members end up near the mirror bound). See docs/results/p3/E26/STATUS.md.
+
 **Refuted for sampler seeds and first-order constructions (E18a, E19, E20/E20b).** From our own
 near-axis seed at confirmed V 0.0536: a seeded population could not beat the seed in 2,976
 evaluations; a second-order local model with measured off-diagonal curvature (12 directions, 156
@@ -98,6 +113,26 @@ independent database seeds. Caveat, stated plainly: this is the fixed P3 definit
 time is a low-scoring but feasible one: aspect 10.2-10.3 and min_len 7.3-7.6 sit near the bottom of
 the board's range, not a competitive front member.
 
+**Where the generator's sweet spot sits (E24, E24r; 2026-10-02/04).** The own-lineage front sits
+entirely at aspect ~9.8-10.5 because every cold-start seed used so far (E21/E22/E22b/E22c) came
+from the same aspect-10.4 bank. Two further banks were built from the same selection and screened
+canonically: aspect 8.5 (901 seeds, canonical achieved 7.2-8.4) and aspect 14.0 (960 seeds,
+canonical achieved 11.9-13.7). Both are material (seeds exist with confirmed V <= 0.30 and
+iota/mirror/well satisfied): bank A best confirmed 0.2761 (7 of 901 seeds clear the bar; QI tail
+empty at this aspect, flux tail 16% <= 0.9); **bank B best confirmed 0.1136, with 214 of 960 seeds
+clearing the bar** (E21 at aspect 10.4 had 151 of 960) -- the generator's best operating aspect for
+P3 reads as **~12, not ~10**. One restoration link ran from each bank's best seed, the E22 command
+unchanged: bank A reached worst-of-three **V 0.0751 at aspect 7.4**, infeasible (material by the
+chain rule, not substantial); bank B reached worst-of-three **V 0.0143 at aspect 12.0, min_len
+8.80**, infeasible but **substantial** (<= 0.030) -- and the objective value reached there (min_len
+8.80) is above every member of the own-lineage front (max 8.24) and in the range of the
+davidkh-lineage E15 front at the same aspect. Neither link reached feasibility in one pass. A
+second restoration link from each bank's adjudicated best point was launched 2026-10-04 (bank B
+first, then bank A, identical command, material bar = the link's V minus 0.010); **as of this
+writing, link 2 for both banks has not been adjudicated -- queued.** See
+docs/results/p3/E24-a85/STATUS.md, docs/results/p3/E24-b14/STATUS.md,
+docs/results/p3/E24r-a85/STATUS.md and docs/results/p3/E24r-b14/STATUS.md.
+
 ### "Methods that can map Pareto fronts cheaply"
 
 **Supported with a stated limit (E15-E17, 2026-09-18/19).** From one strictly feasible point, a
@@ -122,6 +157,27 @@ per-member objective quality, not feasibility or breadth. Same limit as E15-E17:
 mapping near a known design, not across the design space -- neither davidkh-lineage nor
 own-lineage front-mapping has widened aspect. Chain rule: material -> a second front link (E23b) is
 running from E23's confirmed front, identical settings. See docs/results/p3/E23/STATUS.md.
+
+**Chain close (E23b, E23c; adjudicated 2026-09-27/30).** Two further links ran under the
+registered chain rule (each link seeded via anchors mode from the previous link's confirmed front,
+identical pop 56 and coefficient box, stop if the gain falls below 2%). E23b: 2,968 evaluations, 53
+generations; 2,667 tolerance-feasible archive rows, 52 nondominated, 52 retained, confirmed
+hypervolume **92.61** (+2.89, +3.2% on E23's 89.71, above the 91.51 continuation threshold); 31 of
+52 strictly nominal; aspect 9.80-10.38, min_len 7.57-8.09. E23c: identical settings from E23b's
+confirmed front; 2,968 evaluations, 53 generations; 65 nondominated, 65 retained, confirmed
+hypervolume **94.28** (+1.71, +1.81% on E23b's 92.61, below the 94.46 continuation threshold); 44
+of 65 strictly nominal; aspect 9.77-10.49, min_len 7.64-8.24. **The chain stopped on this
+pre-registered 2% rule** (`scripts/p3_front_chain_runner.sh` logged `chain stop: gain < 2%` and
+exited; no E23d launched) -- not on the clock (the hard stop, 2026-09-30 04:00, was never reached).
+Both links are labelled **material** (the substantial bar 111.30 and goal 124.23 remain unmet).
+Chain summary, one seed and one representation across three links, ~17 h total wall: own-lineage
+confirmed hypervolume **81.60 (E22 baseline) -> 89.71 -> 92.61 -> 94.28**, i.e. +15.5% total; member
+count 2 -> 53 -> 52 -> 65. Per-link gain fell as expected for a fixed seed and representation:
++9.9%, +3.2%, +1.81%. Not tested: whether this pattern is a property of the E22 seed specifically,
+or general across the generator's other confirmed cold-start seeds (E22b, E22c) -- no
+front-repeatability run is registered for those two; and whether the plateau is a pop-size/
+representation ceiling (unchanged across all three links) or a property of the design itself. See
+docs/results/p3/E23b/STATUS.md and docs/results/p3/E23c/STATUS.md.
 
 ### "How diverse can near-optimal solutions be?"
 

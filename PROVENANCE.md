@@ -74,9 +74,9 @@ is different: it reads a public, external near-axis QI construction database dir
   with any seed derived from it.
 - **Results.** `docs/results/p3/E21/` (REPORT.json, placement summary, `STATUS.md`); see the
   README's results table and `docs/methods.md`'s cold-start section for what E21 shows.
-- **E22, E22b, E22c, E23.0 and E23: own lineage, submittable at Matt's discretion.**
-  `docs/results/p3/E22/` (the restoration link that took E21's confirmed seed from worst-of-three
-  V 0.1443 to 0.0, strictly feasible on all five rows), `docs/results/p3/E22b/` and
+- **E22, E22b, E22c, E23.0, E23, E23b, E23c and E26: own lineage, submittable at Matt's
+  discretion.** `docs/results/p3/E22/` (the restoration link that took E21's confirmed seed from
+  worst-of-three V 0.1443 to 0.0, strictly feasible on all five rows), `docs/results/p3/E22b/` and
   `docs/results/p3/E22c/` (the same restoration chain repeated, unchanged, from two further
   database seeds -- db00588 to worst-of-three V 0.0085 feasible, and db00397 to worst-of-three
   V 0.0049 feasible; adjudicated 2026-09-27, repeatability label 3 of 3), and
@@ -85,22 +85,40 @@ is different: it reads a public, external near-axis QI construction database dir
   (CC BY 4.0) via a database seed and this repository's own restoration/front-confirmation code,
   with **no leaderboard boundary anywhere in its lineage**. `docs/results/p3/E23/` (the seeded
   population front grown from E22's confirmed point: 53 confirmed members, hypervolume 89.71,
-  adjudicated 2026-09-27) designs the same own lineage as E22 -- every member is a variation on
-  E22's own-lineage boundary produced by this repository's own front-mapping code, with no
-  leaderboard boundary anywhere in any member's lineage. This is unlike every davidkh-lineage P3
-  result above, which is measurement and method only and not submittable. E22's, E22b's, E22c's,
-  E23.0's and E23's boundary exports (`docs/results/p3/E22/own-lineage/`,
-  `docs/results/p3/E22b/own-lineage/`, `docs/results/p3/E22c/own-lineage/`,
-  `docs/results/p3/E23.0/own-lineage/` and `docs/results/p3/E23/own-lineage/`) are shipped
+  adjudicated 2026-09-27), `docs/results/p3/E23b/` (the second front link, anchors mode from E23's
+  confirmed front: 52 confirmed members, hypervolume 92.61, adjudicated 2026-09-27) and
+  `docs/results/p3/E23c/` (the third front link, anchors mode from E23b's confirmed front: 65
+  confirmed members, hypervolume 94.28, adjudicated 2026-09-28/30 -- the chain then stopped on its
+  pre-registered 2% rule, no E23d) design the same own lineage as E22 -- every member of every link
+  is a variation on E22's own-lineage boundary produced by this repository's own front-mapping
+  code, with no leaderboard boundary anywhere in any member's lineage. `docs/results/p3/E26/` (the
+  mirror 0.25 -> 0.23 definition-change warm re-optimisation run on E23c's confirmed front: 46
+  confirmed members, hypervolume 91.65, survival 0.972 of E23c's 94.28, adjudicated 2026-10-03) is
+  own lineage by the same construction -- every member descends from E23c's own-lineage front via
+  this repository's own re-optimisation code, with no leaderboard boundary anywhere in its lineage.
+  This is unlike every davidkh-lineage P3 result above, which is measurement and method only and
+  not submittable. E22's, E22b's, E22c's, E23.0's, E23's, E23b's, E23c's and E26's boundary exports
+  (`docs/results/p3/E22/own-lineage/`, `docs/results/p3/E22b/own-lineage/`,
+  `docs/results/p3/E22c/own-lineage/`, `docs/results/p3/E23.0/own-lineage/`,
+  `docs/results/p3/E23/own-lineage/`, `docs/results/p3/E23b/own-lineage/`,
+  `docs/results/p3/E23c/own-lineage/` and `docs/results/p3/E26/own-lineage/`) are shipped
   un-stripped for exactly this reason -- they are own lineage and clean provenance, so
   `tools/strip_boundaries.py`'s davidkh-derivative rationale does not apply to them, and
   `tools/check_no_boundaries.py` exempts those exact paths by an explicit allowlist (see that
   script's `BOUNDARY_ALLOWED_PREFIXES`). Attribution and licence terms for the database travel with
-  these designs the same way as for E21's seeds (see above). These designs are **submittable at
-  Matt's discretion**; as of this writing, **no submission has been made**. See
-  `docs/results/p3/E22/STATUS.md`, `docs/results/p3/E22b/STATUS.md`,
-  `docs/results/p3/E22c/STATUS.md`, `docs/results/p3/E23.0/RESULT.md`,
-  `docs/results/p3/E23/STATUS.md`, the README's results table, and `docs/methods.md`'s cold-start
+  these designs the same way as for E21's seeds (see above). The E24/E24r breadth banks
+  (`docs/results/p3/E24-a85/`, `docs/results/p3/E24-b14/`, `docs/results/p3/E24r-a85/`,
+  `docs/results/p3/E24r-b14/`) are own lineage by the same construction but **no own-lineage design
+  ships from them**: the banks are bank seed files (boundaries reported only as counts, never
+  redistributed) and neither restoration link reached feasibility, so there is no feasible design
+  to exempt. E25 (the union front) failed at launch on a merger bug (fixed 2026-10-04) and has
+  produced no evaluations and no design of any kind; see `docs/results/p3/E25/STATUS.md`. All of
+  E22, E22b, E22c, E23.0, E23, E23b, E23c and E26 are **submittable at Matt's discretion**; as of
+  this writing, **no submission has been made**. See `docs/results/p3/E22/STATUS.md`,
+  `docs/results/p3/E22b/STATUS.md`, `docs/results/p3/E22c/STATUS.md`,
+  `docs/results/p3/E23.0/RESULT.md`, `docs/results/p3/E23/STATUS.md`,
+  `docs/results/p3/E23b/STATUS.md`, `docs/results/p3/E23c/STATUS.md`,
+  `docs/results/p3/E26/STATUS.md`, the README's results table, and `docs/methods.md`'s cold-start
   and cheap-front-mapping sections for what each shows.
 
 ## Pinned versions
