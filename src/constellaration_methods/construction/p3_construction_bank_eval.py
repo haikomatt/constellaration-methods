@@ -286,6 +286,40 @@ def confirm_worst_of_three(
     }
 
 
+LABEL_TIERS_BEST_FIRST = ("goal", "substantial", "material", "null")
+
+
+def best_label_row(confirmed: list[dict[str, Any]], key: str) -> dict[str, Any] | None:
+    """The confirmed row that achieved the best label under `key`, best =
+    earliest in `LABEL_TIERS_BEST_FIRST`; ties broken by lower worst-of-three
+    V. None when nothing was confirmed."""
+    if not confirmed:
+        return None
+    return min(
+        confirmed,
+        key=lambda c: (LABEL_TIERS_BEST_FIRST.index(c[key]), c["worst_of_three_v"]),
+    )
+
+
+def summarise_confirmed(confirmed: list[dict[str, Any]]) -> dict[str, Any]:
+    """Report-level fields over the confirmed rows. The registration bars
+    are EXISTENTIAL (material if ANY confirmed seed meets the bar, and so on
+    up the tiers), so the report-level label is the best label achieved by
+    ANY confirmed row, and `stage2_label_determined_by` names that row.
+    `best_confirmed_*` (the min-V row) is kept as a separate field: it is
+    the best V, not necessarily the row that set the label."""
+    best_confirmed = min(confirmed, key=lambda c: c["worst_of_three_v"], default=None)
+    by_stage2 = best_label_row(confirmed, "stage2_label")
+    return {
+        "best_confirmed_label": best_confirmed["label"] if best_confirmed else None,
+        "best_confirmed_worst_of_three_v": (
+            best_confirmed["worst_of_three_v"] if best_confirmed else None
+        ),
+        "stage2_label": by_stage2["stage2_label"] if by_stage2 else None,
+        "stage2_label_determined_by": by_stage2["label"] if by_stage2 else None,
+    }
+
+
 def run_stage2(
     *,
     bank_dir: Path,
@@ -331,7 +365,6 @@ def run_stage2(
         c["stage2_label"] = pcp.stage2_label(c["worst_of_three_v"], feasible=c["feasible"])
         confirmed.append(c)
 
-    best_confirmed = min(confirmed, key=lambda c: c["worst_of_three_v"], default=None)
     report = {
         "status": "PROVISIONAL (no lock snapshot yet)",
         "n_top_evaluated_once": len(rows),
@@ -339,11 +372,7 @@ def run_stage2(
         "canonical_once_best_v": best_once_eval.get("V") if best_once_eval else None,
         "canonical_once_best_label": best_once_row["label"] if best_once_row else None,
         "confirmed": confirmed,
-        "best_confirmed_label": best_confirmed["label"] if best_confirmed else None,
-        "best_confirmed_worst_of_three_v": (
-            best_confirmed["worst_of_three_v"] if best_confirmed else None
-        ),
-        "stage2_label": best_confirmed["stage2_label"] if best_confirmed else None,
+        **summarise_confirmed(confirmed),
         "git_commit": _git_commit(),
     }
     if minor_radius is not None:
