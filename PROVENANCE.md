@@ -13,11 +13,11 @@ reload-and-re-evaluate verification against the benchmark's own scorer, is in
 `docs/results/submission/PROVENANCE.json` (P2) and
 `docs/results/submission/PROVENANCE_own_geometrical.json` (P1). Both are submittable as own work.
 
-## P3: davidkh lineage, measurement only (except E21, E22, E22b, E22c, E23.0 -- see below)
+## P3: davidkh lineage, measurement only (except E21, E22, E22b, E22c, E23.0, E24r-B-2 -- see below)
 
-Every P3 (`MHDStableQIStellarator`) result in `docs/results/p3/` other than E21, E22, E22b, E22c
-and E23.0 traces back to `davidkh`'s public P2 (`SimpleToBuildQIStellarator`) leaderboard entry as its
-starting boundary. That entry is public (the leaderboard is a public record), but **no reuse terms
+Every P3 (`MHDStableQIStellarator`) result in `docs/results/p3/` other than E21, E22, E22b, E22c,
+E23.0 and the own-lineage results listed below traces back to `davidkh`'s public P2
+(`SimpleToBuildQIStellarator`) leaderboard entry as its starting boundary. That entry is public (the leaderboard is a public record), but **no reuse terms
 for derivatives of public leaderboard boundaries have been agreed with its author or with Proxima
 Fusion**. Consequently, for every davidkh-lineage result:
 
@@ -74,7 +74,7 @@ is different: it reads a public, external near-axis QI construction database dir
   with any seed derived from it.
 - **Results.** `docs/results/p3/E21/` (REPORT.json, placement summary, `STATUS.md`); see the
   README's results table and `docs/methods.md`'s cold-start section for what E21 shows.
-- **E22, E22b, E22c, E23.0, E23, E23b, E23c and E26: own lineage, submittable at Matt's
+- **E22, E22b, E22c, E23.0, E23, E23b, E23c, E24r-B-2 and E26: own lineage, submittable at Matt's
   discretion.** `docs/results/p3/E22/` (the restoration link that took E21's confirmed seed from
   worst-of-three V 0.1443 to 0.0, strictly feasible on all five rows), `docs/results/p3/E22b/` and
   `docs/results/p3/E22c/` (the same restoration chain repeated, unchanged, from two further
@@ -108,18 +108,24 @@ is different: it reads a public, external near-axis QI construction database dir
   script's `BOUNDARY_ALLOWED_PREFIXES`). Attribution and licence terms for the database travel with
   these designs the same way as for E21's seeds (see above). The E24/E24r breadth banks
   (`docs/results/p3/E24-a85/`, `docs/results/p3/E24-b14/`, `docs/results/p3/E24r-a85/`,
-  `docs/results/p3/E24r-b14/`) are own lineage by the same construction but **no own-lineage design
-  ships from them**: the banks are bank seed files (boundaries reported only as counts, never
-  redistributed) and neither restoration link reached feasibility, so there is no feasible design
-  to exempt. E25 (the union front) failed at launch on a merger bug (fixed 2026-10-04) and has
+  `docs/results/p3/E24r-b14/`, `docs/results/p3/E24r-a85-2/`, `docs/results/p3/E24r-b14-2/`) are own
+  lineage by the same construction. **E24r-B-2** (`docs/results/p3/E24r-b14-2/`, the second
+  restoration link from the aspect-14 bank's best seed: worst-of-three V 0.0, aspect 11.97, verified
+  in both evaluator versions, adjudicated 2026-10-14) is the fourth own-lineage feasible design and
+  is treated exactly as the others: its two exports
+  (`docs/results/p3/E24r-b14-2/own-lineage/`) are shipped un-stripped under an explicit allowlist
+  entry, and attribution and licence terms for the database travel with it. The banks themselves
+  (boundaries reported only as counts, never redistributed), the link-1 results and the E24r-A-2
+  near miss (infeasible) ship no boundary, so there is nothing to exempt for them. E25 (the union
+  front) failed at launch twice (a merger bug, then a container-name collision, both fixed) and has
   produced no evaluations and no design of any kind; see `docs/results/p3/E25/STATUS.md`. All of
-  E22, E22b, E22c, E23.0, E23, E23b, E23c and E26 are **submittable at Matt's discretion**; as of
-  this writing, **no submission has been made**. See `docs/results/p3/E22/STATUS.md`,
+  E22, E22b, E22c, E23.0, E23, E23b, E23c, E24r-B-2 and E26 are **submittable at Matt's
+  discretion**; as of this writing, **no submission has been made**. See `docs/results/p3/E22/STATUS.md`,
   `docs/results/p3/E22b/STATUS.md`, `docs/results/p3/E22c/STATUS.md`,
   `docs/results/p3/E23.0/RESULT.md`, `docs/results/p3/E23/STATUS.md`,
   `docs/results/p3/E23b/STATUS.md`, `docs/results/p3/E23c/STATUS.md`,
-  `docs/results/p3/E26/STATUS.md`, the README's results table, and `docs/methods.md`'s cold-start
-  and cheap-front-mapping sections for what each shows.
+  `docs/results/p3/E26/STATUS.md`, `docs/results/p3/E24r-b14-2/STATUS.md`, the README's results
+  table, and `docs/methods.md`'s cold-start and cheap-front-mapping sections for what each shows.
 
 ## Pinned versions
 
