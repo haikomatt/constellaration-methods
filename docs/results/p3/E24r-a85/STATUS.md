@@ -24,6 +24,6 @@ metrics and feasibility flag (no boundary coordinates -- carries no key from
 coefficients; since the point is not feasible there is no own-lineage design to ship, and these
 files are not copied here.
 
-**Link 2 (queued).** A second restoration link from this link's adjudicated best point was
-launched 2026-10-04 (`p3-e24r-a85-2`, identical command, material bar = this V - 0.010, goal
-feasible), after bank B's link 2. As of this writing it has not been adjudicated -- queued.
+**Link 2 (adjudicated 2026-10-14).** A second restoration link from this link's adjudicated best
+point (`p3-e24r-a85-2`, identical command, material bar = this V - 0.010, goal feasible) reached
+worst-of-three V 0.0212, substantial but not feasible; see `docs/results/p3/E24r-a85-2/STATUS.md`.

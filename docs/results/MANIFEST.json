@@ -2120,8 +2120,8 @@
     "source": "the source campaign repository/results/p3-e24r-a85/best_recheck.json"
   },
   "p3/E24r-a85/STATUS.md": {
-    "sha256": "c00f8bd8dda2a8ce14978b0b308d0664150de36eb52ca1a1d17c32b2786282fd",
-    "bytes": 1897,
+    "sha256": "5e8e5b5cd7b22885024c6bbff9d531fa460ebd73d5e0d5731222fcb50c705357",
+    "bytes": 1914,
     "source": "written for this repository (not a campaign artefact)"
   },
   "p3/E24r-b14/REPORT.json": {
@@ -2135,13 +2135,73 @@
     "source": "the source campaign repository/results/p3-e24r-b14/best_recheck.json"
   },
   "p3/E24r-b14/STATUS.md": {
-    "sha256": "b675a390717186f11dbcc4a31c9b02ccfe7886c7b3b81d24eddae77170d847a3",
-    "bytes": 2084,
+    "sha256": "d36c2e8f5f11f144e00572810b72e916723cbaa07bdc12a94f9dfafa634c714d",
+    "bytes": 2148,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E24r-b14-2/REPORT.json": {
+    "sha256": "76b892970ad654f8403a43dac7a96752712dbbdff478b2df63c278e8e8b0914a",
+    "bytes": 4214,
+    "source": "the source campaign repository/results/p3-e24r-b14-2/REPORT.json (stripped)"
+  },
+  "p3/E24r-b14-2/STATUS.md": {
+    "sha256": "608f6136ca5706435c2d5ab89e3014a166e5763a1389fe4199d1314946d8efce",
+    "bytes": 3513,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E24r-b14-2/events.jsonl": {
+    "sha256": "eaa938ad0b57d4b2d7e013ed4f510d213a565f2a469b9b24c1a81bb71defd4eb",
+    "bytes": 1845,
+    "source": "the source campaign repository/results/p3-e24r-b14-2/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E24r-b14-2/best_recheck.json": {
+    "sha256": "a977a5c6586b8bed74337f3a234bd18855ec0274843843f68857f365569e7b38",
+    "bytes": 755,
+    "source": "the source campaign repository/results/p3-e24r-b14-2/best_recheck.json"
+  },
+  "p3/E24r-b14-2/recheck_phase1.json": {
+    "sha256": "3ceee817a0554a5b9ef043aa61761234145b257c8971f00f52b1d103b1fcbc6e",
+    "bytes": 1533,
+    "source": "the source campaign repository/results/p3-close-out/e24r-b14-2/recheck_phase1.json"
+  },
+  "p3/E24r-b14-2/recheck_phase1.log": {
+    "sha256": "db54f9b511d9b6b4f8270d078f9b7322397cc5f8b026c69f5fb8ef4998fa90f4",
+    "bytes": 1542,
+    "source": "the source campaign repository/results/p3-close-out/e24r-b14-2/recheck_phase1.log"
+  },
+  "p3/E24r-b14-2/recheck_leaderboard-fidelity.json": {
+    "sha256": "964fea42b6afe92bc62961d0f7e5edc4f2214398b83987b0f881ffdfe6ab13e8",
+    "bytes": 1515,
+    "source": "the source campaign repository/results/p3-close-out/e24r-b14-2/recheck_leaderboard-fidelity.json"
+  },
+  "p3/E24r-b14-2/recheck_leaderboard-fidelity.log": {
+    "sha256": "144ae326372adb3052730aa7c6de92b74fa360c86d54e0f67808766a8148ea58",
+    "bytes": 1524,
+    "source": "the source campaign repository/results/p3-close-out/e24r-b14-2/recheck_leaderboard-fidelity.log"
+  },
+  "p3/E24r-b14-2/own-lineage/feasible_boundary_P1L1.json": {
+    "sha256": "8786a593649bfb3e919eb9503d83448cc19c884e088ab56fecf3e0779d479c5e",
+    "bytes": 12233,
+    "source": "the source campaign repository/results/p3-e24r-b14-2/best_boundary.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E24r-b14-2/own-lineage/feasible_boundary_P1L1_reflected.json": {
+    "sha256": "0990e9bce7d09fe15b81828a97cad469823fa97f083fbfd48f2d240e28b354ea",
+    "bytes": 12240,
+    "source": "the source campaign repository/results/p3-e24r-b14-2/best_boundary_reflected.json (own lineage, clean provenance; not stripped -- see PROVENANCE.md)"
+  },
+  "p3/E24r-a85-2/REPORT.json": {
+    "sha256": "19ce0a99eb70ae601fcfbb161e19854d649cfdcd4e9695f8d1e04cd8d80f8d81",
+    "bytes": 7700,
+    "source": "the source campaign repository/results/p3-e24r-a85-2/REPORT.json (stripped)"
+  },
+  "p3/E24r-a85-2/STATUS.md": {
+    "sha256": "a58ee261b397d717faf48bb2a3882b98be3d37edfcef7ab7ad1df9ef00d1c39b",
+    "bytes": 1775,
     "source": "written for this repository (not a campaign artefact)"
   },
   "p3/E25/STATUS.md": {
-    "sha256": "e6b2e819e3b76c3fec43824682c34529816eea8ac50ed00f9a27f26c092dc06e",
-    "bytes": 1376,
+    "sha256": "0be3583fee27af89b4c81c02348ee20b2358f6c6a84c0e5c36880ec03785a5d1",
+    "bytes": 1674,
     "source": "written for this repository (not a campaign artefact)"
   },
   "p3/E26/REPORT.json": {

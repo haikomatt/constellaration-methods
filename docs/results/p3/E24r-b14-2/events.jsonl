@@ -1,0 +1,11 @@
+{"event": "repeatability", "ok": true, "e_rep": 0.0, "e_control": 0.0, "eps": 0.0001, "start_repeats": [[-0.2630374944817113, 0.01431525666737318, -0.16810464006643877, 0.014263560737106416, -0.07043011899400509], [-0.2630374944817113, 0.01431525666737318, -0.16810464006643877, 0.014263560737106416, -0.07043011899400509]], "control": [0.06185293028051131, 0.14328263814025316, 0.15209498238801245, 0.09487221420085981, -0.03769324739343605], "t_h": 0.027}
+{"event": "curvature", "label": "J0", "ok_cols": 440, "frac_positive": 0.695, "median_new_mode_qi_mirror_flux": [0.0020915329715738796, 3.87307595361048e-06, 0.03854099935120993], "t_h": 1.231}
+{"event": "jacobian", "label": "J0", "ok_cols": 440, "opt_used": 880, "probe_scale": "step", "t_h": 1.231}
+{"event": "lp_infeasible", "trial": 0, "delta": 0.0025, "msg": "quadratic restoration step failed: Iteration limit reached", "t_h": 1.248}
+{"event": "model_error", "tag": "P:L1", "t0.5_max_abs_err": 0.029185111145441235, "t0.5_worst_row": 3, "t0.5_rho_model": 0.4720044446830999, "t1.0_max_abs_err": 0.08984625321568857, "t1.0_worst_row": 3, "t1.0_rho_model": 0.2258400326357517, "t_h": 1.279}
+{"event": "priority_confirmation", "tag": "P:L1:t0.5", "worst_v": 0.0, "feasible": true, "t_h": 1.293}
+{"event": "success", "tag": "P:L1:t0.5", "worst_v": 0.0, "t_h": 1.293}
+{"event": "optimisation_stopped", "reason": "feasible_confirmed", "opt_used": 882, "v_incumbent": 0.01431525666737318, "n_accepted": 0, "t_h": 1.294}
+{"event": "adjudicated", "tag": "P:L1:t0.5", "worst_v": 0.0, "feasible": true, "technical": false, "t_h": 1.309}
+{"event": "adjudicated", "tag": "P:L1:t1.0", "worst_v": 0.0032900515983953, "feasible": true, "technical": false, "t_h": 1.327}
+{"event": "adjudicated", "tag": "J0:41:-", "worst_v": 0.00586636867485638, "feasible": true, "technical": false, "t_h": 1.338}
