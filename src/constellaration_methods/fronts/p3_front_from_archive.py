@@ -21,6 +21,16 @@ Procedure:
      library's own scorer -- `hypervolume`, which calls
      `constellaration.problems._hypervolume` directly) from the CONFIRMED
      metrics of the retained members only.
+
+     Confirmed-field convention (worst-case, `worse_confirmation`): every
+     confirmed_* field of a retained member -- confirmed_r, confirmed_V,
+     confirmed_aspect_ratio, confirmed_min_len, strict_nominal and
+     solo_hypervolume -- is read from the ONE confirmation whose max
+     residual is worse (ties keep the first), so the hypervolume is
+     computed from the same evaluation as the residual reported beside it.
+     Nothing is averaged across the two confirmations; this mirrors the
+     campaign's worst-of-N adjudication rule
+     (`p3_final_restoration.adjudicate_worst_v`).
   5. export every retained boundary and its toroidal reflection with sha256
      (`p3_promote_candidate.boundary_dict_of_candidate` /
      `reflect_toroidally`).
@@ -189,15 +199,20 @@ def _safe_name(tag: str) -> str:
     return tag.replace(":", "_").replace("/", "_")
 
 
-def _worse_of_two(c1, c2):
-    """The confirmation with the larger max residual (conservative choice --
-    mirrors this campaign's worst-of-N adjudication convention, e.g.
-    `p3_final_restoration.adjudicate_worst_v`)."""
-    if c1 is None:
-        return c2
-    if c2 is None:
-        return c1
-    return c1 if max(float(v) for v in c1) >= max(float(v) for v in c2) else c2
+def worse_confirmation(confirmations, raws):
+    """(residuals, raw metrics) of the confirmation with the larger max
+    residual; ties keep the first. One evaluation supplies EVERY confirmed_*
+    field of a retained member (module docstring, step 4), mirroring the
+    campaign's worst-of-N adjudication rule
+    (`p3_final_restoration.adjudicate_worst_v`). Callers pass only complete
+    confirmations (`retained` has already rejected None/incomplete ones)."""
+    worst_i = 0
+    worst_v = max(float(v) for v in confirmations[0])
+    for i, c in enumerate(confirmations[1:], start=1):
+        v = max(float(x) for x in c)
+        if v > worst_v:
+            worst_i, worst_v = i, v
+    return confirmations[worst_i], raws[worst_i]
 
 
 def run(args) -> dict:
@@ -288,10 +303,10 @@ def run(args) -> dict:
             "retained": ok,
         }
         if ok:
-            worse = _worse_of_two(c1, c2)
-            confirmed_r = [float(v) for v in worse]
-            confirmed_aspect = 0.5 * (float(raw1["aspect_ratio"]) + float(raw2["aspect_ratio"]))
-            confirmed_min_len = 0.5 * (float(raw1["min_len"]) + float(raw2["min_len"]))
+            worse_r, worse_raw = worse_confirmation([c1, c2], [raw1, raw2])
+            confirmed_r = [float(v) for v in worse_r]
+            confirmed_aspect = float(worse_raw["aspect_ratio"])
+            confirmed_min_len = float(worse_raw["min_len"])
             member.update(
                 confirmed_r=confirmed_r,
                 confirmed_V=max(confirmed_r),
