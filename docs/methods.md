@@ -127,9 +127,27 @@ chain rule, not substantial); bank B reached worst-of-three **V 0.0143 at aspect
 8.80**, infeasible but **substantial** (<= 0.030) -- and the objective value reached there (min_len
 8.80) is above every member of the own-lineage front (max 8.24) and in the range of the
 davidkh-lineage E15 front at the same aspect. Neither link reached feasibility in one pass. A
-second restoration link from each bank's adjudicated best point was launched 2026-10-04 (bank B
-first, then bank A, identical command, material bar = the link's V minus 0.010); **as of this
-writing, link 2 for both banks has not been adjudicated -- queued.** See
+second restoration link from each bank's adjudicated best point (identical command, material bar =
+the link's V minus 0.010) was adjudicated 2026-10-14, and it is the breadth result:
+
+- **Bank B, link 2: feasible (E24r-B-2).** Point `P:L1:t0.5`, worst-of-three **V 0.0, strictly
+  nominal on all five rows**: iota/N 0.316, log10 qi -3.638, edge mirror 0.225, flux compression
+  0.890, vacuum well +0.0074, **aspect 11.97, min_len 8.72**, solo hypervolume 77.99. 882
+  optimisation evaluations, 1.34 h (link 1 took 3.4 h). Fidelity re-check: feasible in
+  `phase1` for both exports (V -0.0111); in `leaderboard-fidelity` the reflected export is feasible
+  with identical metrics and the un-reflected export fails the iota sign only. The fourth
+  own-lineage feasible design and the first off the aspect-10 line, with a scale length above every
+  member of the aspect-10 front. Its solo hypervolume (77.99) is below the aspect-10 designs'
+  81.6 to 83.1, so this is breadth in aspect, not a better score.
+- **Bank A, link 2: near miss (E24r-A-2).** Best confirmed worst-of-three **V 0.0212 at aspect
+  ~7.4**, infeasible, with QI, mirror and flux tied at 0.021; 1,843 evaluations, 4.08 h. Substantial
+  but not feasible; the chain rule would fund a link 3 (bar 0.0112), which was not launched.
+
+Reading, with its limits: the generator's best operating aspect for P3 reads as about 12 to 14;
+feasibility was reached at 12 and has not yet been reached at 7.4. That rests on one design from
+bank B and one near miss from bank A, each a single seed; it does not show that low-aspect designs
+are out of reach, only that two links were not enough from the best aspect-8.5 seed. The union
+front over all four own-lineage anchors (E25) has not run. See
 docs/results/p3/E24-a85/STATUS.md, docs/results/p3/E24-b14/STATUS.md,
 docs/results/p3/E24r-a85/STATUS.md and docs/results/p3/E24r-b14/STATUS.md.
 
