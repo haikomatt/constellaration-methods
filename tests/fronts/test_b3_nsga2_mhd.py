@@ -7,6 +7,7 @@ test_p3_front_builder.py's own toy end-to-end test.
 """
 
 import json
+from pathlib import Path
 from types import SimpleNamespace
 
 import numpy as np
@@ -890,3 +891,59 @@ def test_toy_end_to_end_single_seed_with_constraint_override_two_generations(mon
     assert len(archive_rows) == 12
     for row in archive_rows:
         assert "r" in row and len(row["r"]) == 5
+
+
+def _seed_row(out_dir: Path) -> dict:
+    """The G0:0 archive row: generation 0's first member is the anchor
+    verbatim (`seed_population_from_anchors`), so it is the toy's seed at
+    x = 0 whichever thresholds were in force."""
+    rows = [
+        json.loads(ln) for ln in (out_dir / "archive.jsonl").read_text().splitlines() if ln.strip()
+    ]
+    (row,) = [r for r in rows if r["tag"] == "G0:0"]
+    return row
+
+
+def test_toy_constraint_override_changes_the_seed_row_mirror_residual(tmp_path):
+    """Regression ratchet (2026-10-07). The override toy above proved only
+    that `--constraint-override mirror_upper=0.23` was RECORDED in
+    REPORT.json: the fake_front seam ignored `constraint_overrides`, so no
+    evaluation changed. The seed row's mirror residual must differ between a
+    stock run and an overridden run by exactly the benchmark's own
+    normalised-violation formula applied to the seam's raw mirror value m,
+    (m - 0.23) / 0.23 - (m - 0.25) / 0.25, and m itself (a measurement, not
+    a threshold) must be the same in both runs."""
+    pytest.importorskip(
+        "constellaration",
+        reason="needs the pinned constellaration package; run inside the repo's Docker image",
+    )
+    import constellaration_methods.fronts.b3_nsga2_mhd as b3_nsga2_mhd
+
+    anchor, representation = _toy_anchor_and_representation()
+    runs = {}
+    for name, overrides in (("stock", []), ("override", ["mirror_upper=0.23"])):
+        args = SimpleNamespace(
+            smoke=False,
+            seed=0,
+            pop_size=6,
+            init_scale=0.02,
+            max_generations=1,
+            max_evals=600,
+            total_hours=1.0,
+            eval_fidelity="canonical",
+            workers=2,
+            constraint_override=overrides,
+        )
+        b3_nsga2_mhd.run_seeded_from_anchors([anchor], representation, tmp_path / name, args)
+        runs[name] = _seed_row(tmp_path / name)
+    stock, over = runs["stock"], runs["override"]
+    assert stock["x"] == [0.0, 0.0, 0.0] and over["x"] == [0.0, 0.0, 0.0]
+    assert over["r"][2] != stock["r"][2], (
+        "the override must change the evaluation, not just the report"
+    )
+    m = stock["raw"]["edge_mirror"]
+    assert over["raw"]["edge_mirror"] == m
+    assert over["r"][2] - stock["r"][2] == (m - 0.23) / 0.23 - (m - 0.25) / 0.25
+    # every other row is untouched by a mirror-only override
+    for i in (0, 1, 3, 4):
+        assert over["r"][i] == stock["r"][i]

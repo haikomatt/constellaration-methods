@@ -1101,3 +1101,74 @@ def test_quadratic_model_step_terms_lowrank_is_never_negative_for_a_full_rank_su
     d = np.array([1.0, 1.0])
     terms = quadratic_model_step_terms(C, d, lowrank=(U, S))
     assert terms[0] >= -1e-9
+
+
+# --------------------------------------------------------------------------- #
+# fake_front seam honours constraint_overrides (regression ratchet 2026-10-07:
+# the seeded NSGA-II override toy recorded the override but the seam ignored
+# it). The seam's residuals come from fake RAW measurements through the
+# benchmark's own normalisation (problems.overrides.normalised_constraint_
+# violations), so a changed threshold changes exactly its own row by exactly
+# the benchmark's formula. Host-runnable: no constellaration import.
+# --------------------------------------------------------------------------- #
+def _seam(x, overrides=None):
+    from constellaration_methods.restoration.p3_feasibility_restoration import (
+        _fake_front_residuals_and_raw,
+    )
+
+    return _fake_front_residuals_and_raw(x, overrides)
+
+
+def test_fake_front_stock_residuals_unchanged_and_consistent_with_raw():
+    from constellaration_methods.problems.overrides import normalised_constraint_violations
+
+    r, raw = _seam([0.0, 0.0, 0.0])
+    assert r == pytest.approx([-0.05] * 5, abs=1e-12)
+    r_step, raw_step = _seam([0.05, 0.0, 0.0])
+    assert r_step == pytest.approx([-0.05, -0.05, -0.05, 0.0, -0.05], abs=1e-12)
+    for rr, rw in ((r, raw), (r_step, raw_step)):
+        assert rr == normalised_constraint_violations(rw)
+        assert rw["vacuum_well"] >= 0.0
+    # raw measurements do not depend on the thresholds in force
+    assert _seam([0.0, 0.0, 0.0], {"mirror_upper": 0.23})[1] == raw
+
+
+@pytest.mark.parametrize(
+    "name, value, row, expected_of",
+    [
+        ("iota_lower", 0.26, 0, lambda m: (0.26 - abs(m)) / 0.26),
+        ("log10_qi_upper", -3.6, 1, lambda m: (m - (-3.6)) / 3.6),
+        ("mirror_upper", 0.23, 2, lambda m: (m - 0.23) / 0.23),
+        ("flux_upper", 0.8, 3, lambda m: (m - 0.8) / 0.8),
+        ("well_lower", 0.02, 4, lambda m: (0.02 - m) / 0.1),
+    ],
+)
+def test_fake_front_override_changes_exactly_its_own_row(name, value, row, expected_of):
+    raw_key = {
+        0: "iota_over_nfp",
+        1: "log10_qi",
+        2: "edge_mirror",
+        3: "flux_compression",
+        4: "vacuum_well",
+    }[row]
+    stock, raw = _seam([0.0, 0.0, 0.0])
+    over, _ = _seam([0.0, 0.0, 0.0], {name: value})
+    assert over[row] == expected_of(raw[raw_key])
+    assert over[row] != stock[row]
+    for i in range(5):
+        if i != row:
+            assert over[i] == stock[i]
+
+
+def test_fake_front_well_override_uses_the_benchmarks_0p1_floor_on_the_target():
+    """`well_lower` normalises by max(0.1, lower), like the class: a lower
+    bound of 0.2 divides by 0.2, a lower bound of 0.05 still divides by 0.1."""
+    _, raw = _seam([0.0, 0.0, 0.0])
+    w = raw["vacuum_well"]
+    assert _seam([0.0, 0.0, 0.0], {"well_lower": 0.2})[0][4] == (0.2 - w) / 0.2
+    assert _seam([0.0, 0.0, 0.0], {"well_lower": 0.05})[0][4] == (0.05 - w) / 0.1
+
+
+def test_fake_front_unknown_override_name_refused_like_problem_with_overrides():
+    with pytest.raises(ValueError, match="mirror_upper"):
+        _seam([0.0, 0.0, 0.0], {"mirror_uper": 0.23})
