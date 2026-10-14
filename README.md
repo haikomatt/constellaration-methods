@@ -21,7 +21,7 @@ stellarator design problems, written up so that someone else can rerun the metho
 |---|---|---|
 | P1 geometrical | 0.97522, on the public board | ours |
 | P2 simple-to-build QI | 0.5818, on the public board | ours |
-| P3 MHD-stable QI | four feasible designs (three at aspect 10, one at aspect 12 with scale length 8.7) from database seeds through the identical chain, 1.3 to 6.5 hours each after a shared 2.8-hour generator step, and a confirmed 65-member front grown from the first of them (hypervolume 94.3) | ours, database CC BY 4.0 |
+| P3 MHD-stable QI | four feasible designs (three at aspect 10, one at aspect 12 with scale length 8.7) from database seeds through the identical chain, 4 to 6.5 hours each after a shared 2.8-hour generator step (the aspect-12 design over two links), and a confirmed 65-member front grown from the first of them (hypervolume 94.3) | ours, database CC BY 4.0 |
 | P3, from a public leaderboard design | fronts up to hypervolume 124.2; a definition change recovered in 165 evaluations | derived, measurement only |
 
 The full table with every experiment, its grade and its limits is in [docs/overview.md](docs/overview.md).
