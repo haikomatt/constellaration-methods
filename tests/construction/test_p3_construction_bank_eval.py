@@ -421,3 +421,49 @@ def test_cli_parses_select_by_label_list_with_labels():
 def test_cli_rejects_unknown_select_by():
     with pytest.raises(SystemExit):
         _e20b_parser().parse_args(["bank", "--out", "out", "--select-by", "bogus"])
+
+
+# --------------------------------------------------------------------------- #
+# regression ratchet (mirrored from the private experiment repo): the
+# report-level label is EXISTENTIAL over the confirmed rows -- the best label
+# ANY confirmed row achieved (goal > substantial > material > null), with the
+# determining row named -- not the label of the min-V row. For the pure-V
+# `stage2_label` tiers the two coincide on real runs; the rule is pinned here
+# so a row-conditioned label (the Phase 2 bars) cannot be masked by a lower-V
+# row that fails a required row.
+# --------------------------------------------------------------------------- #
+
+
+def _confirmed_row(label: str, v: float, *, stage2_label: str) -> dict:
+    return {"label": label, "worst_of_three_v": v, "stage2_label": stage2_label}
+
+
+def test_summarise_confirmed_report_label_is_best_label_of_any_confirmed_row():
+    confirmed = [
+        _confirmed_row("a", 0.15, stage2_label="null"),
+        _confirmed_row("b", 0.25, stage2_label="material"),
+    ]
+    summary = pbe.summarise_confirmed(confirmed)
+    assert summary["best_confirmed_label"] == "a"
+    assert summary["best_confirmed_worst_of_three_v"] == pytest.approx(0.15)
+    assert summary["stage2_label"] == "material"
+    assert summary["stage2_label_determined_by"] == "b"
+
+
+def test_summarise_confirmed_orders_tiers_goal_over_substantial_over_material():
+    confirmed = [
+        _confirmed_row("m", 0.20, stage2_label="material"),
+        _confirmed_row("g", 0.009, stage2_label="goal"),
+        _confirmed_row("s", 0.08, stage2_label="substantial"),
+    ]
+    summary = pbe.summarise_confirmed(confirmed)
+    assert summary["stage2_label"] == "goal"
+    assert summary["stage2_label_determined_by"] == "g"
+
+
+def test_summarise_confirmed_empty_when_nothing_confirmed():
+    summary = pbe.summarise_confirmed([])
+    assert summary["best_confirmed_label"] is None
+    assert summary["best_confirmed_worst_of_three_v"] is None
+    assert summary["stage2_label"] is None
+    assert summary["stage2_label_determined_by"] is None
