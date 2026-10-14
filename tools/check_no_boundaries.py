@@ -38,6 +38,7 @@ BOUNDARY_ALLOWED_PREFIXES = (
     "E23b/own-lineage/",  # E23b: second front link, 52-member own-lineage front, HV 92.61
     "E23c/own-lineage/",  # E23c: third front link, 65-member front, HV 94.28 (chain stop)
     "E26/own-lineage/",  # E26: mirror-0.23 re-optimisation, 46-member own-lineage front, HV 91.65
+    "E24r-b14-2/own-lineage/",  # E24r B link 2: fourth own-lineage feasible design, aspect 12
 )
 
 

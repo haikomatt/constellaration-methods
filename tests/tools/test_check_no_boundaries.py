@@ -67,3 +67,20 @@ def test_check_tree_catches_every_banned_key(tmp_path, bad_key):
     offenders = check_tree(root)
 
     assert offenders
+
+
+def test_check_tree_exempts_exactly_the_e24r_b14_2_own_lineage_exports(tmp_path):
+    root = tmp_path / "p3"
+    own = root / "E24r-b14-2" / "own-lineage"
+    own.mkdir(parents=True)
+    (own / "feasible_boundary_P1L1.json").write_text(json.dumps({"r_cos": [[1.0]]}))
+    (root / "E24r-b14-2" / "REPORT.json").write_text(json.dumps({"r_cos": [[1.0]]}))
+    (root / "E24r-a85-2").mkdir()
+    (root / "E24r-a85-2" / "best_boundary.json").write_text(json.dumps({"r_cos": [[1.0]]}))
+
+    offenders = check_tree(root)
+
+    assert set(offenders) == {
+        str(root / "E24r-b14-2" / "REPORT.json"),
+        str(root / "E24r-a85-2" / "best_boundary.json"),
+    }
