@@ -2860,8 +2860,8 @@
     "source": "the source campaign repository/results/p3-e30ar-3/REPORT.json (stripped)"
   },
   "p3/E30ar-3/STATUS.md": {
-    "sha256": "9b0942787597e4fa34aed5d9045305b9a95c2cffee74ea216cb4a6e76ed6646c",
-    "bytes": 904,
+    "sha256": "2aac5f2b1c63b65f3654bff758acceda5eb737647883ed32801592de959ed46e",
+    "bytes": 906,
     "source": "written for this repository (not a campaign artefact)"
   },
   "p3/E30ar-3/best_candidate.json": {
