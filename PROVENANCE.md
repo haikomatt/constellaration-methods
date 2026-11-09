@@ -37,7 +37,7 @@ Fusion**. Consequently, for every davidkh-lineage result:
   compared as symmetry-quotiented physical-space distances -- again no boundary coordinates are
   redistributed, only distances, cluster counts, and the two summary plots.
 
-See `docs/methods.md` for what each P3 experiment (E13, E15-E20b) actually shows and what it
+See `docs/methods.md` for what each P3 experiment (E13 to E34) actually shows and what it
 refutes, and the README results table for the headline numbers.
 
 ## Near-axis QI database (CC BY 4.0)

@@ -4,7 +4,7 @@ title: "constellaration-methods: pre-registered, canonically-confirmed methods f
 authors:
   - family-names: Dawson
     given-names: Matt
-date-released: 2026-09-26
-version: 0.1.0
+date-released: 2026-11-09
+version: 0.2.0
 license: Apache-2.0
 repository-code: "https://github.com/haikomatt/constellaration-methods"
