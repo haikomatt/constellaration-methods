@@ -39,6 +39,16 @@ BOUNDARY_ALLOWED_PREFIXES = (
     "E23c/own-lineage/",  # E23c: third front link, 65-member front, HV 94.28 (chain stop)
     "E26/own-lineage/",  # E26: mirror-0.23 re-optimisation, 46-member own-lineage front, HV 91.65
     "E24r-b14-2/own-lineage/",  # E24r B link 2: fourth own-lineage feasible design, aspect 12
+    "E24r-a85-3/own-lineage/",  # E24r A link 3: fifth design, first at low aspect (7.37)
+    "E27/own-lineage/",  # E27: strict-nominal restoration of the link-3 design
+    "E29r-c100-2/own-lineage/",  # E29 bank, link 2: sixth design (aspect 8.62)
+    "E30ar-3/own-lineage/",  # E30a bank, link 3: seventh design (aspect 7.64)
+    "E30br-2/own-lineage/",  # E30b bank, link 2: eighth design (aspect 9.43)
+    "E31a-nominal/own-lineage/",  # E31a: the E29 design restored toward strict nominal
+    "E31b-nominal/own-lineage/",  # E31b: the E30a design restored toward strict nominal
+    "E32r-1/own-lineage/",  # E32 bank, link 1: ninth design (aspect 10.66)
+    "E33ar-1/own-lineage/",  # E33a bank seed, link 1: tenth design (aspect 10.45)
+    "E33br-1/own-lineage/",  # E33b bank seed, link 1: eleventh design (aspect 10.68)
 )
 
 

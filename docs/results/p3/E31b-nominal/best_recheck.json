@@ -1,0 +1,28 @@
+[
+  {
+    "file": "results/p3-e31b-nominal/best_boundary.json",
+    "residuals": {
+      "iota": -0.2557236871380837,
+      "qi": 0.0006864342675587665,
+      "mirror": -0.001916310366182894,
+      "flux": 0.0021799025701883953,
+      "well": -0.1565505369185752
+    },
+    "V": 0.0021799025701883953,
+    "feasible": true,
+    "solo_score_if_feasible": 77.94535049275021,
+    "raw": {
+      "iota_over_nfp": -0.3139309217845209,
+      "log10_qi": -3.4975974800635443,
+      "edge_mirror": 0.24952092240845428,
+      "flux_compression": 0.9019619123131696,
+      "vacuum_well": 0.01565505369185752,
+      "aspect_ratio": 7.637573091187931,
+      "min_len": 5.305020128142472
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 51.6
+  }
+]

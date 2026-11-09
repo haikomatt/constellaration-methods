@@ -1,0 +1,10 @@
+{"event": "repeatability", "ok": true, "e_rep": 0.0, "e_control": 0.0, "eps": 0.0001, "start_repeats": [[-0.23604129362791593, 0.029809850001019735, -0.05717526773502146, 0.028521660354425084, -0.11698351306634248], [-0.23604129362791593, 0.029809850001019735, -0.05717526773502146, 0.028521660354425084, -0.11698351306634248]], "control": [0.06185293028051131, 0.14328263814025316, 0.15209498238801245, 0.09487221420085981, -0.03769324739343605], "t_h": 0.027}
+{"event": "curvature", "label": "J0", "ok_cols": 440, "frac_positive": 0.7168181818181818, "median_new_mode_qi_mirror_flux": [0.003240737051074238, 6.021384446135436e-08, 0.007700409325802674], "t_h": 1.217}
+{"event": "jacobian", "label": "J0", "ok_cols": 440, "opt_used": 880, "probe_scale": "step", "t_h": 1.217}
+{"event": "model_error", "tag": "P:L0", "t0.5_max_abs_err": 0.025942121807183534, "t0.5_worst_row": 3, "t0.5_rho_model": 0.7051646894611948, "t1.0_max_abs_err": 0.09646052511785232, "t1.0_worst_row": 3, "t1.0_rho_model": -0.5502376087625807, "t_h": 1.232}
+{"event": "priority_confirmation", "tag": "P:L0:t0.5", "worst_v": 0.0, "feasible": true, "t_h": 1.243}
+{"event": "success", "tag": "P:L0:t0.5", "worst_v": 0.0, "t_h": 1.243}
+{"event": "optimisation_stopped", "reason": "feasible_confirmed", "opt_used": 882, "v_incumbent": 0.029809850001019735, "n_accepted": 0, "t_h": 1.243}
+{"event": "adjudicated", "tag": "P:L0:t0.5", "worst_v": 0.0, "feasible": true, "technical": false, "t_h": 1.254}
+{"event": "adjudicated", "tag": "J0:41:-", "worst_v": 0.01548248800584354, "feasible": false, "technical": false, "t_h": 1.265}
+{"event": "adjudicated", "tag": "J0:17:+", "worst_v": 0.022142648946784513, "feasible": false, "technical": false, "t_h": 1.276}

@@ -1,0 +1,54 @@
+[
+  {
+    "file": "results/p3-e27-a85-nominal/best_boundary.json",
+    "residuals": {
+      "iota": 2.276406222867049,
+      "qi": 0.005267614809566977,
+      "mirror": 0.005934734649826412,
+      "flux": 0.006002158150547979,
+      "well": -0.1695838067238079
+    },
+    "V": 2.276406222867049,
+    "feasible": false,
+    "solo_score_if_feasible": 0.0,
+    "raw": {
+      "iota_over_nfp": -0.3191015557167622,
+      "log10_qi": -3.4815633481665156,
+      "edge_mirror": 0.2514836836624566,
+      "flux_compression": 0.9054019423354932,
+      "vacuum_well": 0.016958380672380792,
+      "aspect_ratio": 7.37156720323664,
+      "min_len": 5.046433156461808
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 41.9
+  },
+  {
+    "file": "results/p3-e27-a85-nominal/best_boundary_reflected.json",
+    "residuals": {
+      "iota": -0.27640622283653604,
+      "qi": 0.00526761466455028,
+      "mirror": 0.005934734664741592,
+      "flux": 0.006002158446572419,
+      "well": -0.16958380663442535
+    },
+    "V": 0.006002158446572419,
+    "feasible": true,
+    "solo_score_if_feasible": 76.356975421418,
+    "raw": {
+      "iota_over_nfp": 0.319101555709134,
+      "log10_qi": -3.481563348674074,
+      "edge_mirror": 0.2514836836661854,
+      "flux_compression": 0.9054019426019152,
+      "vacuum_well": 0.016958380663442536,
+      "aspect_ratio": 7.371567203236643,
+      "min_len": 5.046433207530561
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 41.9
+  }
+]

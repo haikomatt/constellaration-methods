@@ -1,0 +1,1250 @@
+[
+  {
+    "file": "results/p3-e24r-a85-3/best_boundary.json",
+    "residuals": {
+      "iota": -0.27621912429718254,
+      "qi": 0.009971611636141273,
+      "mirror": 0.00999542559211486,
+      "flux": 0.0072837737696488745,
+      "well": -0.16686833464975132
+    },
+    "V": 0.00999542559211486,
+    "feasible": true,
+    "solo_score_if_feasible": 76.5864909374585,
+    "raw": {
+      "iota_over_nfp": -0.31905478107429563,
+      "log10_qi": -3.4650993592735055,
+      "edge_mirror": 0.2524988563980287,
+      "flux_compression": 0.906555396392684,
+      "vacuum_well": 0.016686833464975133,
+      "aspect_ratio": 7.3717120144592805,
+      "min_len": 5.064677256738948
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 95.7
+  },
+  {
+    "file": "results/p3-e31b-nominal/best_boundary.json",
+    "residuals": {
+      "iota": -0.2557236871380837,
+      "qi": 0.0006864342675587665,
+      "mirror": -0.001916310366182894,
+      "flux": 0.0021799025701883953,
+      "well": -0.1565505369185752
+    },
+    "V": 0.0021799025701883953,
+    "feasible": true,
+    "solo_score_if_feasible": 77.94535049275021,
+    "raw": {
+      "iota_over_nfp": -0.3139309217845209,
+      "log10_qi": -3.4975974800635443,
+      "edge_mirror": 0.24952092240845428,
+      "flux_compression": 0.9019619123131696,
+      "vacuum_well": 0.01565505369185752,
+      "aspect_ratio": 7.637573091187931,
+      "min_len": 5.305020128142472
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 122.4
+  },
+  {
+    "file": "results/p3-e25b-front/G45_16.boundary.json",
+    "residuals": {
+      "iota": -0.20962829946337402,
+      "qi": -0.02411511187518148,
+      "mirror": 0.007525738166721085,
+      "flux": -0.0017946381934468784,
+      "well": -0.11094435826724135
+    },
+    "V": 0.007525738166721085,
+    "feasible": true,
+    "solo_score_if_feasible": 86.92281899933917,
+    "raw": {
+      "iota_over_nfp": -0.3024070748658435,
+      "log10_qi": -3.584402891563135,
+      "edge_mirror": 0.25188143454168027,
+      "flux_compression": 0.8983848256258978,
+      "vacuum_well": 0.011094435826724135,
+      "aspect_ratio": 10.024790808528623,
+      "min_len": 7.713884323714895
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 107.3
+  },
+  {
+    "file": "results/p3-e25b-front/G50_36.boundary.json",
+    "residuals": {
+      "iota": -0.22411732010070828,
+      "qi": -0.026323882950582522,
+      "mirror": -0.011381248051871129,
+      "flux": -0.001968542180966759,
+      "well": -0.11435210299915596
+    },
+    "V": -0.001968542180966759,
+    "feasible": true,
+    "solo_score_if_feasible": 87.34655034278472,
+    "raw": {
+      "iota_over_nfp": -0.30602933002517707,
+      "log10_qi": -3.592133590327039,
+      "edge_mirror": 0.24715468798703222,
+      "flux_compression": 0.8982283120371299,
+      "vacuum_well": 0.011435210299915597,
+      "aspect_ratio": 10.114386117602994,
+      "min_len": 7.83572344438011
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 107.1
+  },
+  {
+    "file": "results/p3-e25b-front/G46_12.boundary.json",
+    "residuals": {
+      "iota": -0.23498372399127865,
+      "qi": -0.02587829262728774,
+      "mirror": -0.05916469201947194,
+      "flux": -0.01533465976708929,
+      "well": -0.11762177285086511
+    },
+    "V": -0.01533465976708929,
+    "feasible": true,
+    "solo_score_if_feasible": 86.95480213358645,
+    "raw": {
+      "iota_over_nfp": -0.30874593099781966,
+      "log10_qi": -3.590574024195507,
+      "edge_mirror": 0.23520882699513201,
+      "flux_compression": 0.8861988062096197,
+      "vacuum_well": 0.011762177285086512,
+      "aspect_ratio": 10.237383154369892,
+      "min_len": 7.906915380224999
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 124.8
+  },
+  {
+    "file": "results/p3-e25b-front/G50_23.boundary.json",
+    "residuals": {
+      "iota": -0.24069305059859603,
+      "qi": -0.009115720850739148,
+      "mirror": -0.0788257234430575,
+      "flux": -0.02689256600780528,
+      "well": -0.12585961439823734
+    },
+    "V": -0.009115720850739148,
+    "feasible": true,
+    "solo_score_if_feasible": 87.34406349595189,
+    "raw": {
+      "iota_over_nfp": -0.310173262649649,
+      "log10_qi": -3.531905022977587,
+      "edge_mirror": 0.23029356913923563,
+      "flux_compression": 0.8757966905929753,
+      "vacuum_well": 0.012585961439823736,
+      "aspect_ratio": 10.297650768449245,
+      "min_len": 8.00236235693522
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 141.1
+  },
+  {
+    "file": "results/p3-e25b-front/G51_34.boundary.json",
+    "residuals": {
+      "iota": -0.2612761462003117,
+      "qi": -0.005844991696988012,
+      "mirror": -0.10419076375813774,
+      "flux": -0.027531620512579243,
+      "well": -0.12697567815766286
+    },
+    "V": -0.005844991696988012,
+    "feasible": true,
+    "solo_score_if_feasible": 86.89487443338949,
+    "raw": {
+      "iota_over_nfp": -0.3153190365500779,
+      "log10_qi": -3.520457470939458,
+      "edge_mirror": 0.22395230906046557,
+      "flux_compression": 0.8752215415386787,
+      "vacuum_well": 0.012697567815766286,
+      "aspect_ratio": 10.483973017398807,
+      "min_len": 8.131423712045518
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 172.8
+  },
+  {
+    "file": "results/p3-e25b-front/G46_34.boundary.json",
+    "residuals": {
+      "iota": -0.2585344945693957,
+      "qi": -0.040854699701306806,
+      "mirror": -0.0318133454000421,
+      "flux": -0.0080676147033835,
+      "well": -0.08286472452511223
+    },
+    "V": -0.0080676147033835,
+    "feasible": true,
+    "solo_score_if_feasible": 77.47794478298829,
+    "raw": {
+      "iota_over_nfp": -0.3146336236423489,
+      "log10_qi": -3.642991448954574,
+      "edge_mirror": 0.24204666364998947,
+      "flux_compression": 0.8927391467669549,
+      "vacuum_well": 0.008286472452511224,
+      "aspect_ratio": 11.932963920725747,
+      "min_len": 8.604264071911595
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 135.0
+  },
+  {
+    "file": "results/p3-e28b-front/G0_8.boundary.json",
+    "residuals": {
+      "iota": -0.27428633429129823,
+      "qi": 0.00974871427069576,
+      "mirror": 0.0068569798940423254,
+      "flux": 0.008736792111896744,
+      "well": -0.17304227142427137
+    },
+    "V": 0.00974871427069576,
+    "feasible": true,
+    "solo_score_if_feasible": 76.62536392164739,
+    "raw": {
+      "iota_over_nfp": -0.31857158357282456,
+      "log10_qi": -3.465879500052565,
+      "edge_mirror": 0.2517142449735106,
+      "flux_compression": 0.9078631129007071,
+      "vacuum_well": 0.017304227142427138,
+      "aspect_ratio": 7.3673323103354145,
+      "min_len": 5.065651832537193
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 105.7
+  },
+  {
+    "file": "results/p3-e28b-front/G50_15.boundary.json",
+    "residuals": {
+      "iota": -0.2786907094706639,
+      "qi": 0.001139775986084755,
+      "mirror": 0.00042323569595814625,
+      "flux": -0.004124398599239336,
+      "well": -0.16970979941439093
+    },
+    "V": 0.001139775986084755,
+    "feasible": true,
+    "solo_score_if_feasible": 76.96586946398214,
+    "raw": {
+      "iota_over_nfp": -0.31967267736766597,
+      "log10_qi": -3.4960107840487034,
+      "edge_mirror": 0.25010580892398954,
+      "flux_compression": 0.8962880412606846,
+      "vacuum_well": 0.016970979941439094,
+      "aspect_ratio": 7.388815528008792,
+      "min_len": 5.102984984076585
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 96.3
+  },
+  {
+    "file": "results/p3-e29fb-front/G47_35.boundary.json",
+    "residuals": {
+      "iota": -0.23446552867170567,
+      "qi": -0.010415307525218178,
+      "mirror": -0.0013931120154859755,
+      "flux": 0.003055000893994217,
+      "well": -0.13472444909917375
+    },
+    "V": 0.003055000893994217,
+    "feasible": true,
+    "solo_score_if_feasible": 84.12518731049865,
+    "raw": {
+      "iota_over_nfp": -0.3086163821679264,
+      "log10_qi": -3.5364535763382636,
+      "edge_mirror": 0.2496517219961285,
+      "flux_compression": 0.9027495008045948,
+      "vacuum_well": 0.013472444909917376,
+      "aspect_ratio": 8.538769832933802,
+      "min_len": 6.339978875237325
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 113.1
+  },
+  {
+    "file": "results/p3-e29fb-front/G50_20.boundary.json",
+    "residuals": {
+      "iota": -0.2504204165952246,
+      "qi": -0.004328101558503938,
+      "mirror": -0.01845108928409256,
+      "flux": -0.016467678214918062,
+      "well": -0.13492288962125965
+    },
+    "V": -0.004328101558503938,
+    "feasible": true,
+    "solo_score_if_feasible": 84.20636353125298,
+    "raw": {
+      "iota_over_nfp": -0.31260510414880616,
+      "log10_qi": -3.515148355454764,
+      "edge_mirror": 0.24538722767897686,
+      "flux_compression": 0.8851790896065738,
+      "vacuum_well": 0.013492288962125966,
+      "aspect_ratio": 8.602630010920494,
+      "min_len": 6.388227600923377
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 149.6
+  },
+  {
+    "file": "results/p3-e29fb-front/G49_0.boundary.json",
+    "residuals": {
+      "iota": -0.2562043785764101,
+      "qi": -0.026279306379902372,
+      "mirror": -0.0022168361331308395,
+      "flux": -0.007574929836081409,
+      "well": -0.1395436872220187
+    },
+    "V": -0.0022168361331308395,
+    "feasible": true,
+    "solo_score_if_feasible": 84.24773172680995,
+    "raw": {
+      "iota_over_nfp": -0.3140510946441025,
+      "log10_qi": -3.5919775723296583,
+      "edge_mirror": 0.2494457909667173,
+      "flux_compression": 0.8931825631475268,
+      "vacuum_well": 0.013954368722201871,
+      "aspect_ratio": 8.67078690366342,
+      "min_len": 6.436326866695828
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 168.8
+  },
+  {
+    "file": "results/p3-e30afb-front/G52_5.boundary.json",
+    "residuals": {
+      "iota": -0.24823599193726098,
+      "qi": -0.0021999434505710624,
+      "mirror": -0.0030534068452113816,
+      "flux": -0.007317007339817907,
+      "well": -0.15416956848542787
+    },
+    "V": -0.0021999434505710624,
+    "feasible": true,
+    "solo_score_if_feasible": 79.29546362774985,
+    "raw": {
+      "iota_over_nfp": -0.31205899798431525,
+      "log10_qi": -3.5076998020769987,
+      "edge_mirror": 0.24923664828869715,
+      "flux_compression": 0.8934146933941639,
+      "vacuum_well": 0.015416956848542789,
+      "aspect_ratio": 7.597439360763383,
+      "min_len": 5.3934751809954085
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 126.3
+  },
+  {
+    "file": "results/p3-e30afb-front/G52_24.boundary.json",
+    "residuals": {
+      "iota": -0.25139155153786286,
+      "qi": -0.0032082993105697305,
+      "mirror": -0.006091660231475338,
+      "flux": -0.015925766597807176,
+      "well": -0.15739013422530926
+    },
+    "V": -0.0032082993105697305,
+    "feasible": true,
+    "solo_score_if_feasible": 79.43220584302264,
+    "raw": {
+      "iota_over_nfp": -0.3128478878844657,
+      "log10_qi": -3.511229047586994,
+      "edge_mirror": 0.24847708494213117,
+      "flux_compression": 0.8856668100619736,
+      "vacuum_well": 0.015739013422530927,
+      "aspect_ratio": 7.624577204534887,
+      "min_len": 5.418544817081322
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 118.8
+  },
+  {
+    "file": "results/p3-e30bfc-front/G49_35.boundary.json",
+    "residuals": {
+      "iota": -0.21055166849243867,
+      "qi": -0.009820718963253252,
+      "mirror": -0.047215634935761086,
+      "flux": -0.017467328738047547,
+      "well": -0.1262918137356888
+    },
+    "V": -0.009820718963253252,
+    "feasible": true,
+    "solo_score_if_feasible": 86.75897257033748,
+    "raw": {
+      "iota_over_nfp": -0.30263791712310967,
+      "log10_qi": -3.5343725163713864,
+      "edge_mirror": 0.23819609126605973,
+      "flux_compression": 0.8842794041357572,
+      "vacuum_well": 0.01262918137356888,
+      "aspect_ratio": 9.192880625321864,
+      "min_len": 7.027946167932597
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 96.2
+  },
+  {
+    "file": "results/p3-e30bfc-front/G45_23.boundary.json",
+    "residuals": {
+      "iota": -0.21717100897380037,
+      "qi": 0.0011531600256401273,
+      "mirror": -0.06071763498434357,
+      "flux": -0.010304470919313167,
+      "well": -0.12796140216222085
+    },
+    "V": 0.0011531600256401273,
+    "feasible": true,
+    "solo_score_if_feasible": 86.8892240305631,
+    "raw": {
+      "iota_over_nfp": -0.3042927522434501,
+      "log10_qi": -3.4959639399102596,
+      "edge_mirror": 0.2348205912539141,
+      "flux_compression": 0.8907259761726182,
+      "vacuum_well": 0.012796140216222085,
+      "aspect_ratio": 9.246455371134116,
+      "min_len": 7.080054254605982
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 95.7
+  },
+  {
+    "file": "results/p3-e30bfc-front/G46_37.boundary.json",
+    "residuals": {
+      "iota": -0.21886298105523672,
+      "qi": -0.03299183416041375,
+      "mirror": -0.006313023294433728,
+      "flux": -0.0010482969615964609,
+      "well": -0.127266415492327
+    },
+    "V": -0.0010482969615964609,
+    "feasible": true,
+    "solo_score_if_feasible": 86.97554977434056,
+    "raw": {
+      "iota_over_nfp": -0.3047157452638092,
+      "log10_qi": -3.615471419561448,
+      "edge_mirror": 0.24842174417639157,
+      "flux_compression": 0.8990565327345632,
+      "vacuum_well": 0.012726641549232701,
+      "aspect_ratio": 9.279498257650559,
+      "min_len": 7.113011113160783
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 94.4
+  },
+  {
+    "file": "results/p3-e30bfc-front/G47_22.boundary.json",
+    "residuals": {
+      "iota": -0.22796930658419412,
+      "qi": -0.01396512466381201,
+      "mirror": -0.03339292190349574,
+      "flux": -0.005468887444461698,
+      "well": -0.13008719566707175
+    },
+    "V": -0.005468887444461698,
+    "feasible": true,
+    "solo_score_if_feasible": 86.9125804762994,
+    "raw": {
+      "iota_over_nfp": -0.30699232664604853,
+      "log10_qi": -3.548877936323342,
+      "edge_mirror": 0.24165176952412606,
+      "flux_compression": 0.8950780012999845,
+      "vacuum_well": 0.013008719566707174,
+      "aspect_ratio": 9.359613607658904,
+      "min_len": 7.168178980686142
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 120.2
+  },
+  {
+    "file": "results/p3-e30bfc-front/G47_23.boundary.json",
+    "residuals": {
+      "iota": -0.23376647047330024,
+      "qi": -0.0007885676864680034,
+      "mirror": -0.05111691274457897,
+      "flux": -0.010729869509433653,
+      "well": -0.1336475837195701
+    },
+    "V": -0.0007885676864680034,
+    "feasible": true,
+    "solo_score_if_feasible": 86.99107635686627,
+    "raw": {
+      "iota_over_nfp": -0.30844161761832506,
+      "log10_qi": -3.502759986902638,
+      "edge_mirror": 0.23722077181385526,
+      "flux_compression": 0.8903431174415097,
+      "vacuum_well": 0.013364758371957011,
+      "aspect_ratio": 9.420343846195301,
+      "min_len": 7.222486165165413
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 114.3
+  },
+  {
+    "file": "results/p3-e30bfc-front/G50_50.boundary.json",
+    "residuals": {
+      "iota": -0.23814386792332987,
+      "qi": -0.019532442354209274,
+      "mirror": -0.01178910984419912,
+      "flux": -0.01642612835425698,
+      "well": -0.13510242480344506
+    },
+    "V": -0.01178910984419912,
+    "feasible": true,
+    "solo_score_if_feasible": 86.89828148159216,
+    "raw": {
+      "iota_over_nfp": -0.30953596698083247,
+      "log10_qi": -3.5683635482397325,
+      "edge_mirror": 0.24705272253895022,
+      "flux_compression": 0.8852164844811687,
+      "vacuum_well": 0.013510242480344506,
+      "aspect_ratio": 9.481955118830086,
+      "min_len": 7.261828359105322
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 143.8
+  },
+  {
+    "file": "results/p3-e30bfc-front/G39_29.boundary.json",
+    "residuals": {
+      "iota": -0.24472285160421636,
+      "qi": -0.01714611504385109,
+      "mirror": -0.02778707581763673,
+      "flux": -0.004773307677237406,
+      "well": -0.13401851262477707
+    },
+    "V": -0.004773307677237406,
+    "feasible": true,
+    "solo_score_if_feasible": 86.83669290750935,
+    "raw": {
+      "iota_over_nfp": -0.3111807129010541,
+      "log10_qi": -3.560011402653479,
+      "edge_mirror": 0.24305323104559082,
+      "flux_compression": 0.8957040230904864,
+      "vacuum_well": 0.013401851262477709,
+      "aspect_ratio": 9.528067920174832,
+      "min_len": 7.292327742920112
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 150.1
+  },
+  {
+    "file": "results/p3-e31afb-front/G50_16.boundary.json",
+    "residuals": {
+      "iota": -0.24230534576757123,
+      "qi": -0.018404817477419528,
+      "mirror": -0.0008176953989984526,
+      "flux": -0.005434761752686078,
+      "well": -0.13976222289633236
+    },
+    "V": -0.0008176953989984526,
+    "feasible": true,
+    "solo_score_if_feasible": 83.9828453423292,
+    "raw": {
+      "iota_over_nfp": -0.3105763364418928,
+      "log10_qi": -3.5644168611709683,
+      "edge_mirror": 0.2497955761502504,
+      "flux_compression": 0.8951087144225826,
+      "vacuum_well": 0.013976222289633236,
+      "aspect_ratio": 8.529010701015958,
+      "min_len": 6.321325402140106
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 138.3
+  },
+  {
+    "file": "results/p3-e31afb-front/G49_32.boundary.json",
+    "residuals": {
+      "iota": -0.25147536908052914,
+      "qi": -0.009629407412759607,
+      "mirror": -0.014974708221835553,
+      "flux": -0.00842866265444152,
+      "well": -0.14345039712283406
+    },
+    "V": -0.00842866265444152,
+    "feasible": true,
+    "solo_score_if_feasible": 84.19845314043357,
+    "raw": {
+      "iota_over_nfp": -0.3128688422701323,
+      "log10_qi": -3.5337029259446586,
+      "edge_mirror": 0.2462563229445411,
+      "flux_compression": 0.8924142036110027,
+      "vacuum_well": 0.014345039712283406,
+      "aspect_ratio": 8.585500287290738,
+      "min_len": 6.376447085690876
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 149.4
+  },
+  {
+    "file": "results/p3-e31afb-front/G52_47.boundary.json",
+    "residuals": {
+      "iota": -0.259920324129405,
+      "qi": -0.003392889432761313,
+      "mirror": -0.02342928372172426,
+      "flux": -0.011164721468818688,
+      "well": -0.14512927989224556
+    },
+    "V": -0.003392889432761313,
+    "feasible": true,
+    "solo_score_if_feasible": 84.37688784276112,
+    "raw": {
+      "iota_over_nfp": -0.31498008103235126,
+      "log10_qi": -3.5118751130146646,
+      "edge_mirror": 0.24414267906956894,
+      "flux_compression": 0.8899517506780632,
+      "vacuum_well": 0.014512927989224557,
+      "aspect_ratio": 8.65272269140631,
+      "min_len": 6.435870786277476
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 167.3
+  },
+  {
+    "file": "results/p3-e31bfb-front/G42_20.boundary.json",
+    "residuals": {
+      "iota": -0.2521719500488926,
+      "qi": -0.0049943515556456165,
+      "mirror": 0.005497602234578736,
+      "flux": -0.00454458888756294,
+      "well": -0.1533447666204147
+    },
+    "V": 0.005497602234578736,
+    "feasible": true,
+    "solo_score_if_feasible": 78.72309211315859,
+    "raw": {
+      "iota_over_nfp": -0.31304298751222315,
+      "log10_qi": -3.5174802304447597,
+      "edge_mirror": 0.2513744005586447,
+      "flux_compression": 0.8959098700011934,
+      "vacuum_well": 0.015334476662041472,
+      "aspect_ratio": 7.605222020188623,
+      "min_len": 5.351311192615375
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 117.6
+  },
+  {
+    "file": "results/p3-e32fd-front/G23_12.boundary.json",
+    "residuals": {
+      "iota": -0.20736447474021302,
+      "qi": -0.04364556608552039,
+      "mirror": 0.008212183167981113,
+      "flux": -0.023605470268787242,
+      "well": -0.07695251459567394
+    },
+    "V": 0.008212183167981113,
+    "feasible": true,
+    "solo_score_if_feasible": 88.38026149841427,
+    "raw": {
+      "iota_over_nfp": -0.30184111868505326,
+      "log10_qi": -3.6527594812993214,
+      "edge_mirror": 0.2520530457919953,
+      "flux_compression": 0.8787550767580915,
+      "vacuum_well": 0.007695251459567394,
+      "aspect_ratio": 10.209141091970016,
+      "min_len": 8.026813921905166
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 79.9
+  },
+  {
+    "file": "results/p3-e32fd-front/G37_31.boundary.json",
+    "residuals": {
+      "iota": -0.2214369604465305,
+      "qi": -0.03983638734584881,
+      "mirror": -0.0005701563849873637,
+      "flux": -0.023582867179190323,
+      "well": -0.07618755063958434
+    },
+    "V": -0.0005701563849873637,
+    "feasible": true,
+    "solo_score_if_feasible": 90.0726236241569,
+    "raw": {
+      "iota_over_nfp": -0.3053592401116326,
+      "log10_qi": -3.639427355710471,
+      "edge_mirror": 0.24985746090375316,
+      "flux_compression": 0.8787754195387287,
+      "vacuum_well": 0.007618755063958434,
+      "aspect_ratio": 10.312400534759691,
+      "min_len": 8.297723749556628
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 91.9
+  },
+  {
+    "file": "results/p3-e32fd-front/G38_71.boundary.json",
+    "residuals": {
+      "iota": -0.23901899530277726,
+      "qi": -0.019316384499844297,
+      "mirror": -0.028437758366888888,
+      "flux": -0.010154887394685508,
+      "well": -0.08129066071299262
+    },
+    "V": -0.010154887394685508,
+    "feasible": true,
+    "solo_score_if_feasible": 89.52835724303404,
+    "raw": {
+      "iota_over_nfp": -0.3097547488256943,
+      "log10_qi": -3.567607345749455,
+      "edge_mirror": 0.24289056040827778,
+      "flux_compression": 0.8908606013447831,
+      "vacuum_well": 0.008129066071299262,
+      "aspect_ratio": 10.499713472862318,
+      "min_len": 8.423753377047651
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 115.5
+  },
+  {
+    "file": "results/p3-e32fd-front/G39_49.boundary.json",
+    "residuals": {
+      "iota": -0.25052945604443666,
+      "qi": -0.008100611024873774,
+      "mirror": -0.05142319455218469,
+      "flux": -0.01929756783787706,
+      "well": -0.0819512389258332
+    },
+    "V": -0.008100611024873774,
+    "feasible": true,
+    "solo_score_if_feasible": 89.44754074901634,
+    "raw": {
+      "iota_over_nfp": -0.31263236401110917,
+      "log10_qi": -3.528352138587058,
+      "edge_mirror": 0.23714420136195383,
+      "flux_compression": 0.8826321889459107,
+      "vacuum_well": 0.00819512389258332,
+      "aspect_ratio": 10.590619605162981,
+      "min_len": 8.506209441601142
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 138.7
+  },
+  {
+    "file": "results/p3-e32fd-front/G39_69.boundary.json",
+    "residuals": {
+      "iota": -0.25458150786510014,
+      "qi": -0.03655754936729748,
+      "mirror": -0.010460799046112412,
+      "flux": -0.02484557911221572,
+      "well": -0.086260996057198
+    },
+    "V": -0.010460799046112412,
+    "feasible": true,
+    "solo_score_if_feasible": 89.4055696978481,
+    "raw": {
+      "iota_over_nfp": -0.31364537696627504,
+      "log10_qi": -3.627951422785541,
+      "edge_mirror": 0.2473848002384719,
+      "flux_compression": 0.8776389787990059,
+      "vacuum_well": 0.0086260996057198,
+      "aspect_ratio": 10.6902885064417,
+      "min_len": 8.603473723080548
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 148.3
+  },
+  {
+    "file": "results/p3-e32fd-front/G40_17.boundary.json",
+    "residuals": {
+      "iota": -0.2755567570197126,
+      "qi": -0.01552003567152089,
+      "mirror": -0.04703633349479408,
+      "flux": -0.014148708583911793,
+      "well": -0.08838186008828343
+    },
+    "V": -0.014148708583911793,
+    "feasible": true,
+    "solo_score_if_feasible": 88.76433542557861,
+    "raw": {
+      "iota_over_nfp": -0.31888918925492815,
+      "log10_qi": -3.554320124850323,
+      "edge_mirror": 0.23824091662630148,
+      "flux_compression": 0.8872661622744794,
+      "vacuum_well": 0.008838186008828344,
+      "aspect_ratio": 10.880346575957919,
+      "min_len": 8.733301398446764
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 173.5
+  },
+  {
+    "file": "results/p3-e33afd-front/G45_28.boundary.json",
+    "residuals": {
+      "iota": -0.002836707535724514,
+      "qi": -0.014830150719513593,
+      "mirror": -0.00010090243031801727,
+      "flux": -0.007818394896451765,
+      "well": -0.07352765481274841
+    },
+    "V": -0.00010090243031801727,
+    "feasible": true,
+    "solo_score_if_feasible": 88.4885953727982,
+    "raw": {
+      "iota_over_nfp": -0.25070917688393113,
+      "log10_qi": -3.5519055275182976,
+      "edge_mirror": 0.2499747743924205,
+      "flux_compression": 0.8929634445931934,
+      "vacuum_well": 0.007352765481274842,
+      "aspect_ratio": 10.092628521500238,
+      "min_len": 7.9315915492650655
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 263.9
+  },
+  {
+    "file": "results/p3-e33afd-front/G45_11.boundary.json",
+    "residuals": {
+      "iota": -0.00673397184970792,
+      "qi": -0.027744768148921066,
+      "mirror": 0.009329238666349271,
+      "flux": -0.0011461636537575999,
+      "well": -0.07414796345530529
+    },
+    "V": 0.009329238666349271,
+    "feasible": true,
+    "solo_score_if_feasible": 88.61683832799378,
+    "raw": {
+      "iota_over_nfp": -0.251683492962427,
+      "log10_qi": -3.5971066885212237,
+      "edge_mirror": 0.2523323096665873,
+      "flux_compression": 0.8989684527116182,
+      "vacuum_well": 0.00741479634553053,
+      "aspect_ratio": 10.151120155722927,
+      "min_len": 7.997656558830568
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 194.1
+  },
+  {
+    "file": "results/p3-e33afd-front/G49_45.boundary.json",
+    "residuals": {
+      "iota": -0.021608525754055474,
+      "qi": -0.010045184926631201,
+      "mirror": -0.010336723034897521,
+      "flux": -0.008990533693955157,
+      "well": -0.08192301256513032
+    },
+    "V": -0.008990533693955157,
+    "feasible": true,
+    "solo_score_if_feasible": 88.51560320771192,
+    "raw": {
+      "iota_over_nfp": -0.25540213143851387,
+      "log10_qi": -3.535158147243209,
+      "edge_mirror": 0.24741581924127562,
+      "flux_compression": 0.8919085196754404,
+      "vacuum_well": 0.008192301256513032,
+      "aspect_ratio": 10.230556357868732,
+      "min_len": 8.060454868277603
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 223.4
+  },
+  {
+    "file": "results/p3-e33afd-front/G51_53.boundary.json",
+    "residuals": {
+      "iota": -0.03057500590626705,
+      "qi": 0.0059411641832963925,
+      "mirror": -0.013999725475052238,
+      "flux": -0.005775791454665718,
+      "well": -0.07598808775992959
+    },
+    "V": 0.0059411641832963925,
+    "feasible": true,
+    "solo_score_if_feasible": 88.43254094266743,
+    "raw": {
+      "iota_over_nfp": -0.25764375147656676,
+      "log10_qi": -3.4792059253584626,
+      "edge_mirror": 0.24650006863123694,
+      "flux_compression": 0.8948017876908009,
+      "vacuum_well": 0.0075988087759929586,
+      "aspect_ratio": 10.299186615521648,
+      "min_len": 8.115992385150163
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 222.7
+  },
+  {
+    "file": "results/p3-e33afd-front/G52_5.boundary.json",
+    "residuals": {
+      "iota": -0.04318785206441156,
+      "qi": -0.004515651866805216,
+      "mirror": -0.033053643600110205,
+      "flux": -0.0016065693968162855,
+      "well": -0.08483215254615153
+    },
+    "V": -0.0016065693968162855,
+    "feasible": true,
+    "solo_score_if_feasible": 88.44592846030507,
+    "raw": {
+      "iota_over_nfp": -0.2607969630161029,
+      "log10_qi": -3.5158047815338183,
+      "edge_mirror": 0.24173658909997245,
+      "flux_compression": 0.8985540875428654,
+      "vacuum_well": 0.008483215254615154,
+      "aspect_ratio": 10.398744568057028,
+      "min_len": 8.211912867774478
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 179.2
+  },
+  {
+    "file": "results/p3-e33bfd-front/G44_9.boundary.json",
+    "residuals": {
+      "iota": -0.1921089502241986,
+      "qi": -0.024171962235687645,
+      "mirror": -0.02762768397668325,
+      "flux": -0.03608886158029456,
+      "well": -0.07860724950183147
+    },
+    "V": -0.024171962235687645,
+    "feasible": true,
+    "solo_score_if_feasible": 85.84610089570002,
+    "raw": {
+      "iota_over_nfp": -0.29802723755604965,
+      "log10_qi": -3.5846018678249068,
+      "edge_mirror": 0.2430930790058292,
+      "flux_compression": 0.8675200245777349,
+      "vacuum_well": 0.007860724950183147,
+      "aspect_ratio": 10.09074816549662,
+      "min_len": 7.6632272879360475
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 44.8
+  },
+  {
+    "file": "results/p3-e33bfd-front/G42_26.boundary.json",
+    "residuals": {
+      "iota": -0.1986314035298946,
+      "qi": -0.023382191943009088,
+      "mirror": -0.0385261357101927,
+      "flux": -0.02088629133476812,
+      "well": -0.06756003737372993
+    },
+    "V": -0.02088629133476812,
+    "feasible": true,
+    "solo_score_if_feasible": 85.7369817851637,
+    "raw": {
+      "iota_over_nfp": -0.29965785088247365,
+      "log10_qi": -3.581837671800532,
+      "edge_mirror": 0.24036846607245183,
+      "flux_compression": 0.8812023377987087,
+      "vacuum_well": 0.006756003737372993,
+      "aspect_ratio": 10.158460417216345,
+      "min_len": 7.711744850891837
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 48.1
+  },
+  {
+    "file": "results/p3-e33bfd-front/G49_4.boundary.json",
+    "residuals": {
+      "iota": -0.20366772072089834,
+      "qi": -0.033655712737524164,
+      "mirror": -0.01523439263931492,
+      "flux": -0.013808041434308051,
+      "well": -0.06951505182509042
+    },
+    "V": -0.013808041434308051,
+    "feasible": true,
+    "solo_score_if_feasible": 85.61986627957799,
+    "raw": {
+      "iota_over_nfp": -0.3009169301802246,
+      "log10_qi": -3.6177949945813346,
+      "edge_mirror": 0.24619140184017127,
+      "flux_compression": 0.8875727627091228,
+      "vacuum_well": 0.006951505182509043,
+      "aspect_ratio": 10.273863495387724,
+      "min_len": 7.803070596323194
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 48.5
+  },
+  {
+    "file": "results/p3-e33bfd-front/G27_46.boundary.json",
+    "residuals": {
+      "iota": -0.21246501468484547,
+      "qi": -0.03199338525168408,
+      "mirror": -0.040950963778919824,
+      "flux": -0.004356163241849472,
+      "well": -0.05936374160235747
+    },
+    "V": -0.004356163241849472,
+    "feasible": true,
+    "solo_score_if_feasible": 85.47877541232312,
+    "raw": {
+      "iota_over_nfp": -0.30311625367121137,
+      "log10_qi": -3.6119768483808943,
+      "edge_mirror": 0.23976225905527004,
+      "flux_compression": 0.8960794530823355,
+      "vacuum_well": 0.005936374160235747,
+      "aspect_ratio": 10.32216160294094,
+      "min_len": 7.8324243395404025
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 50.8
+  },
+  {
+    "file": "results/p3-e33bfd-front/G48_59.boundary.json",
+    "residuals": {
+      "iota": -0.2072915694925883,
+      "qi": -0.035601915067100975,
+      "mirror": -0.03273323922831217,
+      "flux": -0.0084165880459265,
+      "well": -0.06767157229547538
+    },
+    "V": -0.0084165880459265,
+    "feasible": true,
+    "solo_score_if_feasible": 85.32371596020838,
+    "raw": {
+      "iota_over_nfp": -0.3018228923731471,
+      "log10_qi": -3.6246067027348534,
+      "edge_mirror": 0.24181669019292196,
+      "flux_compression": 0.8924250707586662,
+      "vacuum_well": 0.006767157229547538,
+      "aspect_ratio": 10.41965298055667,
+      "min_len": 7.906119557782588
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 49.0
+  },
+  {
+    "file": "results/p3-e33bfd-front/G46_26.boundary.json",
+    "residuals": {
+      "iota": -0.2282524502433405,
+      "qi": -0.02693476604051564,
+      "mirror": -0.06502260577618268,
+      "flux": -0.0003038103793658505,
+      "well": -0.0666752030865455
+    },
+    "V": -0.0003038103793658505,
+    "feasible": true,
+    "solo_score_if_feasible": 85.15362214915095,
+    "raw": {
+      "iota_over_nfp": -0.3070631125608351,
+      "log10_qi": -3.5942716811418047,
+      "edge_mirror": 0.23374434855595433,
+      "flux_compression": 0.8997265706585708,
+      "vacuum_well": 0.00666752030865455,
+      "aspect_ratio": 10.49059636794306,
+      "min_len": 7.954675334433324
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 58.3
+  },
+  {
+    "file": "results/p3-e33bfd-front/G46_53.boundary.json",
+    "residuals": {
+      "iota": -0.2324008266793285,
+      "qi": -0.031580864098124675,
+      "mirror": -0.029161530134315217,
+      "flux": -0.007856550566786148,
+      "well": -0.06773765510007536
+    },
+    "V": -0.007856550566786148,
+    "feasible": true,
+    "solo_score_if_feasible": 85.08466688279267,
+    "raw": {
+      "iota_over_nfp": -0.3081002066698321,
+      "log10_qi": -3.6105330243434364,
+      "edge_mirror": 0.2427096174664212,
+      "flux_compression": 0.8929291044898925,
+      "vacuum_well": 0.006773765510007536,
+      "aspect_ratio": 10.58614107223959,
+      "min_len": 8.038234748970751
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 55.8
+  },
+  {
+    "file": "results/p3-e33bfd-front/G35_14.boundary.json",
+    "residuals": {
+      "iota": -0.2520789940764352,
+      "qi": -0.0010373453004662383,
+      "mirror": -0.10018891703292931,
+      "flux": -0.014285431453997645,
+      "well": -0.07456994251774082
+    },
+    "V": -0.0010373453004662383,
+    "feasible": true,
+    "solo_score_if_feasible": 84.78382064879432,
+    "raw": {
+      "iota_over_nfp": -0.3130197485191088,
+      "log10_qi": -3.503630708551632,
+      "edge_mirror": 0.22495277074176767,
+      "flux_compression": 0.8871431116914021,
+      "vacuum_well": 0.007456994251774082,
+      "aspect_ratio": 10.698252167101217,
+      "min_len": 8.114826823075939
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 75.8
+  },
+  {
+    "file": "results/p3-e33bfd-front/G41_27.boundary.json",
+    "residuals": {
+      "iota": -0.2523638244120643,
+      "qi": -0.015989208697730208,
+      "mirror": -0.031373735795873214,
+      "flux": -0.014417117270649142,
+      "well": -0.07697711671497748
+    },
+    "V": -0.014417117270649142,
+    "feasible": true,
+    "solo_score_if_feasible": 84.51614070977462,
+    "raw": {
+      "iota_over_nfp": -0.31309095610301607,
+      "log10_qi": -3.5559622304420557,
+      "edge_mirror": 0.2421565660510317,
+      "flux_compression": 0.8870245944564158,
+      "vacuum_well": 0.007697711671497748,
+      "aspect_ratio": 10.785817400860953,
+      "min_len": 8.172396986974364
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 82.8
+  },
+  {
+    "file": "results/p3-e33bfd-front/G37_0.boundary.json",
+    "residuals": {
+      "iota": -0.2537863834277547,
+      "qi": -0.023578616857358372,
+      "mirror": -0.03380490629247801,
+      "flux": -0.006920115881196379,
+      "well": -0.07584713776644054
+    },
+    "V": -0.006920115881196379,
+    "feasible": true,
+    "solo_score_if_feasible": 84.29903932003162,
+    "raw": {
+      "iota_over_nfp": -0.3134465958569387,
+      "log10_qi": -3.5825251590007543,
+      "edge_mirror": 0.2415487734268805,
+      "flux_compression": 0.8937718957069233,
+      "vacuum_well": 0.0075847137766440545,
+      "aspect_ratio": 10.866118311516264,
+      "min_len": 8.229267708417803
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 70.1
+  },
+  {
+    "file": "results/p3-e33bfd-front/G45_50.boundary.json",
+    "residuals": {
+      "iota": -0.271914023688955,
+      "qi": -0.0016075871540823477,
+      "mirror": -0.0718714687107248,
+      "flux": -0.018140074893890294,
+      "well": -0.0854767798156276
+    },
+    "V": -0.0016075871540823477,
+    "feasible": true,
+    "solo_score_if_feasible": 83.81932554694396,
+    "raw": {
+      "iota_over_nfp": -0.31797850592223875,
+      "log10_qi": -3.505626555039288,
+      "edge_mirror": 0.2320321328223188,
+      "flux_compression": 0.8836739325954988,
+      "vacuum_well": 0.00854767798156276,
+      "aspect_ratio": 10.983328414708389,
+      "min_len": 8.296038427713581
+    },
+    "mpol": 10,
+    "ntor": 10,
+    "nfp": 2,
+    "elapsed_s": 68.6
+  }
+]

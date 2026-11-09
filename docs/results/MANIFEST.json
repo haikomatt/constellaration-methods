@@ -2200,8 +2200,8 @@
     "source": "written for this repository (not a campaign artefact)"
   },
   "p3/E25/STATUS.md": {
-    "sha256": "0be3583fee27af89b4c81c02348ee20b2358f6c6a84c0e5c36880ec03785a5d1",
-    "bytes": 1674,
+    "sha256": "81fc5e07246a33d50e6fef2fc581a87c6213fba3d554439daa273d2d44d53e9b",
+    "bytes": 4722,
     "source": "written for this repository (not a campaign artefact)"
   },
   "p3/E26/REPORT.json": {
@@ -2683,5 +2683,615 @@
     "sha256": "0fd151a5b6377fd78f6d0a22a21cf5e168a3fd0faab620e99fe7bc6becd43193",
     "bytes": 13717,
     "source": "the source campaign repository/results/p3-e26-mirror023-front/G5_45.phireflected.boundary.json (own lineage, unstripped)"
+  },
+  "p3/E24r-a85-3/REPORT.json": {
+    "sha256": "cc112bfc79a318ad12f208dfb9e8ecd4662b699087bae2bd6f2d7736ccfb06ba",
+    "bytes": 7508,
+    "source": "the source campaign repository/results/p3-e24r-a85-3/REPORT.json (stripped)"
+  },
+  "p3/E24r-a85-3/STATUS.md": {
+    "sha256": "2b957d6adc3c7cb44bdd28c4151ab9db8e2560eb87ec3486dfde89ddbf008f0f",
+    "bytes": 1810,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E24r-a85-3/best_candidate.json": {
+    "sha256": "b2f6d3d6452f80c65a69a0d9c048b7ceb8be94bea27c740cf3ab09871febf35e",
+    "bytes": 1900,
+    "source": "the source campaign repository/results/p3-e24r-a85-3/best_candidate.json (stripped; private paths removed)"
+  },
+  "p3/E24r-a85-3/best_recheck.json": {
+    "sha256": "3ef2597814c753613a7d2a7e7f116c70f96fede40c37303ad863cbf3a21ba00d",
+    "bytes": 750,
+    "source": "the source campaign repository/results/p3-e24r-a85-3/best_recheck.json"
+  },
+  "p3/E24r-a85-3/events.jsonl": {
+    "sha256": "95c1e5bb7581b7e02abd6945d189ff864e188665d57023193dc5d37084b618cb",
+    "bytes": 15065,
+    "source": "the source campaign repository/results/p3-e24r-a85-3/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E24r-a85-3/own-lineage/best_boundary.json": {
+    "sha256": "100a8bb840660095987bc7a0af872d49620c1b96683bc2c30c8c9e3f0144bd6b",
+    "bytes": 12233,
+    "source": "the source campaign repository/results/p3-e24r-a85-3/best_boundary.json (own lineage, unstripped)"
+  },
+  "p3/E24r-a85-3/own-lineage/best_boundary_reflected.json": {
+    "sha256": "f681e12a34627f4384b3fcf52062eb7697daea8d37f273553f82aef808393eb9",
+    "bytes": 12242,
+    "source": "the source campaign repository/results/p3-e24r-a85-3/best_boundary_reflected.json (own lineage, unstripped)"
+  },
+  "p3/E24r-a85-3/recheck.log": {
+    "sha256": "644a52d72cec4b13ba5ab85b591bef0ddb841d7fb6262544c7f5c67b727405bc",
+    "bytes": 617,
+    "source": "the source campaign repository/results/p3-e24r-a85-3/recheck.log"
+  },
+  "p3/E25-front/REPORT.json": {
+    "sha256": "2c2fbd7112d679c4891206cbd8b731f38b1aac3555618e9ef90dce5a379ddd2b",
+    "bytes": 52489,
+    "source": "the source campaign repository/results/p3-e25-front/REPORT.json (stripped)"
+  },
+  "p3/E25b-front/REPORT.json": {
+    "sha256": "565be8241b3c11755b472b2107489c495d66f1506a6c6def79be48c296af6fc1",
+    "bytes": 83810,
+    "source": "the source campaign repository/results/p3-e25b-front/REPORT.json (stripped)"
+  },
+  "p3/E27/REPORT.json": {
+    "sha256": "2840161900076516b206bdb47a0d6d3e4b0a7be70959775af157a66d37425d7f",
+    "bytes": 3655,
+    "source": "the source campaign repository/results/p3-e27-a85-nominal/REPORT.json (stripped)"
+  },
+  "p3/E27/STATUS.md": {
+    "sha256": "e9c617bac62d9b0312fede0f62152977e237871a10fc6892a50155e47081ee64",
+    "bytes": 1621,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E27/best_candidate.json": {
+    "sha256": "437c9243f975c4c796a69ff66e016ad5d5acbad1bcd7f7a4b2082f02ab61b4c3",
+    "bytes": 1933,
+    "source": "the source campaign repository/results/p3-e27-a85-nominal/best_candidate.json (stripped; private paths removed)"
+  },
+  "p3/E27/events.jsonl": {
+    "sha256": "3d73d1bdfef77a384fc359d650c13b4f79d6d8a506697f7abe85e4f40d29591a",
+    "bytes": 6181,
+    "source": "the source campaign repository/results/p3-e27-a85-nominal/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E27/own-lineage/best_boundary.json": {
+    "sha256": "623e60d1d39170bac519ed7927d8e3c7511f99526786e4bdf30b176354e6874d",
+    "bytes": 12232,
+    "source": "the source campaign repository/results/p3-e27-a85-nominal/best_boundary.json (own lineage, unstripped)"
+  },
+  "p3/E27/own-lineage/best_boundary_reflected.json": {
+    "sha256": "f143ce6981a9a91e10079387e996541eeb0a6163e24d643da36cb8904eebf5d7",
+    "bytes": 12241,
+    "source": "the source campaign repository/results/p3-e27-a85-nominal/best_boundary_reflected.json (own lineage, unstripped)"
+  },
+  "p3/E27/recheck_leaderboard-fidelity.json": {
+    "sha256": "98f54b45a247714497a04bbdaf5632babdc70ed6abacd241df474700648b9981",
+    "bytes": 1493,
+    "source": "the source campaign repository/results/p3-e27-a85-nominal/recheck_leaderboard-fidelity.json"
+  },
+  "p3/E27/recheck_leaderboard-fidelity.log": {
+    "sha256": "928caa9b30be7d3759c4722f5e1e77dffc0cfac2bf1acaff310afdf14c37298e",
+    "bytes": 1229,
+    "source": "the source campaign repository/results/p3-e27-a85-nominal/recheck_leaderboard-fidelity.log"
+  },
+  "p3/E27/recheck_phase1.json": {
+    "sha256": "59219996fa8c5b8e6c27a004310df1ca03e7d4c019e1809813168ff5b6d8b1de",
+    "bytes": 1511,
+    "source": "the source campaign repository/results/p3-e27-a85-nominal/recheck_phase1.json"
+  },
+  "p3/E27/recheck_phase1.log": {
+    "sha256": "11740b11ee88fcf4b82dce9b148cd48bebc3041c470d00fb46a605980e8857b7",
+    "bytes": 1247,
+    "source": "the source campaign repository/results/p3-e27-a85-nominal/recheck_phase1.log"
+  },
+  "p3/E28-front/REPORT.json": {
+    "sha256": "97844c30062ff28714108a41c8bddd8e072a6c2ce43a878cbdae1dc6f1c23dcb",
+    "bytes": 12991,
+    "source": "the source campaign repository/results/p3-e28-front/REPORT.json (stripped)"
+  },
+  "p3/E28b-front/REPORT.json": {
+    "sha256": "e24d6193124b5c0828a5988586cfb9a6742fabb5d74b298b0e92e7a0966cf542",
+    "bytes": 25846,
+    "source": "the source campaign repository/results/p3-e28b-front/REPORT.json (stripped)"
+  },
+  "p3/E29f-front/REPORT.json": {
+    "sha256": "c36ec6f8c5acd956fdf55ee3b77c32c6865f9e3468b465f0ff2599e85db05c2f",
+    "bytes": 35199,
+    "source": "the source campaign repository/results/p3-e29f-front/REPORT.json (stripped)"
+  },
+  "p3/E29fb-front/REPORT.json": {
+    "sha256": "daa26d72729cf0b82730b0dfe295c077d92038552ecebc7e4ff91b38e9bd2d85",
+    "bytes": 38695,
+    "source": "the source campaign repository/results/p3-e29fb-front/REPORT.json (stripped)"
+  },
+  "p3/E29r-c100-2/REPORT.json": {
+    "sha256": "fbecb7539d189b16915a78a892f787497428f3a6ce07636a42150e6b318da14f",
+    "bytes": 4892,
+    "source": "the source campaign repository/results/p3-e29r-c100-2/REPORT.json (stripped)"
+  },
+  "p3/E29r-c100-2/STATUS.md": {
+    "sha256": "515f9378702292ccf2a01f40024f3c6a3f92d7b8f179debbb0b5aed50c34b830",
+    "bytes": 990,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E29r-c100-2/best_candidate.json": {
+    "sha256": "373d23c3d24c49eb3f3ac9b26a6e4d93817f1174b57fa1752aa74e58123572a6",
+    "bytes": 1889,
+    "source": "the source campaign repository/results/p3-e29r-c100-2/best_candidate.json (stripped; private paths removed)"
+  },
+  "p3/E29r-c100-2/best_recheck.json": {
+    "sha256": "2ca2c2e3573be92633e48cef56948c95f330c7bf03707a24eb7af50277549cc5",
+    "bytes": 754,
+    "source": "the source campaign repository/results/p3-e29r-c100-2/best_recheck.json"
+  },
+  "p3/E29r-c100-2/events.jsonl": {
+    "sha256": "04b8e6f9450cb00a86cbcc2708762770f65c765714182ad4ed647ecab2609c05",
+    "bytes": 2657,
+    "source": "the source campaign repository/results/p3-e29r-c100-2/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E29r-c100-2/own-lineage/best_boundary.json": {
+    "sha256": "714157b2bb4c5f7db1e349049167d295421cf5f44c9c4898ba8287320b5761ef",
+    "bytes": 12244,
+    "source": "the source campaign repository/results/p3-e29r-c100-2/best_boundary.json (own lineage, unstripped)"
+  },
+  "p3/E29r-c100-2/own-lineage/best_boundary_reflected.json": {
+    "sha256": "2f4452f57c09229602f21a377f8c80e79fbd2a246a3ac92a1495c20fa0e71573",
+    "bytes": 12253,
+    "source": "the source campaign repository/results/p3-e29r-c100-2/best_boundary_reflected.json (own lineage, unstripped)"
+  },
+  "p3/E29r-c100-2/recheck.log": {
+    "sha256": "a86bcb23e21d0567a4052c509c20fedead4a407fe6651d76c57b5360026a4bd1",
+    "bytes": 621,
+    "source": "the source campaign repository/results/p3-e29r-c100-2/recheck.log"
+  },
+  "p3/E30af-front/REPORT.json": {
+    "sha256": "142685af5a18b11e43f6d94aac7073f8601f69b60d1b83d10815547f2a585e7e",
+    "bytes": 20045,
+    "source": "the source campaign repository/results/p3-e30af-front/REPORT.json (stripped)"
+  },
+  "p3/E30afb-front/REPORT.json": {
+    "sha256": "bbaf17a0a2f9dd1d688499b392520de9405fd4f836369442850247d6d5b145ee",
+    "bytes": 27192,
+    "source": "the source campaign repository/results/p3-e30afb-front/REPORT.json (stripped)"
+  },
+  "p3/E30ar-3/REPORT.json": {
+    "sha256": "dfa0eccddf9a81d9c6b1182587d6f834cdf29c97385ac99fcea6fa372252aca5",
+    "bytes": 6536,
+    "source": "the source campaign repository/results/p3-e30ar-3/REPORT.json (stripped)"
+  },
+  "p3/E30ar-3/STATUS.md": {
+    "sha256": "9b0942787597e4fa34aed5d9045305b9a95c2cffee74ea216cb4a6e76ed6646c",
+    "bytes": 904,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E30ar-3/best_candidate.json": {
+    "sha256": "b0449d11a013c8bf72252c18c56cf911ee4269bd8c7d4fb42dde57345fb31b7c",
+    "bytes": 1860,
+    "source": "the source campaign repository/results/p3-e30ar-3/best_candidate.json (stripped; private paths removed)"
+  },
+  "p3/E30ar-3/best_recheck.json": {
+    "sha256": "45048d2d16bee46b4b986196270762d718527aa95e6dbd9311b732202b3588b9",
+    "bytes": 751,
+    "source": "the source campaign repository/results/p3-e30ar-3/best_recheck.json"
+  },
+  "p3/E30ar-3/events.jsonl": {
+    "sha256": "dea8d46e1d2d2077a1c93d0bf54b671b2f4451511de61f7b926e2bfd2fc82f28",
+    "bytes": 11260,
+    "source": "the source campaign repository/results/p3-e30ar-3/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E30ar-3/own-lineage/best_boundary.json": {
+    "sha256": "b53b2f6cdb93225082c8d1d47aaef8e3ccf08b925bb46a0512f0d25a9d43cd25",
+    "bytes": 12241,
+    "source": "the source campaign repository/results/p3-e30ar-3/best_boundary.json (own lineage, unstripped)"
+  },
+  "p3/E30ar-3/own-lineage/best_boundary_reflected.json": {
+    "sha256": "5e0065d1f56099862f2b7836e75d9af3ccf5b233e7f8db616b43bdc049757a0b",
+    "bytes": 12250,
+    "source": "the source campaign repository/results/p3-e30ar-3/best_boundary_reflected.json (own lineage, unstripped)"
+  },
+  "p3/E30ar-3/recheck.log": {
+    "sha256": "a54ca00ea9cee1b55d11da266263ba329c3611813c2d9805c746d22fdf341984",
+    "bytes": 618,
+    "source": "the source campaign repository/results/p3-e30ar-3/recheck.log"
+  },
+  "p3/E30bf-front/REPORT.json": {
+    "sha256": "87d8a69f5ac3afe0de5a80c62a789b00b1fa74f0231ae9abac76bea801648721",
+    "bytes": 28212,
+    "source": "the source campaign repository/results/p3-e30bf-front/REPORT.json (stripped)"
+  },
+  "p3/E30bfb-front/REPORT.json": {
+    "sha256": "1d5c26b7972574001cf79f96a651d6b374311996eae226bf3045eeabadb08a6e",
+    "bytes": 65422,
+    "source": "the source campaign repository/results/p3-e30bfb-front/REPORT.json (stripped)"
+  },
+  "p3/E30bfc-front/REPORT.json": {
+    "sha256": "ca07695326741acc0c8df62274a07dc44725e8d63fe2b74a13aecd830752b5a4",
+    "bytes": 103693,
+    "source": "the source campaign repository/results/p3-e30bfc-front/REPORT.json (stripped)"
+  },
+  "p3/E30br-2/REPORT.json": {
+    "sha256": "06c473793abf01af40fcfc6ab28a43e6a835a8d154ff6dc68a3bfa6470358b57",
+    "bytes": 4365,
+    "source": "the source campaign repository/results/p3-e30br-2/REPORT.json (stripped)"
+  },
+  "p3/E30br-2/STATUS.md": {
+    "sha256": "fb2bb63b3179af6b27fb02f5e4c00bab6149a3d29ca6102aa86e571bf323017e",
+    "bytes": 904,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E30br-2/best_candidate.json": {
+    "sha256": "5a9fde8464cb3677f5ff0dfc310a5939af9836543e0df450cdb61b14bb97ddb3",
+    "bytes": 1864,
+    "source": "the source campaign repository/results/p3-e30br-2/best_candidate.json (stripped; private paths removed)"
+  },
+  "p3/E30br-2/best_recheck.json": {
+    "sha256": "5a99be623652a7640da43fee1823ec50b4be0770cfd4788b8cc866f9acecb7f0",
+    "bytes": 748,
+    "source": "the source campaign repository/results/p3-e30br-2/best_recheck.json"
+  },
+  "p3/E30br-2/events.jsonl": {
+    "sha256": "1a5a67604dc3bb03aa202a5900e1674b55eab7ab11dcc4d9234ff9cac19ddcc6",
+    "bytes": 1728,
+    "source": "the source campaign repository/results/p3-e30br-2/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E30br-2/own-lineage/best_boundary.json": {
+    "sha256": "b001ff5d376d36e411e88c85e78dabf0bfc152dd6a8bcc6f3e894c1288fa83d5",
+    "bytes": 12199,
+    "source": "the source campaign repository/results/p3-e30br-2/best_boundary.json (own lineage, unstripped)"
+  },
+  "p3/E30br-2/own-lineage/best_boundary_reflected.json": {
+    "sha256": "b63f31b395fa59a98a069c82f895b45756a6ac881964f6bee833002b67032a9f",
+    "bytes": 12208,
+    "source": "the source campaign repository/results/p3-e30br-2/best_boundary_reflected.json (own lineage, unstripped)"
+  },
+  "p3/E30br-2/recheck.log": {
+    "sha256": "50015ccf2b19bda7853d63cb6761ebd54b589555e029fc2c97f69bfca8139bde",
+    "bytes": 888,
+    "source": "the source campaign repository/results/p3-e30br-2/recheck.log"
+  },
+  "p3/E31a-nominal/REPORT.json": {
+    "sha256": "451781914f7e85ad7508d182039de13c11e2ed7dfe30dac97e338b0f6001a87b",
+    "bytes": 3544,
+    "source": "the source campaign repository/results/p3-e31a-nominal/REPORT.json (stripped)"
+  },
+  "p3/E31a-nominal/STATUS.md": {
+    "sha256": "dfe8cbdf8141a808fb3b8f403cea272f6b022c6533ddcb7e6cf883fd2c6c7c5d",
+    "bytes": 658,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E31a-nominal/best_candidate.json": {
+    "sha256": "8e286223596476988e149d9bb6b24fd4b3fc2e91c727d91cc0ad72b5b86c8a8a",
+    "bytes": 1949,
+    "source": "the source campaign repository/results/p3-e31a-nominal/best_candidate.json (stripped; private paths removed)"
+  },
+  "p3/E31a-nominal/best_recheck.json": {
+    "sha256": "65999f1a3114efe144f3dfbe5f39a588fdd32d14b397568ae91a93596ab32715",
+    "bytes": 757,
+    "source": "the source campaign repository/results/p3-e31a-nominal/best_recheck.json"
+  },
+  "p3/E31a-nominal/events.jsonl": {
+    "sha256": "2e3f6f06977f6863f5ddb76960d5cc3c52aba5c332fe7e2eabe80b3d8d8aeff2",
+    "bytes": 6057,
+    "source": "the source campaign repository/results/p3-e31a-nominal/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E31a-nominal/own-lineage/best_boundary.json": {
+    "sha256": "9ada9cdd4d63af6f672ea59b0fc9d244086a3ab394f1d15eca5b58023a15ff33",
+    "bytes": 12245,
+    "source": "the source campaign repository/results/p3-e31a-nominal/best_boundary.json (own lineage, unstripped)"
+  },
+  "p3/E31a-nominal/own-lineage/best_boundary_reflected.json": {
+    "sha256": "bea5c7784a3befcd6f2b9509ef89db0d67f1b9e5ccce6e51d2ff7a16dc977b55",
+    "bytes": 12254,
+    "source": "the source campaign repository/results/p3-e31a-nominal/best_boundary_reflected.json (own lineage, unstripped)"
+  },
+  "p3/E31a-nominal/recheck.log": {
+    "sha256": "8cb3bbde02f450e7c7788c4b35d4f61cbd6bd01dfe5557bd44b2ce6be00b3eca",
+    "bytes": 624,
+    "source": "the source campaign repository/results/p3-e31a-nominal/recheck.log"
+  },
+  "p3/E31af-front/REPORT.json": {
+    "sha256": "66cf774a57c5ad420ac1874500c360bc70a1ca4bfcd1de30e8beb3ab58ba6923",
+    "bytes": 48010,
+    "source": "the source campaign repository/results/p3-e31af-front/REPORT.json (stripped)"
+  },
+  "p3/E31afb-front/REPORT.json": {
+    "sha256": "5b181fc64829fd090633da549c1f5994c563c36bbcf221b82fe84fca27622c00",
+    "bytes": 47945,
+    "source": "the source campaign repository/results/p3-e31afb-front/REPORT.json (stripped)"
+  },
+  "p3/E31b-nominal/REPORT.json": {
+    "sha256": "5d1886a8604ae75d8210c6c7cf24a20c4a0fee2cfbbf215b073f9ac08de9fb2d",
+    "bytes": 3687,
+    "source": "the source campaign repository/results/p3-e31b-nominal/REPORT.json (stripped)"
+  },
+  "p3/E31b-nominal/STATUS.md": {
+    "sha256": "77568c194caaf59c735c340ccc9a57784a1eed3b79b3953cd761b1e9c94c1238",
+    "bytes": 606,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E31b-nominal/best_candidate.json": {
+    "sha256": "9729042b14c941aec1c03673d341f63679bd63a8e79ab23bc4e7b3ff57650968",
+    "bytes": 1931,
+    "source": "the source campaign repository/results/p3-e31b-nominal/best_candidate.json (stripped; private paths removed)"
+  },
+  "p3/E31b-nominal/best_recheck.json": {
+    "sha256": "6d791b713f18da385ec184b8c8ef373df03200bfc076a298157790e6fd27a3b3",
+    "bytes": 755,
+    "source": "the source campaign repository/results/p3-e31b-nominal/best_recheck.json"
+  },
+  "p3/E31b-nominal/events.jsonl": {
+    "sha256": "aa12e2f0518dc598472c32b7c86c2a66cabf605d72a38a98b3620539876f3e52",
+    "bytes": 6187,
+    "source": "the source campaign repository/results/p3-e31b-nominal/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E31b-nominal/own-lineage/best_boundary.json": {
+    "sha256": "a06ff0df61091029c33388b5e090c22acec917df238b836406bea85ff6eb7f4b",
+    "bytes": 12241,
+    "source": "the source campaign repository/results/p3-e31b-nominal/best_boundary.json (own lineage, unstripped)"
+  },
+  "p3/E31b-nominal/own-lineage/best_boundary_reflected.json": {
+    "sha256": "0b97618ee6835620a2bb496004470af3e108803e1426dfb58730b9b44e8331b5",
+    "bytes": 12250,
+    "source": "the source campaign repository/results/p3-e31b-nominal/best_boundary_reflected.json (own lineage, unstripped)"
+  },
+  "p3/E31b-nominal/recheck.log": {
+    "sha256": "c58eac8baaaaa825148e8d5739d6378228aec41ea465f8bb93faf03ea3272d88",
+    "bytes": 622,
+    "source": "the source campaign repository/results/p3-e31b-nominal/recheck.log"
+  },
+  "p3/E31bf-front/REPORT.json": {
+    "sha256": "f7176f080fdfa61eac4a665a6f04428fcd08aabafcd7e24371a8b938642f64f6",
+    "bytes": 17741,
+    "source": "the source campaign repository/results/p3-e31bf-front/REPORT.json (stripped)"
+  },
+  "p3/E31bfb-front/REPORT.json": {
+    "sha256": "1c91efaa830bd333377c585531d836886e6d15af3a23a9846f26f6234a9fc580",
+    "bytes": 13074,
+    "source": "the source campaign repository/results/p3-e31bfb-front/REPORT.json (stripped)"
+  },
+  "p3/E32f-front/REPORT.json": {
+    "sha256": "4927ca4ea33b5a3b2cea77c4289aa77a14741ee150a4978c3fab397a323db84c",
+    "bytes": 32929,
+    "source": "the source campaign repository/results/p3-e32f-front/REPORT.json (stripped)"
+  },
+  "p3/E32fb-front/REPORT.json": {
+    "sha256": "daa1bc4e5656fa9e7136a51d0eb2dca51d8eb1f5fb409b61d163c19d41f62839",
+    "bytes": 59656,
+    "source": "the source campaign repository/results/p3-e32fb-front/REPORT.json (stripped)"
+  },
+  "p3/E32fc-front/REPORT.json": {
+    "sha256": "53c322ec20a25d4c8f640971ad75b0e539768ccfa319786d963189f59804b342",
+    "bytes": 84004,
+    "source": "the source campaign repository/results/p3-e32fc-front/REPORT.json (stripped)"
+  },
+  "p3/E32fd-front/REPORT.json": {
+    "sha256": "b11a07bf70941f9f63ffe1e7584f1ceaa6687d16dbbb9e232c5599386a837b8f",
+    "bytes": 76947,
+    "source": "the source campaign repository/results/p3-e32fd-front/REPORT.json (stripped)"
+  },
+  "p3/E32r-1/REPORT.json": {
+    "sha256": "2683c0e23e0f4e567511027f89056185855caf2b1a3ee65ae242b6b230e1525f",
+    "bytes": 6555,
+    "source": "the source campaign repository/results/p3-e32r-1/REPORT.json (stripped)"
+  },
+  "p3/E32r-1/STATUS.md": {
+    "sha256": "f68604e62b8caf3a663e1600f33ac493743dfce6f874d637e4455483a4e34155",
+    "bytes": 799,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E32r-1/best_candidate.json": {
+    "sha256": "a78d561a4093553dfe36cdcf107cedc2656d478224e46f9c3d1e5b4df37b4a47",
+    "bytes": 1867,
+    "source": "the source campaign repository/results/p3-e32r-1/best_candidate.json (stripped; private paths removed)"
+  },
+  "p3/E32r-1/best_recheck.json": {
+    "sha256": "7a980385ea20bcf7e3d8f72a9f4f6f643dd6e4c71c526e7deb35897d37bbb101",
+    "bytes": 748,
+    "source": "the source campaign repository/results/p3-e32r-1/best_recheck.json"
+  },
+  "p3/E32r-1/events.jsonl": {
+    "sha256": "80d682fc876d193251f5219a15000354474b80ba3273a2ad0be10ee6a0baf7f8",
+    "bytes": 6508,
+    "source": "the source campaign repository/results/p3-e32r-1/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E32r-1/own-lineage/best_boundary.json": {
+    "sha256": "bc4455785f19112aa7a1e4027cee8db9db6b5812cdaca40503f56b2cdea67886",
+    "bytes": 12224,
+    "source": "the source campaign repository/results/p3-e32r-1/best_boundary.json (own lineage, unstripped)"
+  },
+  "p3/E32r-1/own-lineage/best_boundary_reflected.json": {
+    "sha256": "6dd66fcb1c4f91f0aebe54e13a4739a99d4e206fd93b6f58ca479e49f9488438",
+    "bytes": 12231,
+    "source": "the source campaign repository/results/p3-e32r-1/best_boundary_reflected.json (own lineage, unstripped)"
+  },
+  "p3/E32r-1/recheck.log": {
+    "sha256": "9d40e171a6ca36d8292e7c49a00b93b6110d2736f99cc6e1335c0a06965f1253",
+    "bytes": 888,
+    "source": "the source campaign repository/results/p3-e32r-1/recheck.log"
+  },
+  "p3/E33af-front/REPORT.json": {
+    "sha256": "023466f7282f2660054023d5dcac0b116a3a402778b7affe3062f234a334b27e",
+    "bytes": 41206,
+    "source": "the source campaign repository/results/p3-e33af-front/REPORT.json (stripped)"
+  },
+  "p3/E33afb-front/REPORT.json": {
+    "sha256": "95f455da8154cab707e5ed5cd13983f98e6c38621834240b60b736094829a3de",
+    "bytes": 54179,
+    "source": "the source campaign repository/results/p3-e33afb-front/REPORT.json (stripped)"
+  },
+  "p3/E33afc-front/REPORT.json": {
+    "sha256": "1e1e97489f0df0473c9594718aa2e1eee08fef6e8d3afb8df9a61f199fadbcaf",
+    "bytes": 57502,
+    "source": "the source campaign repository/results/p3-e33afc-front/REPORT.json (stripped)"
+  },
+  "p3/E33afd-front/REPORT.json": {
+    "sha256": "c8420d88d925acbc08e80ad28f33c2a66de938776e5e003bc16c733b328b4cb6",
+    "bytes": 71680,
+    "source": "the source campaign repository/results/p3-e33afd-front/REPORT.json (stripped)"
+  },
+  "p3/E33ar-1/REPORT.json": {
+    "sha256": "3c19f748701352068696e18d88e1574c5c2d2ed0d7fa9959defd6a6f356da16d",
+    "bytes": 7708,
+    "source": "the source campaign repository/results/p3-e33ar-1/REPORT.json (stripped)"
+  },
+  "p3/E33ar-1/STATUS.md": {
+    "sha256": "50bca62f58a0f3a47bb626f09f1de77b768405f7d5dcf3a28a637e827349517c",
+    "bytes": 606,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E33ar-1/best_candidate.json": {
+    "sha256": "e16b35323d265133232f9b64e48ca799d5255af8189e35475fbbc538d85adb13",
+    "bytes": 1891,
+    "source": "the source campaign repository/results/p3-e33ar-1/best_candidate.json (stripped; private paths removed)"
+  },
+  "p3/E33ar-1/best_recheck.json": {
+    "sha256": "472304cf1fb0ce465f6834cd76d18eadcd44992ede08c2404d29763294d5d4ee",
+    "bytes": 749,
+    "source": "the source campaign repository/results/p3-e33ar-1/best_recheck.json"
+  },
+  "p3/E33ar-1/events.jsonl": {
+    "sha256": "74e5aa0aa4290afa6654a969952d7cd948a5d113de0300f7a88b2229eaf2a994",
+    "bytes": 16366,
+    "source": "the source campaign repository/results/p3-e33ar-1/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E33ar-1/own-lineage/best_boundary.json": {
+    "sha256": "03d83c87b2e5fd0ceef01ab6cb9fac84029f17e9795b70b77f3d2dd23313d7d2",
+    "bytes": 12282,
+    "source": "the source campaign repository/results/p3-e33ar-1/best_boundary.json (own lineage, unstripped)"
+  },
+  "p3/E33ar-1/own-lineage/best_boundary_reflected.json": {
+    "sha256": "fe5c9ae6545ef581eb180142c81b53e535d87ce3ba67d201fc1fa55128099c73",
+    "bytes": 12293,
+    "source": "the source campaign repository/results/p3-e33ar-1/best_boundary_reflected.json (own lineage, unstripped)"
+  },
+  "p3/E33ar-1/recheck.log": {
+    "sha256": "83e9ce996c01497e88938d71ff66548d8f53151776306fad45e1e99a29af1703",
+    "bytes": 889,
+    "source": "the source campaign repository/results/p3-e33ar-1/recheck.log"
+  },
+  "p3/E33bf-front/REPORT.json": {
+    "sha256": "1642cfe9b6e2a07886edc8895e46de1c7b653eebe2b9a1d0af34367488feb714",
+    "bytes": 58438,
+    "source": "the source campaign repository/results/p3-e33bf-front/REPORT.json (stripped)"
+  },
+  "p3/E33bfb-front/REPORT.json": {
+    "sha256": "c05c7348deb89ebf3db7377c5c46ade99b6641d6f8c50abce0dc2d5092fcaae7",
+    "bytes": 96834,
+    "source": "the source campaign repository/results/p3-e33bfb-front/REPORT.json (stripped)"
+  },
+  "p3/E33bfc-front/REPORT.json": {
+    "sha256": "f84a1f3c96bb06df6fd664999697f820f01038257f1420b24c9f4f32e0adc2b4",
+    "bytes": 66447,
+    "source": "the source campaign repository/results/p3-e33bfc-front/REPORT.json (stripped)"
+  },
+  "p3/E33bfd-front/REPORT.json": {
+    "sha256": "99b43428df8a186a05675b5bc8174fe835db2f73856e76b0df46f5e3db46e92f",
+    "bytes": 149119,
+    "source": "the source campaign repository/results/p3-e33bfd-front/REPORT.json (stripped)"
+  },
+  "p3/E33br-1/REPORT.json": {
+    "sha256": "2bbf4df351b5e4b2cdf6a6dc78b5cfaef143f7b74907d96476f492f564b6ddaa",
+    "bytes": 5854,
+    "source": "the source campaign repository/results/p3-e33br-1/REPORT.json (stripped)"
+  },
+  "p3/E33br-1/STATUS.md": {
+    "sha256": "fbe0de2f085dff25a915ec7d49c87a51a94c1abcd3170193cd4b8e91e8af0d97",
+    "bytes": 579,
+    "source": "written for this repository (not a campaign artefact)"
+  },
+  "p3/E33br-1/best_candidate.json": {
+    "sha256": "5a1a0c26c1620362d518e7b049866a9820ada6964da28923da65de618d2eca63",
+    "bytes": 1863,
+    "source": "the source campaign repository/results/p3-e33br-1/best_candidate.json (stripped; private paths removed)"
+  },
+  "p3/E33br-1/best_recheck.json": {
+    "sha256": "4715f688f94f2f1527bc6fd6bd86e2a22d349470cd3a7ed8e266791b6435cd0b",
+    "bytes": 753,
+    "source": "the source campaign repository/results/p3-e33br-1/best_recheck.json"
+  },
+  "p3/E33br-1/events.jsonl": {
+    "sha256": "867e2e1181b7f1c7d67e6f9903db9120c00772c78298e4ab05aae30fb38368f9",
+    "bytes": 13686,
+    "source": "the source campaign repository/results/p3-e33br-1/events.jsonl (no boundary coordinates; not stripped)"
+  },
+  "p3/E33br-1/own-lineage/best_boundary.json": {
+    "sha256": "1b12ad61607f6485fcf2141e51dcf01d86390d26bb98b436629379192b85167a",
+    "bytes": 12229,
+    "source": "the source campaign repository/results/p3-e33br-1/best_boundary.json (own lineage, unstripped)"
+  },
+  "p3/E33br-1/own-lineage/best_boundary_reflected.json": {
+    "sha256": "89985d8eac69c35baa5b1cb9e1ca4b03c9e61e8ead349c360687ae877eb3b3a9",
+    "bytes": 12240,
+    "source": "the source campaign repository/results/p3-e33br-1/best_boundary_reflected.json (own lineage, unstripped)"
+  },
+  "p3/E33br-1/recheck.log": {
+    "sha256": "50747c6449fa7c35e7522e24446d064d67e186f07009059f4c5540e736bf1b42",
+    "bytes": 893,
+    "source": "the source campaign repository/results/p3-e33br-1/recheck.log"
+  },
+  "p3/E34-recheck-026/items.json": {
+    "sha256": "d3c104bff0701a29a25a7588469a9395e6c345b2a71b7d8318171b4fc5daf39a",
+    "bytes": 41234,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/items.json"
+  },
+  "p3/E34-recheck-026/parts/shard_0.json": {
+    "sha256": "0b1fc8658d6a467ce3f5bf2cb1ef7c6894fde70bf0ee2df9af005c9d1cafa38c",
+    "bytes": 36248,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_0.json"
+  },
+  "p3/E34-recheck-026/parts/shard_1.json": {
+    "sha256": "20b1c91b1be552b62bccfbeef6606f03651cd460ba4f6331df7fecacb57a6e8a",
+    "bytes": 36288,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_1.json"
+  },
+  "p3/E34-recheck-026/parts/shard_10.json": {
+    "sha256": "aa17385b3bdba3581453836eea9a1f8103ce445eedc7e5e4377a085054edc869",
+    "bytes": 35524,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_10.json"
+  },
+  "p3/E34-recheck-026/parts/shard_11.json": {
+    "sha256": "4903f9a03e0dfae8c088689081de762cceea58ceb3fe2838cf6405942d5e7d74",
+    "bytes": 35529,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_11.json"
+  },
+  "p3/E34-recheck-026/parts/shard_2.json": {
+    "sha256": "def87e92fb66c8dd69dc1366737ceacdedb3ee6b42290b25577894ddfaadc6e3",
+    "bytes": 36261,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_2.json"
+  },
+  "p3/E34-recheck-026/parts/shard_3.json": {
+    "sha256": "1e553f59edfc52ce41303107be823262dc2c308d8655fc9059d83ef44be27de4",
+    "bytes": 36286,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_3.json"
+  },
+  "p3/E34-recheck-026/parts/shard_4.json": {
+    "sha256": "c1567ecf23f659d995e025fdfcb4fc1f237c6324dc2f594af446be1911b65609",
+    "bytes": 36275,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_4.json"
+  },
+  "p3/E34-recheck-026/parts/shard_5.json": {
+    "sha256": "32aa3b3f9ef1b963ea1c161daac037c4d1559946e90bf979564dd6e095625662",
+    "bytes": 36268,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_5.json"
+  },
+  "p3/E34-recheck-026/parts/shard_6.json": {
+    "sha256": "8f31db6b7dbbcfebed6b397ac64fe4cec9fc526781a26b182b922b788a08e584",
+    "bytes": 36274,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_6.json"
+  },
+  "p3/E34-recheck-026/parts/shard_7.json": {
+    "sha256": "994abc1ef7c38ef66f0aa992cc27c2819a0406a4ee8aba722f1bcfba6ca1541b",
+    "bytes": 36285,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_7.json"
+  },
+  "p3/E34-recheck-026/parts/shard_8.json": {
+    "sha256": "f24886264b0dc4b13e288fd6f06155856b79859409946ea384512bf4e360f65c",
+    "bytes": 36291,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_8.json"
+  },
+  "p3/E34-recheck-026/parts/shard_9.json": {
+    "sha256": "60f63c705b02fbf057fcb416dcd6bb89e355ee1de4da6ec5200f2eaf9cb2325e",
+    "bytes": 36295,
+    "source": "the source campaign repository/results/p3-e34-recheck-026/parts/shard_9.json"
   }
 }

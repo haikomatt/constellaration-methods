@@ -1,0 +1,39 @@
+{"event": "repeatability", "ok": true, "e_rep": 0.0, "e_control": 0.0, "eps": 0.0001, "start_repeats": [[-0.2503515636588447, 0.002479790247682523, 0.0015727842233155265, 0.008265617984206787, -0.14194885773070243], [-0.2503515636588447, 0.002479790247682523, 0.0015727842233155265, 0.008265617984206787, -0.14194885773070243]], "control": [0.06185293028051131, 0.14328263814025316, 0.15209498238801245, 0.09487221420085981, -0.03769324739343605], "t_h": 0.031}
+{"event": "curvature", "label": "J0", "ok_cols": 440, "frac_positive": 0.62, "median_new_mode_qi_mirror_flux": [0.001627940180900293, 0.0013987929670610114, -1.4337139237369511e-08], "t_h": 1.764}
+{"event": "jacobian", "label": "J0", "ok_cols": 440, "opt_used": 880, "probe_scale": "step", "t_h": 1.764}
+{"event": "lp_infeasible", "trial": 0, "delta": 0.0025, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 1.764}
+{"event": "lp_infeasible", "trial": 1, "delta": 0.00125, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 1.765}
+{"event": "lp_infeasible", "trial": 2, "delta": 0.000625, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 1.766}
+{"event": "lp_infeasible", "trial": 3, "delta": 0.0003125, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 1.766}
+{"event": "lp_infeasible", "trial": 4, "delta": 0.00015625, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 1.767}
+{"event": "lp_infeasible", "trial": 5, "delta": 7.8125e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 1.768}
+{"event": "lp_infeasible", "trial": 6, "delta": 3.90625e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 1.768}
+{"event": "lp_infeasible", "trial": 7, "delta": 1.953125e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 1.769}
+{"event": "recovery_restart", "tag": "J0:261:+", "v": 0.0, "note": "RESTART, not an accepted step", "t_h": 1.769}
+{"event": "curvature", "label": "JR", "ok_cols": 440, "frac_positive": 0.6713636363636364, "median_new_mode_qi_mirror_flux": [0.0011376058181985604, 2.6287072252122932e-05, 0.00810500811362256], "t_h": 3.891}
+{"event": "jacobian", "label": "JR", "ok_cols": 440, "opt_used": 1760, "probe_scale": "step", "t_h": 3.891}
+{"event": "lp_infeasible", "trial": 8, "delta": 0.0025, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.891}
+{"event": "lp_infeasible", "trial": 9, "delta": 0.00125, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.892}
+{"event": "lp_infeasible", "trial": 10, "delta": 0.000625, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.893}
+{"event": "lp_infeasible", "trial": 11, "delta": 0.0003125, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.893}
+{"event": "lp_infeasible", "trial": 12, "delta": 0.00015625, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.894}
+{"event": "lp_infeasible", "trial": 13, "delta": 7.8125e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.895}
+{"event": "lp_infeasible", "trial": 14, "delta": 3.90625e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.895}
+{"event": "lp_infeasible", "trial": 15, "delta": 1.953125e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.896}
+{"event": "lp_infeasible", "trial": 16, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.897}
+{"event": "lp_infeasible", "trial": 17, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.897}
+{"event": "lp_infeasible", "trial": 18, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.898}
+{"event": "lp_infeasible", "trial": 19, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.899}
+{"event": "lp_infeasible", "trial": 20, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.899}
+{"event": "lp_infeasible", "trial": 21, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.9}
+{"event": "lp_infeasible", "trial": 22, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.901}
+{"event": "lp_infeasible", "trial": 23, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.901}
+{"event": "lp_infeasible", "trial": 24, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.902}
+{"event": "lp_infeasible", "trial": 25, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.903}
+{"event": "lp_infeasible", "trial": 26, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.903}
+{"event": "lp_infeasible", "trial": 27, "delta": 1e-05, "msg": "quadratic restoration step failed: Singular matrix E in LSQ subproblem", "t_h": 3.904}
+{"event": "recovery_result", "material_steps": 0, "v": 0.0, "v_at_restart": 0.0, "qualified": false, "t_h": 3.904}
+{"event": "optimisation_stopped", "reason": "recovery_failed", "opt_used": 1760, "v_incumbent": 0.0, "n_accepted": 0, "t_h": 3.904}
+{"event": "adjudicated", "tag": "J0:261:+", "worst_v": 0.0, "feasible": true, "technical": false, "t_h": 3.923}
+{"event": "adjudicated", "tag": "JR:2:+", "worst_v": 0.0, "feasible": true, "technical": false, "t_h": 3.941}
+{"event": "adjudicated", "tag": "JR:3:-", "worst_v": 0.0, "feasible": true, "technical": false, "t_h": 3.96}

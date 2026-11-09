@@ -1,0 +1,67 @@
+{
+  "tag": "anchor:e30br-2",
+  "note": "e30br link 2 best P:L0:t0.5",
+  "r": [
+    -0.235551276720392,
+    -0.0096795163393782,
+    -0.017084964002597847,
+    -0.008550771827163425,
+    -0.12653567792063683
+  ],
+  "raw": {
+    "iota_over_nfp": -0.308887819180098,
+    "log10_qi": -3.5338783071878237,
+    "edge_mirror": 0.24572875899935054,
+    "flux_compression": 0.8923043053555529,
+    "vacuum_well": 0.012653567792063683,
+    "aspect_ratio": 9.430187577298527,
+    "min_len": 6.704179338036181
+  },
+  "mpol": 10,
+  "ntor": 10,
+  "nfp": 2,
+  "scaling": 1.0,
+  "source": {
+    "path": "db00397_n2_s231",
+    "mpol": 8,
+    "ntor": 8,
+    "note": "coefficient-space box source budget (E22 convention)"
+  },
+  "provenance": {
+    "bank_label": "db00397_n2_s231",
+    "worst_of_three_v": 0.18013920564824826,
+    "v_runs": [
+      0.18013920564824826,
+      0.18013920564824826,
+      0.18013920564824826
+    ],
+    "lock_snapshot": "docs/preregistration/20261027T211746Z-E30-lock.md",
+    "seed_manifest_entry": {
+      "db_file": "data/qi_nae_db/Paper_scripts/data/N2/QI-Database-N2-m-0.5-kappa23-Broad-Sweep-231.json",
+      "ID": 397,
+      "fork_commit": "2a2e443d",
+      "W_target": 0.02,
+      "aspect_requested": 11.0,
+      "aspect_estimate": 11.035200639184335,
+      "minor_radius": 0.07368449760055701,
+      "rmin_over_r00": 0.606435198193924,
+      "rho_c0": 4.5,
+      "delta_B": 0.0292628328064346,
+      "features": {
+        "\u03bas_2": 0.08888888888888896,
+        "\u03c4c_1": -0.36000000000000004,
+        "\u03c4c_2": -0.3333333333333335,
+        "\u03c1c_0": 4.5,
+        "\u03c1c_1": -1.0,
+        "\u03c1c_2": -0.5,
+        "Bp_1": 0.15,
+        "Bp_2": -0.011000000000000003
+      }
+    },
+    "link": 2,
+    "chain_tag": "P:L0:t0.5",
+    "runner_label": "verified_p3_feasibility",
+    "feasible": true
+  },
+  "recheck_feasible": true
+}
