@@ -3,9 +3,10 @@
 Every claim below carries its evidence and a grade in the campaign's own discipline:
 **Supported** (pre-registered, locked, canonically confirmed, bar met), **Refuted** (same
 discipline, bar missed or labelled "null"), **Measured** (locked measurement probe, no bar),
-**Open** (not tested). Provenance note first: every feasible P3 design this repo holds descends
-from `davidkh`'s public P2 design; nothing is submittable without reuse terms; all P3 results are
-measurement and method.
+**Open** (not tested). Provenance note first: the P3 designs and fronts that descend from `davidkh`'s public P2
+design are measurement and method only, and nothing derived from it is submittable without reuse
+terms. The eleven own-lineage P3-feasible designs (E22 onward) descend from a public CC BY 4.0
+database and our own restoration, with no leaderboard boundary in their lineage (PROVENANCE.md).
 
 ## P3 (`MHDStableQIStellarator`): what this method can say, and what it refutes
 
@@ -147,9 +148,67 @@ Reading, with its limits: the generator's best operating aspect for P3 reads as 
 feasibility was reached at 12 and has not yet been reached at 7.4. That rests on one design from
 bank B and one near miss from bank A, each a single seed; it does not show that low-aspect designs
 are out of reach, only that two links were not enough from the best aspect-8.5 seed. The union
-front over all four own-lineage anchors (E25) has not run. See
+front over the own-lineage anchors (E25) did run, and carries a correction (below). See
 docs/results/p3/E24-a85/STATUS.md, docs/results/p3/E24-b14/STATUS.md,
 docs/results/p3/E24r-a85/STATUS.md and docs/results/p3/E24r-b14/STATUS.md.
+
+### "Methods that reach feasibility from a database seed at a chosen aspect"
+
+**Supported, six of six (E24, E29, E30a, E30b, E32, E33; 2026-10-02 to 2026-11-05): the
+bank-then-restore pipeline.** The cold-start result above was one bank at one aspect. The same chain
+now runs as a single pipeline, with the requested aspect as its only argument
+(`scripts/p3_bank_chain_runner.sh TAG ASPECT MAX_ASPECT`):
+
+1. **Bank.** Rebuild the E21 selection with the authors' MHD completion at W +0.02 and a geometry gate
+   (rmin/r00 >= 0.5), exported at the requested aspect by the boundary's own estimate; screen every
+   seed canonically and confirm the best 12 at worst of three. Bars: null (no seed), material
+   (confirmed V <= 0.30 with iota, mirror and well satisfied, canonical aspect no higher than the
+   stated maximum), substantial (<= 0.10), goal (feasible).
+2. **Restoration chain.** The E24r command unchanged from the bank's best confirmed seed, then each
+   next link from the last link's adjudicated best, at most four links, continuing only while a link
+   is material (V falls by at least 0.010) and stopping on verified feasibility.
+3. **Verification.** A feasible point is re-checked in both evaluator images through the reflected
+   export before it is called verified (and, from E34, under the frozen benchmark version).
+4. **Front.** If a link reaches feasibility, a front grown from that design alone, in its own
+   representation (next section).
+
+Six banks were run through it. Every bank was material or better, every chain reached a verified
+feasible design, and each took one to three restoration links of a few hours:
+
+| Bank (requested aspect) | Best confirmed seed V | Links | Design aspect | min_len | Solo HV | Final link |
+|---|---|---|---|---|---|---|
+| E24 A (8.5) | 0.2761 | 3 | 7.37 | 5.06 | about 76.6 | 3.4 h, tolerance-feasible |
+| E24 B (14) | 0.1136 | 2 | 11.97 | 8.72 | 77.99 | 1.3 h, strictly nominal |
+| E29 (10.0) | 0.2006 | 2 | 8.62 | 6.17 | 81.59 | 1.8 h, tolerance-feasible |
+| E30a (9.0) | 0.2566 | 3 | 7.64 | 5.31 | 77.98 | 3.1 h, tolerance-feasible |
+| E30b (11.0) | 0.1801 | 2 | 9.43 | 6.70 | 81.43 | 1.3 h, strictly nominal |
+| E32 (12.5) | 0.1241 | 1 | 10.66 | 7.60 | 80.30 | 2.7 h, tolerance-feasible |
+
+Two further seeds from E32's bank (E33a `db00588_n2_s231`, E33b `db00538_n2_s364`) also reached
+feasibility in one link each: aspect 10.45 (min_len 7.72, solo 83.36, the highest of any design) and
+10.68 (min_len 7.56, solo 79.80). With the three cold-start designs of E22, E22b and E22c, that is
+**eleven own-lineage P3-feasible designs, aspect 7.37 to 11.97, every one feasible under
+constellaration 0.2.6** (E34 below). Banks come out below the aspect requested (8.5 gave 7.4, 14 gave
+12.0, 10 gave 8.6, 9 gave 7.6, 11 gave 9.4, 12.5 gave 10.7), so the request is a lever, not a target.
+
+Limits, stated plainly. Six of six is six banks, each with one chain from its best seed; it supports
+"the pipeline reaches feasibility when aimed at an aspect in 8.5 to 14", not a rate. The designs are
+not leaderboard-scale: solo hypervolumes are 76 to 83 and the best single front we have grown from
+them is 97.3, against a board top of 285.25 (context only, nothing derived from it). Most are
+tolerance-feasible rather than strictly nominal, so their margins are thin. See
+`docs/results/p3/E24r-a85-3/`, `E29r-c100-2/`, `E30ar-3/`, `E30br-2/`, `E32r-1/`, `E33ar-1/` and
+`E33br-1/` (each with a STATUS.md).
+
+**The strict-nominal restoration option (E27, E31; partial).** `p3_final_restoration.py` takes
+`--success-tol` (default: the benchmark tolerance, unchanged). At `0.0` the run stops only on a point
+confirmed strictly nominal on every evaluation, and each adjudicated point now carries a
+`strictly_nominal` flag whatever the option. It was added for the E24r link-3 design, which sat 5e-6
+inside the mirror tolerance. E27 (from that design): 1,760 evaluations, **0 accepted steps**, worst V
+0.0100 to 0.0060 from probe points, not strictly nominal (bars: goal strictly nominal, material <=
+0.0050, null > 0.0075; **partial**). E31a (the E29 design) did reach strictly nominal (worst row
+-0.00074) and E31b (the E30a design) went 0.0051 to 0.00218; both again with zero accepted
+trust-region steps. Reading: the probes find the gain, the step model does not, so strict nominal
+at low aspect is not reliably reachable by this method. See `docs/results/p3/E27/STATUS.md`.
 
 ### "Methods that can map Pareto fronts cheaply"
 
@@ -196,6 +255,101 @@ or general across the generator's other confirmed cold-start seeds (E22b, E22c) 
 front-repeatability run is registered for those two; and whether the plateau is a pop-size/
 representation ceiling (unchanged across all three links) or a property of the design itself. See
 docs/results/p3/E23b/STATUS.md and docs/results/p3/E23c/STATUS.md.
+
+**Own-representation fronts, and where they grow (E28 to E33; suggested).** A front is grown from one
+design in that design's own representation: `b3_nsga2_mhd.py --representation <the restoration's
+start_serialised.json>`, canonical evaluation in the loop, population 56, init scale 0.005 (a quarter
+of E25's, because the margins are small), 24 h or 3,000 evaluations, confirmation cap 300, the anchor
+render check below, and the 2% chain rule. Each design's fronts, in the order they were grown:
+
+| Design (aspect) | Solo HV | Front links (HV) | Best / solo | Members, best front |
+|---|---|---|---|---|
+| E28, link-3 and E27 designs (7.37) | 76.59 | 77.02, 77.55 | 1.013 | 22 |
+| E30a (7.64) | 77.98 | 78.96, 79.79 | 1.023 | 23 |
+| E31b, E30a restored (7.64) | 77.95 | 78.65, 79.30 | 1.017 | 11 |
+| E29 (8.62) | 81.59 | 84.30, 85.67 | 1.050 | 33 |
+| E31a, E29 restored (8.61) | 81.67 | 84.06, 85.66 | 1.049 | 41 |
+| E30b (9.43) | 81.43 | 86.05, 88.74, 90.15 | 1.107 | 89 |
+| E33a (10.45) | 83.36 | 87.22, 89.11, 90.92, 92.10 | 1.105 | 61 |
+| E33b (10.68) | 79.80 | 86.25, 88.21, 90.89, 92.30 | 1.157 | 128 |
+| E32 (10.66) | 80.30 | 85.36, 89.97, 94.01, 95.71 | 1.192 | 66 |
+
+The fronts at aspect 9.1 to 11.0 reach **10 to 19% above their anchor's own hypervolume**; those at
+7.3 to 8.6 reach **1 to 5%**. E30b and E32 were the observation. E33 was the pre-registered test: two
+more seeds near aspect 10.8 from E32's bank, with the prediction "best front >= 1.10 x solo supported,
+< 1.05 x refuted". Both seeds supported it (1.105, which clears the bar narrowly, and 1.157). The best
+own-representation fronts are E32fd 95.7, E33bfd 92.3, E33afd 92.1 and E30bfc 90.2; the best single
+front overall remains E25b at 97.3 (72 members, built in E22's representation, see the correction
+below). The descriptive hypervolume of every confirmed own-lineage design and front together is
+117.41; it is not a bar.
+
+Grade: **suggested**, not supported. Two seeds on one bank, over a region defined after the fact by
+E30b and E32; the prediction was written for the region and not for any mechanism, and aspect is
+confounded with other things that change along it (min_len, scale length, how the bank's seeds
+differ). What the evidence does say is that region, and not margin (next section) and not the
+particular seed, is the better explanation of which fronts grew. Reading for breadth: a front grown
+from one design stays close to it, and the way to a wider front is more designs at more aspects, not
+more generations from one. Not tested: whether the pattern holds on banks aimed at other aspects, or
+under a different init scale.
+
+**Refuted for two designs: margin at the anchor does not make a front grow (E31; 2026-10-29/31).**
+E30b's anchor was strictly nominal and its fronts grew (+10.7%); the tolerance-edge anchors' did not
+(+1.3%, +2.3%, +5.0%). E31 tested whether margin was the cause by restoring the two tolerance-edge
+designs from E29 and E30a toward strict nominal and growing fronts from the restored versions, so
+each design was compared with itself. Prediction: the best E31 front exceeds the best front from the
+tolerance-edge version of the same design by at least 2.0 (supported), not at all (refuted), partial
+between. E31a: 85.657 against 85.67, **refuted**. E31b: 79.30 against 79.79, **refuted**. Two cases,
+so graded no stronger than suggested, but the direction is clear: a small margin won by restoration
+does not let a front grow. See `docs/results/p3/E31a-nominal/STATUS.md` and
+`docs/results/p3/E31b-nominal/STATUS.md`.
+
+**A correction: the E25 union front did not draw its anchors as stated (E25, E25b; 2026-10-26).** The
+engine never moves `r_cos(0,0)`, the major radius, so the run's template supplies it for every
+coordinate vector. E22's template has 0.8143, the link-3 lineage 0.8016 and the aspect-12 lineage
+0.8153. E25 seeded the link-3 design's exact coordinates and evaluated them at aspect 7.49 with worst
+residual 0.026, not 7.37 and 0.0100; the aspect-12 design came out at 11.959 instead of 11.973. The
+union script had checked mode counts, field periods and scaling, and nothing else. We found it on
+2026-10-26 by comparing the anchors' stored residuals with their generation-0 evaluations.
+
+What stands: every E25 and E25b front member is a real boundary, evaluated and confirmed canonically
+in E22's representation, so the fronts, their hypervolumes (95.81, 97.34) and their labels (material)
+stand. What is withdrawn: E25 was not a union of the five verified designs, and our earlier reading
+that the low-aspect design dropped out because its perturbations were infeasible was wrong, because
+the design was never evaluated as itself. An audit of E25's archive afterwards showed that only E22's
+own anchor had reproduced exactly; E22b and E22c were re-rendered by 6e-4 and 1e-3 in residual, the
+aspect-12 design by 7e-4 and the link-3 design by 0.016.
+
+Two guards now enforce the invariant at the points where it can break, and a third checks the result:
+
+- `p3_union_anchors.union_anchors` refuses anchors whose `r_cos(0,0)` differ (`fixed_major_radius`,
+  tolerance 1e-12).
+- `p3_front_builder.load_anchor_x` refuses an anchor whose major radius differs from the run's
+  representation (`_refuse_major_radius_mismatch`).
+- `p3_anchor_render_check.py`: once generation 0 holds the anchors, each anchor's stored confirmed
+  residuals must be reproduced by its verbatim evaluation in the archive within 1e-4, or the runner
+  stops the container and records a technical failure. Its first version crashed on a confirmed
+  front's members, which carry a tag but no coordinates (E28b, 2026-10-26); it failed safe, and was
+  fixed under the regression ratchet (the coordinates are now resolved from the source archive by
+  tag). On the stopped archive the fixed check showed all 11 anchors reproduced exactly. From E28
+  onward every front passed it.
+
+A low-aspect front therefore has to be built in its own representation, which is what E28 onward do.
+Two earlier launch defects of the same family (the missing `<tag>.boundary.json` files of the
+re-launch, 2026-10-22, and the container-name collision before it) are recorded in
+`docs/results/p3/E25/STATUS.md`.
+
+**Measured (E34, 2026-11-06): every design and every front member is feasible under the frozen
+benchmark version.** Proxima froze the leaderboard on constellaration 0.2.6 on 2026-10-08
+(constellaration-bench discussion 7; the Space's `requirements.txt` agrees). Every
+"leaderboard-fidelity" check until then used 0.2.1. A new image pinned to 0.2.6
+(`docker/leaderboard-0.2.6/Dockerfile`, vmecpp 0.4.11) scored 574 boundaries on 12 cores with no
+errors: **all eleven verified designs, with both the plain and the reflected export**, and **all 546
+confirmed members of the ten best fronts as plain exports** (E25b 72/72, E28b 22/22, E29fb 33/33,
+E30afb 23/23, E30bfc 89/89, E31afb 41/41, E31bfb 11/11, E32fd 66/66, E33afd 61/61, E33bfd 128/128).
+Residuals and objectives match the phase1 and 0.2.1 checks to the reported digits. So the toroidal
+reflection used for 0.2.1 is no longer needed (the Space has since fixed its iota sign, per
+discussion 3), and every own-lineage design and front is board-verified on the board's own version.
+No submission has been made. Results: `docs/results/p3/E34-recheck-026/`.
 
 ### "How diverse can near-optimal solutions be?"
 

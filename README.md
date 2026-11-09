@@ -9,9 +9,10 @@ stellarator design problems, written up so that someone else can rerun the metho
   with checkpointing, a feasibility restoration step, a population method that grows a Pareto front, and a
   confirmation step that re-evaluates every claimed design in fresh processes before it is called feasible.
 - The results of running it: own-lineage designs on problems 1 and 2 that are on the public board, and on
-  problem 3 the first design produced from a public seed database with our own pipeline, plus measurements
+  problem 3 eleven designs produced from a public seed database with our own pipeline, plus measurements
   of how fast the pipeline recovers when the problem definition changes and how different equally good
-  designs can be.
+  designs can be. One correction to our own method is stated in the open (an early merge of designs
+  from different seeds drew them as different shapes; now guarded).
 - The discipline: every experiment was registered and frozen before it ran, and the frozen copies are in
   [docs/preregistration](docs/preregistration/), so the bars can be checked against the outcomes.
 
@@ -21,7 +22,7 @@ stellarator design problems, written up so that someone else can rerun the metho
 |---|---|---|
 | P1 geometrical | 0.97522, on the public board | ours |
 | P2 simple-to-build QI | 0.5818, on the public board | ours |
-| P3 MHD-stable QI | four feasible designs (three at aspect 10, one at aspect 12 with scale length 8.7) from database seeds through the identical chain, 4 to 6.5 hours each after a shared 2.8-hour generator step (the aspect-12 design over two links), and a confirmed 65-member front grown from the first of them (hypervolume 94.3) | ours, database CC BY 4.0 |
+| P3 MHD-stable QI | eleven verified designs, aspect 7.37 to 11.97, all feasible under constellaration 0.2.6 (the benchmark's frozen version); best single front 97.3, best front grown in a design's own representation 95.7 | ours, database CC BY 4.0 |
 | P3, from a public leaderboard design | fronts up to hypervolume 124.2; a definition change recovered in 165 evaluations | derived, measurement only |
 
 The full table with every experiment, its grade and its limits is in [docs/overview.md](docs/overview.md).
@@ -34,7 +35,7 @@ podman build -t localhost/constellaration-methods:test .
 podman run --rm -v "$(pwd)":/workspace:Z --entrypoint pytest localhost/constellaration-methods:test tests/ -q
 ```
 
-That builds the pinned environment and runs 668 tests inside it. The runners are in `scripts/`; each has a
+That builds the pinned environment and runs 695 tests inside it. The runners are in `scripts/`; each has a
 docstring that says what it does and what it reads. Start with `score_mhd_stable.py` to evaluate a boundary
 the way the benchmark does, then `p3_final_restoration.py` to see the restoration step.
 
@@ -45,5 +46,6 @@ the way the benchmark does, then `p3_final_restoration.py` to see the restoratio
 - [QUESTIONS.md](QUESTIONS.md): what we would like to ask the benchmark's authors.
 - [PROVENANCE.md](PROVENANCE.md): where every design came from and what may be reused.
 
-Apache-2.0. The P3 designs derived from another entrant's public boundary are shared as metrics only, not as
-coordinates, until reuse terms exist.
+Apache-2.0. The eleven own-lineage P3 designs are shared with their boundaries; the P3 work derived from
+another entrant's public boundary is shared as metrics only, not as coordinates, until reuse terms exist.
+Nothing has been submitted.
