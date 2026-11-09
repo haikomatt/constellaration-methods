@@ -429,6 +429,9 @@ def step_in_trust_units(d, mult) -> float:
 
 
 def run(args) -> dict:
+    # E27: the success screen and its adjudication use success_tol (default TOL, unchanged);
+    # 0.0 restores a tolerance-feasible design to strict nominal. The official label stays TOL.
+    success_tol = float(getattr(args, "success_tol", TOL))
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
     t0 = time.time()
@@ -753,7 +756,7 @@ def run(args) -> dict:
         def priority_confirm(x_, r_, tag_, raw_=None):
             nonlocal success_point
             # any benchmark-feasible-looking point: confirm immediately (verification budget)
-            if r_ is not None and np.all(np.asarray(r_) <= TOL) and vbudget.remaining >= 2:
+            if r_ is not None and np.all(np.asarray(r_) <= success_tol) and vbudget.remaining >= 2:
                 rs2, _ = _fresh_evaluate(
                     rep,
                     [x_, x_],
@@ -763,7 +766,7 @@ def run(args) -> dict:
                     vbudget,
                 )
                 ceil.charge_verif(2)
-                wv, feas = adjudicate_worst_v(r_, [rr for rr in rs2 if rr is not None], TOL)
+                wv, feas = adjudicate_worst_v(r_, [rr for rr in rs2 if rr is not None], success_tol)
                 log(
                     event="priority_confirmation",
                     tag=tag_,
@@ -1195,6 +1198,7 @@ def run(args) -> dict:
         ceil.charge_verif(2)
         confs = [rr for rr in rs2 if rr is not None]
         wv, feas = adjudicate_worst_v(a["r"], confs, TOL)
+        _, strict = adjudicate_worst_v(a["r"], confs, 0.0)
         tech = not confirmations_complete(confs)
         results.append(
             {
@@ -1203,6 +1207,7 @@ def run(args) -> dict:
                 "confirmations": [c.tolist() for c in confs],
                 "worst_v": wv,
                 "feasible": bool(feas),
+                "strictly_nominal": bool(strict),
                 "technical": tech,
                 "r": a["r"],
                 "x": a["x"],
@@ -1236,6 +1241,7 @@ def run(args) -> dict:
         "start_v": V_of(r0),
         "incumbent_v": V_of(incumbent_r),
         "success_point": success_point,
+        "success_tol": success_tol,
         "n_accepted": len(accepted),
         "accepted": accepted,
         "opt_evals": ceil.opt_used,
@@ -1307,6 +1313,15 @@ def main():
     ap.add_argument("--max-opt-evals", type=int, default=1200)
     ap.add_argument("--max-verif-evals", type=int, default=20)
     ap.add_argument("--seed", type=int, default=0)
+    ap.add_argument(
+        "--success-tol",
+        type=float,
+        default=TOL,
+        help=(
+            "E27: stop on a confirmed point with every residual <= this "
+            "(default TOL; 0.0 = strict nominal)"
+        ),
+    )
     ap.add_argument(
         "--phase0-only",
         action="store_true",

@@ -305,6 +305,24 @@ def front_step(
 # --------------------------------------------------------------------------- #
 # anchor loading (needs the engine; not pure)
 # --------------------------------------------------------------------------- #
+def _refuse_major_radius_mismatch(tag: str, bd: dict, representation: dict) -> None:
+    """r_cos(0,0) is outside the engine's mask: the run's template supplies it for every
+    x, so an anchor exported from a template with another value would be evaluated as a
+    different shape (E25, 2026-10-26: link 3 at aspect 7.49 instead of 7.37)."""
+    from constellaration_methods.fronts.p3_union_anchors import (
+        MAJOR_RADIUS_TOL,
+        fixed_major_radius,
+    )
+
+    mine = fixed_major_radius(bd)
+    run = fixed_major_radius(representation["boundary_dict"])
+    if abs(mine - run) > MAJOR_RADIUS_TOL:
+        raise ValueError(
+            f"anchor {tag}: major radius r_cos(0,0) {mine!r} differs from the run "
+            f"representation's {run!r}; seed it in its own representation"
+        )
+
+
 def load_anchor_x(anchor_row: dict, boundary_dir: Path, representation: dict) -> np.ndarray:
     """The anchor's scaled coordinates at the run's representation, rebuilt
     from its exported boundary (E15's <tag>.boundary.json, sitting beside
@@ -319,6 +337,7 @@ def load_anchor_x(anchor_row: dict, boundary_dir: Path, representation: dict) ->
     safe = _safe_name(anchor_row["tag"])
     bd_path = boundary_dir / f"{safe}.boundary.json"
     bd = json.loads(bd_path.read_text())
+    _refuse_major_radius_mismatch(anchor_row["tag"], bd, representation)
     cand = candidate_from_boundary_dict(bd, r=anchor_row["r"])
     if (
         cand["mpol"] != representation["mpol"]

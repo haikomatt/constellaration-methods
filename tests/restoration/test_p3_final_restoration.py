@@ -914,3 +914,82 @@ def test_toy_ratchet_k0_path_reproduces_the_existing_toy_end_to_end_results(tmp_
     assert report["n_accepted"] >= 1
     assert report["incumbent_v"] < max(r0)
     assert "subspace" not in report
+
+
+def _near_feasible_args(tmp_path, out, **extra):
+    import json
+    from types import SimpleNamespace
+
+    from constellaration_methods.restoration.p3_feasibility_restoration import _eval_worker
+
+    x0 = np.zeros(4)
+    cand = {
+        "x": x0.tolist(),
+        "r": None,
+        "boundary_dict": {},
+        "mpol": 1,
+        "ntor": 1,
+        "nfp": 1,
+        "scaling": 1.0,
+        "fake_quadratic": True,
+        "fake_near_feasible": True,
+    }
+    cand["r"] = _eval_worker(dict(cand, x=x0.tolist(), tag="t"))["r"]
+    (tmp_path / "cand.json").write_text(json.dumps(cand))
+    (tmp_path / "control.json").write_text(json.dumps(cand))
+    base = dict(
+        checkpoint=None,
+        start_log=None,
+        start_tag=None,
+        control_candidate=str(tmp_path / "control.json"),
+        out_dir=str(tmp_path / out),
+        workers=2,
+        h=0.01,
+        delta0=0.05,
+        delta_cap=0.1,
+        drift_every=3,
+        repeat_tol=1e-4,
+        total_hours=1.0,
+        opt_cutoff_hours=0.9,
+        max_opt_evals=60,
+        max_verif_evals=12,
+        seed=0,
+        phase0_only=False,
+        start_candidate=str(tmp_path / "cand.json"),
+        line_search=True,
+        material_bar=0.13,
+        coeff_space_box=False,
+        reuse_jacobian_archive=None,
+        second_order=True,
+        recovery_qualify_v=0.130,
+        log_flux_surrogate=False,
+    )
+    base.update(extra)
+    return SimpleNamespace(**base)
+
+
+def test_success_tol_zero_does_not_stop_at_a_tolerance_feasible_point(tmp_path):
+    """E27 (2026-10-23): restoring a tolerance-feasible design to strict nominal needs the
+    run to continue past points with every residual <= 0.01. In the near-feasible toy no
+    point has every residual <= 0 (rows 0, 1 and 3 conflict), so with success_tol 0 the
+    runner must never claim success, while the default run stops at tolerance feasibility."""
+    from constellaration_methods.restoration.p3_final_restoration import run
+
+    default = run(_near_feasible_args(tmp_path, "default"))
+    assert default["stop_reason"] == "feasible_confirmed"
+    strict = run(_near_feasible_args(tmp_path, "strict", success_tol=0.0))
+    assert strict["success_tol"] == 0.0
+    assert strict["stop_reason"] != "feasible_confirmed"
+    assert strict["success_point"] is None
+    assert strict["opt_evals"] > default["opt_evals"]
+
+
+def test_success_point_under_success_tol_zero_is_strictly_nominal_on_every_evaluation():
+    """The success screen and adjudication use success_tol; the official label still uses
+    TOL. A point at 0.005 passes TOL but not success_tol 0."""
+    from constellaration_methods.restoration.p3_final_restoration import adjudicate_worst_v
+
+    r = [-0.2, 0.005, -0.01, -0.02, -0.1]
+    _, feas_tol = adjudicate_worst_v(r, [r, r])
+    _, feas_strict = adjudicate_worst_v(r, [r, r], 0.0)
+    assert feas_tol and not feas_strict

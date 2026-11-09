@@ -438,3 +438,25 @@ def test_runner_toy_end_to_end_produces_a_confirmed_front_gain(tmp_path):
     assert (tmp_path / "out" / "REPORT.json").exists()
     # at least one member beyond the original anchor must have been confirmed
     assert any(m["tag"] != "anchor0" for m in report["confirmed_front"])
+
+
+# --------------------------------------------------------------------------- #
+# major-radius guard (E25 correction, 2026-10-26)
+# --------------------------------------------------------------------------- #
+def _boundary_with_r00(r00):
+    return {"r_cos": [[0.0, r00, 0.0], [0.0, 0.0, 0.0]]}
+
+
+def test_refuse_major_radius_mismatch_raises_for_a_different_template():
+    from constellaration_methods.fronts.p3_front_builder import _refuse_major_radius_mismatch
+
+    rep = {"boundary_dict": _boundary_with_r00(0.814321)}
+    with pytest.raises(ValueError, match="major radius"):
+        _refuse_major_radius_mismatch("link3", _boundary_with_r00(0.801554), rep)
+
+
+def test_refuse_major_radius_mismatch_accepts_the_runs_own_value():
+    from constellaration_methods.fronts.p3_front_builder import _refuse_major_radius_mismatch
+
+    rep = {"boundary_dict": _boundary_with_r00(0.814321)}
+    _refuse_major_radius_mismatch("e22", _boundary_with_r00(0.814321), rep)
